@@ -8,7 +8,7 @@ title: Схемотехника
 {% if post.image %}
 ![](logos/{{ post.image }})
 {% else %}
-#{% if post.ctitle %}{{ post.ctitle }}{% else %}Схемотехника {{ post.number }}{% endif %}</h1>
+# {{ post.title }}
 {% endif %}
 {{ post.content }}
 {% assign first = false %}
@@ -18,7 +18,7 @@ title: Схемотехника
 ## Все встречи
 
 {% for post in site.posts %}
-* {{ post.evdate }}: [Схемотехника {{ post.number }}]({{ post.url }})
+* {{ post.evdate }}: [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
 ## Что это?
