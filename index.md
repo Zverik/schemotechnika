@@ -18,7 +18,7 @@ title: Схемотехника
 ## Все встречи
 
 {% for post in site.posts %}
-* {{ post.evdate }}: [{{ post.title }}]({{ post.url }})
+* {{ post.evdate }}: [{{ post.title }}]({{ post.url }}){% if post.youtube %} ([видео](https://www.youtube.com/playlist?list={{ post.youtube }})){% endif %}
 {% endfor %}
 
 ## Что это?
