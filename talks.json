@@ -1,0 +1,307 @@
+{
+  "01": {
+    "title": "Схемотехника 01",
+    "title_en": "Schemotechnika 01",
+    "date": "2016-02-06",
+    "venue": {
+      "name": "Mail.Ru Group, первая переговорка",
+      "name_en": "Mail.Ru Group, conference room one",
+      "lonlat": [37.53756, 55.79709]
+    },
+    "talks": [
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "FOSDEM 2016",
+        "youtube": "https://www.youtube.com/watch?v=xXdl8__SyJY"
+      },
+      {
+        "speakers": [
+          { "name": "Лев Драгунов", "name_en": "Lev Dragunov" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Все дороги ведут в Третий Рим",
+        "title_en": "All roads lead to The Third Rome",
+        "youtube": "https://www.youtube.com/watch?v=SCf8phbxFAE"
+      },
+      {
+        "speakers": [
+          { "name": "Дмитрий Аргунов", "name_en": "Dmitry Argunov" }
+        ],
+        "title": "Strava Heatmap как источник данных для редактирования OpenStreetMap",
+        "title_en": "Strava Heatmap as a data source for editing OpenStreetMap",
+        "youtube": "https://www.youtube.com/watch?v=MkN2rqcLFxE"
+      },
+      {
+        "speakers": [
+          { "name": "Максим Дементьев", "name_en": "Maksim Dementyev" }
+        ],
+        "title": "Три вопроса",
+        "title_en": "Three questions",
+        "youtube": "https://www.youtube.com/watch?v=MOM_xrScejQ"
+      },
+      {
+        "speakers": [
+          { "name": "Дорофей Пролесковский", "name_en": "Darafei Praliaskouski", "website": "http://komzpa.net/" }
+        ],
+        "company": "Juno",
+        "title": "Новое в PostgreSQL 9.5",
+        "title_en": "What's new in PostgreSQL 9.5",
+        "youtube": "https://www.youtube.com/watch?v=NC3wGONO4Uo"
+      }
+    ]
+  },
+
+  "02": {
+    "title": "Схемотехника 02",
+    "title_en": "Schemotechnika 02",
+    "date": "2016-03-15",
+    "venue": {
+      "name": "Офис компании «Спутник»",
+      "name_en": "Sputnik company office",
+      "lonlat": [37.43041, 55.63467]
+    },
+    "talks": [
+    ]
+  },
+
+  "04": {
+    "title": "Схемотехника 04",
+    "title_en": "Schemotechnika 04",
+    "date": "2016-05-24",
+    "venue": {
+      "name": "Mail.Ru Group, кинозал",
+      "name_en": "Mail.Ru Group, movie area",
+      "lonlat": [37.53773, 55.79682]
+    },
+    "talks": [
+    ]
+  },
+
+  "05": {
+    "title": "Схемотехника 05",
+    "title_en": "Schemotechnika 05",
+    "date": "2016-07-05",
+    "venue": {
+      "name": "Mail.Ru Group, 23 этаж",
+      "name_en": "Mail.Ru Group, 23rd floor",
+      "lonlat": [37.53787, 55.79679]
+    },
+    "talks": [
+    ]
+  },
+
+  "06": {
+    "title": "Схемотехника 06",
+    "title_en": "Schemotechnika 06",
+    "date": "2016-10-12",
+    "venue": {
+      "name": "Mail.Ru Group, первая переговорка",
+      "name_en": "Mail.Ru Group, conference room one",
+      "lonlat": [37.53756, 55.79709]
+    },
+    "talks": [
+    ]
+  },
+
+  "07": {
+    "title": "Схемотехника 07",
+    "title_en": "Schemotechnika 07",
+    "date": "2016-12-21",
+    "venue": {
+      "name": "МИИГАиК, корпус 6",
+      "name_en": "MIIGAiK, building 6",
+      "lonlat": [37.66333, 55.76491]
+    },
+    "talks": [
+    ]
+  },
+
+  "08": {
+    "title": "Схемотехника 08",
+    "title_en": "Schemotechnika 08",
+    "date": "2017-03-15",
+    "venue": {
+      "name": "Mail.Ru Group, кинозал",
+      "name_en": "Mail.Ru Group, movie area",
+      "lonlat": [37.53773, 55.79682]
+    },
+    "talks": [
+    ]
+  },
+
+  "09": {
+    "title": "Схемотехника 09",
+    "title_en": "Schemotechnika 09",
+    "date": "2017-04-18",
+    "venue": {
+      "name": "Антикафе «Белый лист»",
+      "name_en": "\"White Leaf\" anticafe",
+      "lonlat": [37.62620, 55.73024]
+    },
+    "talks": [
+    ]
+  },
+
+  "10": {
+    "title": "Схемотехника 10",
+    "title_en": "Schemotechnika 10",
+    "date": "2017-05-18",
+    "venue": {
+      "name": "Mail.Ru Group, первая переговорка",
+      "name_en": "Mail.Ru Group, conference room one",
+      "lonlat": [37.53756, 55.79709]
+    },
+    "talks": [
+    ]
+  },
+
+  "11": {
+    "title": "Схемотехника 11",
+    "title_en": "Schemotechnika 11",
+    "date": "2017-09-16",
+    "venue": {
+      "name": "Mail.Ru Group, первая переговорка",
+      "name_en": "Mail.Ru Group, conference room one",
+      "lonlat": [37.53756, 55.79709]
+    },
+    "talks": [
+    ]
+  },
+
+  "12": {
+    "title": "Схемотехника 12",
+    "title_en": "Schemotechnika 12",
+    "date": "2017-10-31",
+    "venue": {
+      "name": "Офис компании «Урбика»",
+      "name_en": "\"Urbica\" company office",
+      "lonlat": [37.63438, 55.75876]
+    },
+    "talks": [
+    ]
+  },
+
+  "13": {
+    "title": "Схемотехника 13",
+    "title_en": "Schemotechnika 13",
+    "date": "2017-12-14",
+    "venue": {
+      "name": "Архитектурный коворкинг",
+      "name_en": "Architectural Coworking",
+      "lonlat": [37.59034, 55.75936]
+    },
+    "talks": [
+    ]
+  },
+
+  "14": {
+    "title": "Схемотехника 14",
+    "title_en": "Schemotechnika 14",
+    "date": "2018-02-22",
+    "venue": {
+      "name": "Mail.Ru Group, первая переговорка",
+      "name_en": "Mail.Ru Group, conference room one",
+      "lonlat": [37.53756, 55.79709]
+    },
+    "talks": [
+    ]
+  },
+
+  "15": {
+    "title": "Схемотехника 15",
+    "title_en": "Schemotechnika 15",
+    "date": "2018-04-04",
+    "venue": {
+      "name": "Mail.Ru Group, кинозал",
+      "name_en": "Mail.Ru Group, movie area",
+      "lonlat": [37.53773, 55.79682]
+    },
+    "talks": [
+    ]
+  },
+
+  "16": {
+    "title": "Схемотехника 16",
+    "title_en": "Schemotechnika 16",
+    "date": "2018-06-06",
+    "venue": {
+      "name": "Офис компании «КРОК»",
+      "name_en": "\"CROC\" company office",
+      "lonlat": [37.68107, 55.75391]
+    },
+    "talks": [
+      {
+        "speakers": [
+          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me/" }
+        ],
+        "company": "NextGIS",
+        "title": "Feedbacker и «Простые учёты», два новых инструмента для сбора геоданных в веб и на мобильных", 
+        "title_en": "\"Feedbacker\" and \"Simple accounting\", two simple tools for collecting geodata on web and mobile phones",
+        "tags": ["nextgis"],
+        "keywords": null,
+        "links": {
+          "Feedbacker / HistGeo": "http://feedbacker.histgeo.ru/",
+          "Feedbacker": "http://nextgis.ru/feedbacker"
+        },
+        "youtube": null,
+        "slides": null
+      },
+      {
+        "speakers": [
+          {
+            "name": "Екатеринa Белорусцевa",
+            "name_en": "Ekaterina Belorustseva"
+          },
+          {
+            "name": "Максим Виноградов",
+            "name_en": "Maksim Vinogradov"
+          }
+        ],
+        "company": "OpenTripMap",
+        "title": "API сайта OpenTripMap",
+        "title_en": "API for OpenTripMap website"
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Открытый общественный транспорт",
+        "tags": ["транспорт", "openstreetmap", "opentripplanner", "gtfs"]
+      },
+      {
+        "speakers": [
+          { "name": "Дмитрий Барышников", "name_en": "Dmitry Baryshnikov" }
+        ],
+        "company": "NextGIS",
+        "title": "Новая система сборки инсталлятора и геоинструментов в NextGIS",
+        "title_en": "New deployment system for installers and geotools",
+        "links": {
+          "Borsch": "https://github.com/nextgis-borsch"
+        }
+      },
+      {
+        "speakers": [
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov" }
+        ],
+        "company": "NextGIS",
+        "title": "Панорамная камера Xiaomi и загрузка фотографий в Mapillary",
+        "title_en": "Xiaomi panoramic camera and uploading photos to Mapillary"
+      },
+      {
+        "speakers": [
+          { "name": "Александр Павлюк", "name_en": "Alexander Pavlyuk" }
+        ],
+        "title": "Телеграм-бот для поиска ближайшей розетки",
+        "title_en": "Telegram bot for finding the closest power socket",
+        "links": {
+          "Telegram Bot": "https://t.me/SocketSearchBot",
+          "Socket Map": "https://www.google.com/maps/d/u/0/edit?mid=1z_3GfyNZp09HhOFbB5U6YSDr4PY&ll=55.651707149537586%2C37.672319576490736&z=10"
+        }
+      }
+    ]
+  }
+}
