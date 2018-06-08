@@ -4,6 +4,8 @@
     "title": "Схемотехника 01",
     "title_en": "Schemotechnika 01",
     "date": "2016-02-06",
+    "url": "http://schemo.ru/2016/03/06/schemo01.html",
+    "youtube": "PLLoBnMxFe0m5PBnA3nhVU-lPKSJOC7dgL",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -16,7 +18,7 @@
         ],
         "company": "MAPS.ME",
         "title": "FOSDEM 2016",
-        "youtube": "https://www.youtube.com/watch?v=xXdl8__SyJY"
+        "youtube": "xXdl8__SyJY"
       },
       {
         "speakers": [
@@ -25,7 +27,7 @@
         "company": "MAPS.ME",
         "title": "Все дороги ведут в Третий Рим",
         "title_en": "All roads lead to The Third Rome",
-        "youtube": "https://www.youtube.com/watch?v=SCf8phbxFAE"
+        "youtube": "SCf8phbxFAE"
       },
       {
         "speakers": [
@@ -33,7 +35,7 @@
         ],
         "title": "Strava Heatmap как источник данных для редактирования OpenStreetMap",
         "title_en": "Strava Heatmap as a data source for editing OpenStreetMap",
-        "youtube": "https://www.youtube.com/watch?v=MkN2rqcLFxE"
+        "youtube": "MkN2rqcLFxE"
       },
       {
         "speakers": [
@@ -41,7 +43,7 @@
         ],
         "title": "Три вопроса",
         "title_en": "Three questions",
-        "youtube": "https://www.youtube.com/watch?v=MOM_xrScejQ"
+        "youtube": "MOM_xrScejQ"
       },
       {
         "speakers": [
@@ -50,7 +52,7 @@
         "company": "Juno",
         "title": "Новое в PostgreSQL 9.5",
         "title_en": "What's new in PostgreSQL 9.5",
-        "youtube": "https://www.youtube.com/watch?v=NC3wGONO4Uo"
+        "youtube": "NC3wGONO4Uo"
       }
     ]
   },
@@ -60,12 +62,58 @@
     "title": "Схемотехника 02",
     "title_en": "Schemotechnika 02",
     "date": "2016-03-15",
+    "url": "http://schemo.ru/2016/03/08/schemo02.html",
+    "youtube": "PLkvzAel8ISD2krZVKc8McrUVVcRDeTLfi",
     "venue": {
       "name": "Офис компании «Спутник»",
       "name_en": "Sputnik company office",
       "lonlat": [37.43041, 55.63467]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
+        ],
+        "company": "NextGIS",
+        "title": "Четыре модуля для QGIS",
+        "title_en": "Four plugins for QGIS",
+        "youtube": "PKHiGnEpI14"
+      },
+      {
+        "speakers": [
+          { "name": "Максим Дементьев", "name_en": "Maksim Dementyev" }
+        ],
+        "company": "Спутник",
+        "title": "Редизайн картостиля и сервиса «Спутник/Карты»",
+        "title_en": "Redesign of the mapping style and UI of Sputnik/Maps",
+        "youtube": "_i3hxZrJFYI"
+      },
+      {
+        "speakers": [
+          { "name": "Сергей Голубев", "name_en": "Sergey Golubev" }
+        ],
+        "title": "бенфорд-последовательность в данных OpenStreetMap",
+        "title_en": "Benford's law in OpenStreetMap data",
+        "youtube": "o7wiNs9h1iM"
+      },
+      {
+        "speakers": [
+          { "name": "Олег Ильичев", "name_en": "Oleg Ilyichev" }
+        ],
+        "company": "HelgiLab",
+        "title": "Про лазерное сканирование и трёхмерную визуализацию",
+        "title_en": "On laser scanning and 3D visualization",
+        "youtube": "MIxoOL9kmUo"
+      },
+      {
+        "speakers": [
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov" }
+        ],
+        "company": "NextGIS",
+        "title": "Панорамная камера Ricoh Theta S и её использование для Mapillary",
+        "title_en": "Panoramic camera Ricoh Theta S and its usage for Mapillary",
+        "youtube": "0ltqi9krgcw"
+      }
     ]
   },
 
@@ -74,6 +122,8 @@
     "title": "Схемотехника 04",
     "title_en": "Schemotechnika 04",
     "date": "2016-05-24",
+    "url": "http://schemo.ru/2016/05/12/schemo04.html",
+    "youtube": "PLkvzAel8ISD39I0DhfbpPGdJXmHm9qiJq",
     "venue": {
       "name": "Mail.Ru Group, кинозал",
       "name_en": "Mail.Ru Group, movie area",
@@ -88,6 +138,8 @@
     "title": "Схемотехника 05",
     "title_en": "Schemotechnika 05",
     "date": "2016-07-05",
+    "url": "http://schemo.ru/2016/06/23/schemo05.html",
+    "youtube": "PLkvzAel8ISD3voBg5lZUHwjbILvsurT8X",
     "venue": {
       "name": "Mail.Ru Group, 23 этаж",
       "name_en": "Mail.Ru Group, 23rd floor",
@@ -102,6 +154,8 @@
     "title": "Схемотехника 06",
     "title_en": "Schemotechnika 06",
     "date": "2016-10-12",
+    "url": "http://schemo.ru/2016/09/30/schemo06-2.html",
+    "youtube": "PLkvzAel8ISD14AWomLJF0qg7VUzsSP1BI",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -116,6 +170,8 @@
     "title": "Схемотехника 07",
     "title_en": "Schemotechnika 07",
     "date": "2016-12-21",
+    "url": "http://schemo.ru/2016/12/07/schemo07.html",
+    "youtube": "PLkvzAel8ISD2KctD3qCx9WQhA8gzz2n8v",
     "venue": {
       "name": "МИИГАиК, корпус 6",
       "name_en": "MIIGAiK, building 6",
@@ -130,6 +186,8 @@
     "title": "Схемотехника 08",
     "title_en": "Schemotechnika 08",
     "date": "2017-03-15",
+    "url": "http://schemo.ru/2017/03/10/schemo08.html",
+    "youtube": "PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ",
     "venue": {
       "name": "Mail.Ru Group, кинозал",
       "name_en": "Mail.Ru Group, movie area",
@@ -144,6 +202,8 @@
     "title": "Схемотехника 09",
     "title_en": "Schemotechnika 09",
     "date": "2017-04-18",
+    "url": "http://schemo.ru/2017/03/23/schemo09.html",
+    "youtube": "PLkvzAel8ISD02-QNoScUEC-PtVRLjTdNx",
     "venue": {
       "name": "Антикафе «Белый лист»",
       "name_en": "\"White Leaf\" anticafe",
@@ -158,6 +218,7 @@
     "title": "Схемотехника 10",
     "title_en": "Schemotechnika 10",
     "date": "2017-05-18",
+    "url": "http://schemo.ru/2017/04/17/schemo10.html",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -169,9 +230,11 @@
 
   {
     "cx": "11",
-    "title": "Схемотехника 11",
-    "title_en": "Schemotechnika 11",
+    "title": "Большая Схемотехника 11",
+    "title_en": "Big Schemotechnika 11",
     "date": "2017-09-16",
+    "url": "http://schemo.ru/2017/07/23/schemo11.html",
+    "youtube": "PLkvzAel8ISD1Vf0OU1l3t5S-9YTmeWopI",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -183,9 +246,11 @@
 
   {
     "cx": "12",
-    "title": "Большая Схемотехника 12",
-    "title_en": "Big Schemotechnika 12",
+    "title": "Схемотехника 12",
+    "title_en": "Schemotechnika 12",
     "date": "2017-10-31",
+    "url": "http://schemo.ru/2017/10/14/schemo12.html",
+    "youtube": "PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv",
     "venue": {
       "name": "Офис компании «Урбика»",
       "name_en": "\"Urbica\" company office",
@@ -200,6 +265,8 @@
     "title": "Схемотехника 13",
     "title_en": "Schemotechnika 13",
     "date": "2017-12-14",
+    "url": "http://schemo.ru/2017/11/27/schemo13.html",
+    "youtube": "PLkvzAel8ISD0c_4ijnrBRccGe1JtiONlr",
     "venue": {
       "name": "Архитектурный коворкинг",
       "name_en": "Architectural Coworking",
@@ -214,6 +281,8 @@
     "title": "Схемотехника 14",
     "title_en": "Schemotechnika 14",
     "date": "2018-02-22",
+    "url": "http://schemo.ru/2018/02/02/schemo14.html",
+    "youtube": "PLkvzAel8ISD1ewoB8kW9IQOQ74UUCxaZM",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -228,6 +297,7 @@
     "title": "Схемотехника 15",
     "title_en": "Schemotechnika 15",
     "date": "2018-04-04",
+    "url": "http://schemo.ru/2018/03/23/schemo15.html",
     "venue": {
       "name": "Mail.Ru Group, кинозал",
       "name_en": "Mail.Ru Group, movie area",
@@ -242,6 +312,7 @@
     "title": "Схемотехника 16",
     "title_en": "Schemotechnika 16",
     "date": "2018-06-06",
+    "url": "http://schemo.ru/2018/05/22/schemo16.html",
     "venue": {
       "name": "Офис компании «КРОК»",
       "name_en": "\"CROC\" company office",
