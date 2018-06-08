@@ -118,6 +118,21 @@
   },
 
   {
+    "cx": "03",
+    "title": "Схемо.hack 03",
+    "title_en": "Schemo.hack 03",
+    "date": "2016-04-16",
+    "url": "http://schemo.ru/2016/03/18/schemo03.html",
+    "venue": {
+      "name": "Mail.Ru Group, 13 переговорка",
+      "name_en": "Mail.Ru Group, conference room 13",
+      "lonlat": [37.53781, 55.79674]
+    },
+    "talks": [
+    ]
+  },
+
+  {
     "cx": "04",
     "title": "Схемотехника 04",
     "title_en": "Schemotechnika 04",
@@ -130,6 +145,50 @@
       "lonlat": [37.53773, 55.79682]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Александр Петров", "name_en": "Alexander Petrov", "nickname": "Felis Pimeja" }
+        ],
+        "title": "Схема тегирования помещений и проходов внутри зданий",
+        "title_en": "Tagging rooms and passages inside buildings",
+        "youtube": "FAuaa7Dc1SQ"
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Правки без пакета",
+        "title_en": "Changes not in a set",
+        "youtube": "MKLwLI8fyn0"
+      },
+      {
+        "speakers": [
+          { "name": "Евгений Никулин", "name_en": "Eugene Nikulin" }
+        ],
+        "company": "NextGIS",
+        "title": "Базовая картография с QMS",
+        "title_en": "Base layers with QMS",
+        "youtube": "S6pXhc8m5eI"
+      },
+      {
+        "speakers": [
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov" }
+        ],
+        "company": "NextGIS",
+        "title": "Схема троллейбусов из OSM",
+        "title_en": "Trolleybus map in OSM",
+        "youtube": "0MhcP9iYf_Q"
+      },
+      {
+        "speakers": [
+          { "name": "Денис Рыков", "name_en": "Denis Rykov" }
+        ],
+        "company": "NextGIS",
+        "title": "Векторные тайлы в NextGIS Web",
+        "title_en": "Vector tiles in NextGIS Web",
+        "youtube": "EFRSI-TMllk"
+      }
     ]
   },
 
