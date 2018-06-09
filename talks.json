@@ -14,20 +14,22 @@
     "talks": [
       {
         "speakers": [
-          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "website": "http://ilya.zverev.info" }
-        ],
-        "company": "MAPS.ME",
-        "title": "FOSDEM 2016",
-        "youtube": "xXdl8__SyJY"
-      },
-      {
-        "speakers": [
           { "name": "Лев Драгунов", "name_en": "Lev Dragunov" }
         ],
         "company": "MAPS.ME",
         "title": "Все дороги ведут в Третий Рим",
         "title_en": "All roads lead to The Third Rome",
-        "youtube": "SCf8phbxFAE"
+        "youtube": "SCf8phbxFAE",
+        "duration": 985
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "FOSDEM 2016",
+        "youtube": "xXdl8__SyJY",
+        "duration": 1796
       },
       {
         "speakers": [
@@ -35,7 +37,8 @@
         ],
         "title": "Strava Heatmap как источник данных для редактирования OpenStreetMap",
         "title_en": "Strava Heatmap as a data source for editing OpenStreetMap",
-        "youtube": "MkN2rqcLFxE"
+        "youtube": "MkN2rqcLFxE",
+        "duration": 636
       },
       {
         "speakers": [
@@ -43,7 +46,8 @@
         ],
         "title": "Три вопроса",
         "title_en": "Three questions",
-        "youtube": "MOM_xrScejQ"
+        "youtube": "MOM_xrScejQ",
+        "duration": 735
       },
       {
         "speakers": [
@@ -52,7 +56,8 @@
         "company": "Juno",
         "title": "Новое в PostgreSQL 9.5",
         "title_en": "What's new in PostgreSQL 9.5",
-        "youtube": "NC3wGONO4Uo"
+        "youtube": "NC3wGONO4Uo",
+        "duration": 2066
       }
     ]
   },
@@ -77,7 +82,8 @@
         "company": "NextGIS",
         "title": "Четыре модуля для QGIS",
         "title_en": "Four plugins for QGIS",
-        "youtube": "PKHiGnEpI14"
+        "youtube": "PKHiGnEpI14",
+        "duration": 2021
       },
       {
         "speakers": [
@@ -86,7 +92,8 @@
         "company": "Спутник",
         "title": "Редизайн картостиля и сервиса «Спутник/Карты»",
         "title_en": "Redesign of the mapping style and UI of Sputnik/Maps",
-        "youtube": "_i3hxZrJFYI"
+        "youtube": "_i3hxZrJFYI",
+        "duration": 683
       },
       {
         "speakers": [
@@ -94,7 +101,8 @@
         ],
         "title": "бенфорд-последовательность в данных OpenStreetMap",
         "title_en": "Benford's law in OpenStreetMap data",
-        "youtube": "o7wiNs9h1iM"
+        "youtube": "o7wiNs9h1iM",
+        "duration": 711
       },
       {
         "speakers": [
@@ -103,7 +111,8 @@
         "company": "HelgiLab",
         "title": "Про лазерное сканирование и трёхмерную визуализацию",
         "title_en": "On laser scanning and 3D visualization",
-        "youtube": "MIxoOL9kmUo"
+        "youtube": "MIxoOL9kmUo",
+        "duration": 1949
       },
       {
         "speakers": [
@@ -112,7 +121,8 @@
         "company": "NextGIS",
         "title": "Панорамная камера Ricoh Theta S и её использование для Mapillary",
         "title_en": "Panoramic camera Ricoh Theta S and its usage for Mapillary",
-        "youtube": "0ltqi9krgcw"
+        "youtube": "0ltqi9krgcw",
+        "duration": 1260
       }
     ]
   },
@@ -151,7 +161,8 @@
         ],
         "title": "Схема тегирования помещений и проходов внутри зданий",
         "title_en": "Tagging rooms and passages inside buildings",
-        "youtube": "FAuaa7Dc1SQ"
+        "youtube": "FAuaa7Dc1SQ",
+        "duration": 1725
       },
       {
         "speakers": [
@@ -160,7 +171,8 @@
         "company": "MAPS.ME",
         "title": "Правки без пакета",
         "title_en": "Changes not in a set",
-        "youtube": "MKLwLI8fyn0"
+        "youtube": "MKLwLI8fyn0",
+        "duration": 2199
       },
       {
         "speakers": [
@@ -169,7 +181,8 @@
         "company": "NextGIS",
         "title": "Базовая картография с QMS",
         "title_en": "Base layers with QMS",
-        "youtube": "S6pXhc8m5eI"
+        "youtube": "S6pXhc8m5eI",
+        "duration": 1368
       },
       {
         "speakers": [
@@ -178,7 +191,8 @@
         "company": "NextGIS",
         "title": "Схема троллейбусов из OSM",
         "title_en": "Trolleybus map in OSM",
-        "youtube": "0MhcP9iYf_Q"
+        "youtube": "0MhcP9iYf_Q",
+        "duration": 710
       },
       {
         "speakers": [
@@ -187,7 +201,8 @@
         "company": "NextGIS",
         "title": "Векторные тайлы в NextGIS Web",
         "title_en": "Vector tiles in NextGIS Web",
-        "youtube": "EFRSI-TMllk"
+        "youtube": "EFRSI-TMllk",
+        "duration": 443
       }
     ]
   },
