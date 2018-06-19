@@ -24,7 +24,7 @@
       },
       {
         "speakers": [
-          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "website": "http://ilya.zverev.info" }
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
         ],
         "company": "MAPS.ME",
         "title": "FOSDEM 2016",
@@ -116,7 +116,7 @@
       },
       {
         "speakers": [
-          { "name": "Артём Светлов", "name_en": "Artyom Svetlov" }
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
         "title": "Панорамная камера Ricoh Theta S и её использование для Mapillary",
@@ -186,7 +186,7 @@
       },
       {
         "speakers": [
-          { "name": "Артём Светлов", "name_en": "Artyom Svetlov" }
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
         "title": "Схема троллейбусов из OSM",
@@ -220,6 +220,55 @@
       "lonlat": [37.53787, 55.79679]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Дарья Волвенкова", "name_en": "Darya Volvenkova" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Рендеринг зданий в MAPS.ME",
+        "title_en": "Rendering buildings in MAPS.ME",
+        "youtube": "TGwi2deVEbY",
+        "duration": 1610
+      },
+      {
+        "speakers": [
+          { "name": "Юрий Назаров", "name_en": "Yuri Nazarov" }
+        ],
+        "title": "Велокарта Москвы",
+        "title_en": "Moscow Cycling Map",
+        "youtube": "nC7T0yHHmzM",
+        "duration": 1469
+      },
+      {
+        "speakers": [
+          { "name": "Андрей Жуков", "name_en": "Andrey Zhukov" }
+        ],
+        "company": "Техносерв",
+        "title": "UTFGrid и MVT в GeoServer",
+        "title_en": "UTFGrid and MVT with GeoServer",
+        "youtube": "9RrvuLmHLMg",
+        "duration": 466
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Награды в OpenStreetMap",
+        "title_en": "Awards in OpenStreetMap",
+        "youtube": "rMfW-Kskl-4",
+        "duration": 1684
+      },
+      {
+        "speakers": [
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
+        ],
+        "company": "NextGIS",
+        "title": "Загрузка слоёв из QGIS в NextGIS Web",
+        "title_en": "Uploading QGIS layers to NextGIS Web",
+        "youtube": "nWw6uqJ3Me8",
+        "duration": 738
+      }
     ]
   },
 
@@ -236,6 +285,56 @@
       "lonlat": [37.53756, 55.79709]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Степан Кузьмин", "name_en": "Stepan Kuzmin" }
+        ],
+        "company": "Urbica Design",
+        "title": "Интерактивные изохроны с «Гальтоном»",
+        "title_en": "Interactive isochrones with Galton",
+        "youtube": "K99ftJvP15g",
+        "duration": 698
+      },
+      {
+        "speakers": [
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
+        ],
+        "company": "NextGIS",
+        "title": "Генерация контуров кварталов в QGIS",
+        "title_en": "Generating quarter contours in QGIS",
+        "youtube": "7rJOmmro7QI",
+        "duration": 737
+      },
+      {
+        "speakers": [
+          { "name": "Арно Труссе", "name_en": "Arnaud Trousset" }
+        ],
+        "company": "Rilos",
+        "title": "Аналитическая система GeoMatrix",
+        "title_en": "GeoMatrix analyzing system",
+        "youtube": "MtcsUNTq_us",
+        "duration": 1618
+      },
+      {
+        "speakers": [
+          { "name": "Андрей Жуков", "name_en": "Andrey Zhukov" }
+        ],
+        "company": "Техносерв",
+        "title": "Новое в GeoServer",
+        "title_en": "GeoServer news",
+        "youtube": "CKDRoOuzMbQ",
+        "duration": 874
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "История редактора в приложении MAPS.ME",
+        "title_en": "Editor development in MAPS.ME app",
+        "youtube": "Jn4sxHQZ1yA",
+        "duration": 865
+      }
     ]
   },
 
@@ -445,7 +544,7 @@
       },
       {
         "speakers": [
-          { "name": "Артём Светлов", "name_en": "Artyom Svetlov" }
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
         "title": "Панорамная камера Xiaomi и загрузка фотографий в Mapillary",
