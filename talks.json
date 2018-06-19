@@ -351,6 +351,43 @@
       "lonlat": [37.66333, 55.76491]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Проблемы геокодирования",
+        "title_en": "Issues with geocoding",
+        "youtube": "E0YKV3ERk7E",
+        "duration": 1201
+      },
+      {
+        "speakers": [
+          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
+        ],
+        "company": "NextGIS",
+        "title": "QuickMapServices",
+        "title_en": "QuickMapServices",
+        "youtube": "1D2TabmmKyE",
+        "duration": 1180
+      },
+      {
+        "speakers": [
+          { "name": "Андрей Пирогов", "name_en": "Andrey Pirogov" }
+        ],
+        "title": "Итоги 2016 года",
+        "title_en": "Summary of 2016",
+        "youtube": "BDj6gxHxGOw",
+        "duration": 1835
+      },
+      {
+        "speakers": [
+          { "name": "Фёдор Шкуров", "name_en": "Fyodor Shkurov" }
+        ],
+        "title": "Образовательные проекты в ГИС",
+        "title_en": "Learning projects with GIS",
+        "duration": 1519
+      }
     ]
   },
 
