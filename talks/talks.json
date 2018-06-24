@@ -684,6 +684,7 @@
     "title_en": "Schemotechnika 16",
     "date": "2018-06-06",
     "url": "http://schemo.ru/2018/05/22/schemo16.html",
+    "youtube": "PLkvzAel8ISD0DBMVymJlr3laOG46IOpjW",
     "venue": {
       "name": "Офис компании «КРОК»",
       "name_en": "\"CROC\" company office",
@@ -703,7 +704,8 @@
           "Feedbacker / HistGeo": "http://feedbacker.histgeo.ru/",
           "Feedbacker": "http://nextgis.ru/feedbacker"
         },
-        "youtube": null,
+        "youtube": "5iYWYkuVlV0",
+        "v_duration": 1577,
         "slides": null
       },
       {
@@ -713,7 +715,9 @@
         ],
         "company": "OpenTripMap",
         "title": "API сайта OpenTripMap",
-        "title_en": "API for OpenTripMap website"
+        "title_en": "API for OpenTripMap website",
+        "youtube": "3m8qDdOda0Q",
+        "v_duration": 1280
       },
       {
         "speakers": [
@@ -721,7 +725,9 @@
         ],
         "company": "MAPS.ME",
         "title": "Открытый общественный транспорт",
-        "tags": ["транспорт", "openstreetmap", "opentripplanner", "gtfs"]
+        "tags": ["транспорт", "openstreetmap", "opentripplanner", "gtfs"],
+        "youtube": "https://www.youtube.com/watch?v=_2Atg67DbuM&index=4&list=PLkvzAel8ISD0DBMVymJlr3laOG46IOpjW&t=0s",
+        "v_duration": 2062
       },
       {
         "speakers": [
