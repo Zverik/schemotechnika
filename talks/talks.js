@@ -51,8 +51,19 @@ var app = new Vue({
     },
 
     formatDate: function(s) {
-      // TODO
-      return s;
+      if (!s || s.length != 10)
+        return '';
+      var year = s.substr(0, 4),
+          month = parseInt(s.substr(5, 2)),
+          day = parseInt(s.substr(8, 2)),
+          months = ['января', 'февраля', 'марта', 'апреля',
+            'мая', 'июня', 'июля', 'августа', 'сентября',
+            'октября', 'ноября', 'декабря'],
+          months_en = ['January', 'February', 'March', 'April',
+            'May', 'June', 'July', 'August', 'September',
+            'October', 'November', 'December'];
+      return '' + day + ' ' + (this.rus ? months[month-1] : months_en[month-1])
+        + ' ' + year + (this.rus ? ' года' : '');
     },
 
     getTags: function(talk) {
