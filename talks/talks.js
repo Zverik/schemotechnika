@@ -4,8 +4,7 @@ var app = new Vue({
     search: '',
     results: [],
     talks: {},
-    words: {},
-    tags: {}
+    words: {}
   },
 
   methods: {
@@ -58,16 +57,86 @@ var app = new Vue({
       return talks;
     },
 
+    addKeyword: function(prefix, keyword, tkey) {
+      if (!this.words[prefix])
+        this.words[prefix] = {};
+      if (!this.words[prefix][keyword])
+        this.words[prefix][keyword] = {};
+      this.words[prefix][keyword][tkey] = true;
+    },
+
+    addKeywords: function(prefix, kwstr, tkey) {
+      if (!kwstr || kwstr.length <= 1)
+        return;
+      var parts = kwstr.toLowerCase().split(/[ ,.«»"':;]+/);
+      for (var i = 0; i < parts.length; i++) {
+        if (parts[i].length == 0)
+          continue;
+        for (var j = 2; j <= parts[i].length; j++) {
+          var word = parts[i].substr(0, j);
+          if (prefix)
+            this.addKeyword(prefix, word, tkey);
+          this.addKeyword('all', word, tkey);
+        }
+      }
+    },
+
     extractKeywords: function() {
+      for (key in this.talks) {
+        var talk = this.talks[key];
+        if (talk.tags) {
+          for (var tag in talk.tags)
+            this.addKeyword('t', tag, key);
+        }
+        this.addKeywords(null, talk.title, key);
+        if (talk.title_en)
+          this.addKeywords(null, talk.title_en, key);
+        if (talk.keywords) {
+          for (var kw = 0; kw < talk.keywords.length; kw++)
+            this.addKeywords(null, talk.keywords[kw], key);
+        }
+        for (var sp = 0; sp < talk.speakers.length; sp++) {
+          this.addKeywords('a', talk.speakers[sp].name, key);
+          this.addKeywords('a', talk.speakers[sp].name_en, key);
+          if (sp.nickname)
+            this.addKeywords('a', talk.speakers[sp].nickname, key);
+        }
+        if (talk.company)
+          this.addKeywords('c', talk.company, key);
+        this.addKeyword('t', 'cx'+talk.cx.cx, key);
+        this.addKeyword('t', 'сх'+talk.cx.cx, key);
+      }
     },
 
     filterTalks: function(str) {
-      str = str.toLowerCase();
-      var res = [];
-      for (var k in this.talks) {
-        if (this.talks[k].title.toLowerCase().indexOf(str) >= 0)
-          res.push(this.talks[k]);
+      var parts = str.toLowerCase().split(/[ ,.«»"';]+/),
+          prefix = 'all',
+          keys = {};
+      for (var p = 0; p < parts.length; p++) {
+        if (parts[p].length <= 1)
+          continue;
+        var pref = parts[p].indexOf(':');
+        if (pref > 0) {
+          prefix = parts[p].substr(0, pref);
+          parts[p] = parts[p].substr(pref+1);
+        }
+        var found = this.words[prefix] ? this.words[prefix][parts[p]] : {};
+        if (p == 0) {
+          if (found)
+            for (var k in found)
+              keys[k] = true;
+        } else {
+          if (!found)
+            keys = {};
+          else
+            for (var k in keys)
+              if (!found[k])
+                delete keys[k];
+        }
       }
+      var res = [];
+      for (k in keys)
+        res.push(this.talks[k]);
       return res;
     }
   },
@@ -77,6 +146,7 @@ var app = new Vue({
     this.http('talks.json', function(data) {
       this.talks = this.processTalks(data);
       this.extractKeywords();
+      console.log(this.words);
     });
   }
 });
