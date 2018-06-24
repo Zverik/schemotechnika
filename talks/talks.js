@@ -3,6 +3,10 @@ var app = new Vue({
   data: {
     search: '',
     results: [],
+    opentalk: null,
+    rus: true,
+    cx: [],
+    allTags: [],
     talks: {},
     words: {}
   },
@@ -10,11 +14,60 @@ var app = new Vue({
   methods: {
     filter: function() {
       var result = this.filterTalks(this.search);
-      console.log(result.length);
       if (result.length <= 20)
         this.results = result;
       else
         this.results = [];
+
+      // Close the current talk if it is not in results.
+      var foundOpenTalk = false;
+      for (var i = 0; i < this.results.length; i++)
+        if (this.results[i].key == this.opentalk)
+          foundOpenTalk = true;
+      if (!foundOpenTalk)
+        this.opentalk = null;
+    },
+
+    toggleOpen: function(talk) {
+      if (this.opentalk == talk)
+        this.opentalk = null;
+      else
+        this.opentalk = talk;
+    },
+
+    speakers: function(talk) {
+      return talk.speakers.map(function(s) {
+        return this.rus ? s.name : s.name_en;
+      }, this).join(', ');
+    },
+
+    duration: function(talk) {
+      var d = talk.duration || talk.v_duration;
+      if (!d)
+        return this.rus ? 'Неизвестно' : 'Unknown';
+      var hours = (d < 600 ? '0' : '') + Math.trunc(d/60),
+          minutes = ((d%60) < 10 ? '0' : '') + (d%60);
+      return hours + ':' + minutes;
+    },
+
+    formatDate: function(s) {
+      // TODO
+      return s;
+    },
+
+    getTags: function(talk) {
+      var tags = ['cx'+talk.cx.cx];
+      return tags.concat(talk.tags || []);
+    },
+
+    clickTag: function(e) {
+      this.search = 't:' + e.target.innerHTML;
+      this.filter();
+    },
+
+    clickPrefix: function(prefix, e) {
+      this.search = prefix + ':' + e.target.innerHTML;
+      this.filter();
     },
 
     http: function(url, callback) {
@@ -33,10 +86,12 @@ var app = new Vue({
 
     processTalks: function(data) {
       var talks = {};
+      this.cx = [];
 
       for (var i = 0; i < data.length; i++) {
-        if (!data[i].talks)
+        if (!data[i].talks || data[i].talks.length == 0)
           continue;
+        this.cx.push(data[i].cx);
 
         // First creating an lightweight Cx object that talks would reference
         var cx = {}
@@ -47,11 +102,11 @@ var app = new Vue({
 
         // Now let's put all talks into the array
         for (var j = 0; j < data[i].talks.length; j++) {
-          var talk = data[i].talks[j];
+          var talk = data[i].talks[j],
+              tkey = i+'-'+j;
           talk.cx = cx;
-          if (talk.youtube)
-            talk.youtube = 'https://www.youtube.com/watch?v=' + talk.youtube;
-          talks[i+'-'+j] = talk;
+          talk.key = tkey;
+          talks[tkey] = talk;
         }
       }
       return talks;
@@ -82,11 +137,14 @@ var app = new Vue({
     },
 
     extractKeywords: function() {
+      var tags = {};
       for (key in this.talks) {
         var talk = this.talks[key];
         if (talk.tags) {
-          for (var tag in talk.tags)
-            this.addKeyword('t', tag, key);
+          for (var t = 0; t < talk.tags.length; t++) {
+            tags[talk.tags[t]] = (tags[talk.tags[t]] || 0) + 1;
+            this.addKeyword('t', talk.tags[t], key);
+          }
         }
         this.addKeywords(null, talk.title, key);
         if (talk.title_en)
@@ -106,6 +164,12 @@ var app = new Vue({
         this.addKeyword('t', 'cx'+talk.cx.cx, key);
         this.addKeyword('t', 'сх'+talk.cx.cx, key);
       }
+
+      var allTags = [];
+      for (var tag in tags)
+        if (tags[tag] > 1)
+          allTags.push(tag);
+      this.allTags = allTags.sort();
     },
 
     filterTalks: function(str) {
@@ -146,7 +210,6 @@ var app = new Vue({
     this.http('talks.json', function(data) {
       this.talks = this.processTalks(data);
       this.extractKeywords();
-      console.log(this.words);
     });
   }
 });

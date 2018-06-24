@@ -6,19 +6,42 @@
     <title>Доклады Схемотехники</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../schemo.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
   </head>
   <body>
     <h1>Доклады Схемотехники</h1>
     <div id="app">
-      <input @input="filter" v-model="search">
+      <input @input="filter" v-model="search" placeholder="Поиск">
+      <div>
+        <span v-for="tag in cx" :class="'tag tag-cx'+tag" @click="clickTag">cx{{ tag }}</span>
+      </div>
+      <div>
+        <span v-for="tag in allTags" class="tag" @click="clickTag">{{ tag }}</span>
+      </div>
       <table v-if="results" cellpadding="1" cellspacing="0" id="search-results">
-        <tr v-for="talk in results">
-          <td><a :href="talk.cx.url">Cx{{ talk.cx.cx }}</a></td>
-          <td>{{ talk.speakers[0].name }}</td>
-          <td>{{ talk.title }}</td>
-          <td><a v-if="talk.youtube" :href="talk.youtube" target="_blank">&gt;&gt;</a></td>
-        </tr>
+        <template v-for="talk in results">
+          <tr @click="toggleOpen(talk.key)">
+            <td>Cx{{ talk.cx.cx }}</td>
+            <td>{{ speakers(talk) }}</td>
+            <td>{{ rus ? talk.title : talk.title_en }}</td>
+          </tr>
+          <tr v-if="opentalk == talk.key">
+            <td colspan="3">
+              <div>
+                <span v-for="tag in talk.tags" class="tag" @click="clickTag">{{ tag }}</span>
+              </div>
+              <ul>
+                <li>Конференция: <a :href="talk.cx.url">{{ rus ? talk.cx.title : talk.cx.title_en }}</a>, {{ formatDate(talk.cx.date) }}</li>
+                <li>Автор: <a href="#" @click.prevent="clickPrefix('a', $event)" class="taglink">{{ speakers(talk) }}</a></li>
+                <li v-if="talk.company">Компания: <a href="#" @click.prevent="clickPrefix('c', $event)" class="taglink">{{ talk.company }}</a></li>
+                <li v-if="talk.slides"><a :href="talk.slides">Посмотреть слайды</a></li>
+                <li v-if="talk.links">Ссылки: <span v-for="(name, url, index) in talk.links"><span v-if="index > 0">, </span><a :href="url">{{ name }}</a></span></li>
+                <li>Продолжительность: {{ duration(talk) }}</li>
+              </ul>
+              <iframe v-if="talk.youtube" width="700" height="394" :src="'https://www.youtube.com/embed/' + talk.youtube + '?rel=0'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </td>
+          </tr>
+        </template>
       </table>
     </div>
     <script src="talks.js" type="application/javascript"></script>
