@@ -11,16 +11,18 @@
   <body>
     <h1>Доклады Схемотехники</h1>
     <div id="app">
-      <input @input="filter" v-model="search" placeholder="Поиск">
-      <div>
+      <div id="search">
+        <input @input="filter" v-model="search" placeholder="Поиск" ref="search"> <span class="clearsearch" @click="search = ''; filter()">╳</span>
+      </div>
+      <div class="tags">
         <span v-for="tag in cx" :class="'tag tag-cx'+tag" @click="clickTag">cx{{ tag }}</span>
       </div>
-      <div>
+      <div class="tags">
         <span v-for="tag in allTags" class="tag" @click="clickTag">{{ tag }}</span>
       </div>
       <table v-if="results" cellpadding="1" cellspacing="0" id="search-results">
         <template v-for="talk in results">
-          <tr @click="toggleOpen(talk.key)">
+          <tr @click="toggleOpen(talk.key)" class="result">
             <td>Cx{{ talk.cx.cx }}</td>
             <td>{{ speakers(talk) }}</td>
             <td>{{ rus ? talk.title : talk.title_en }}</td>

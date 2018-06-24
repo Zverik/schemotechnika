@@ -40,6 +40,28 @@ li p {
   margin: 0;
 }
 
+/* For /talks */
+
+#search {
+  margin: 1em 0;
+  font-size: 130%;
+}
+
+#search input {
+  font-size: 100%;
+  background: #bbb;
+  width: 80%;
+  padding-left: 5px;
+}
+
+.clearsearch {
+  cursor: pointer;
+}
+
+#search-results {
+  margin-top: 2em;
+}
+
 .tag {
   display: inline-block;
   padding: 2px 4px;
@@ -52,4 +74,9 @@ li p {
 
 .taglink {
   color: inherit;
+}
+
+tr.result:hover {
+  cursor: pointer;
+  background: #333;
 }

@@ -222,5 +222,10 @@ var app = new Vue({
       this.talks = this.processTalks(data);
       this.extractKeywords();
     });
+  },
+
+  mounted: function() {
+    // When the page is rendered, focus the textfield.
+    this.$refs.search.focus();
   }
 });
