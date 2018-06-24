@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доклады Схемотехники</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../schemo.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <h1>Доклады Схемотехники</h1>
+    <div id="app">
+      <input @input="filter" v-model="search">
+      <table v-if="results" cellpadding="1" cellspacing="0" id="search-results">
+        <tr v-for="talk in results">
+          <td><a :href="talk.cx.url">Cx{{ talk.cx.cx }}</a></td>
+          <td>{{ talk.speakers[0].name }}</td>
+          <td>{{ talk.title }}</td>
+          <td><a v-if="talk.youtube" :href="talk.youtube" target="_blank">&gt;&gt;</a></td>
+        </tr>
+      </table>
+    </div>
+    <script src="talks.js" type="application/javascript"></script>
+  </body>
+</html>
