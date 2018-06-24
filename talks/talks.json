@@ -20,7 +20,7 @@
         "title": "Все дороги ведут в Третий Рим",
         "title_en": "All roads lead to The Third Rome",
         "youtube": "SCf8phbxFAE",
-        "duration": 985
+        "v_duration": 985
       },
       {
         "speakers": [
@@ -29,7 +29,7 @@
         "company": "MAPS.ME",
         "title": "FOSDEM 2016",
         "youtube": "xXdl8__SyJY",
-        "duration": 1796
+        "v_duration": 1796
       },
       {
         "speakers": [
@@ -38,7 +38,7 @@
         "title": "Strava Heatmap как источник данных для редактирования OpenStreetMap",
         "title_en": "Strava Heatmap as a data source for editing OpenStreetMap",
         "youtube": "MkN2rqcLFxE",
-        "duration": 636
+        "v_duration": 636
       },
       {
         "speakers": [
@@ -47,17 +47,17 @@
         "title": "Три вопроса",
         "title_en": "Three questions",
         "youtube": "MOM_xrScejQ",
-        "duration": 735
+        "v_duration": 735
       },
       {
         "speakers": [
-          { "name": "Дорофей Пролесковский", "name_en": "Darafei Praliaskouski", "website": "http://komzpa.net/" }
+          { "name": "Дорофей Пролесковский", "name_en": "Darafei Praliaskouski", "nickname": "Котяра", "website": "http://komzpa.net/" }
         ],
         "company": "Juno",
         "title": "Новое в PostgreSQL 9.5",
         "title_en": "What's new in PostgreSQL 9.5",
         "youtube": "NC3wGONO4Uo",
-        "duration": 2066
+        "v_duration": 2066
       }
     ]
   },
@@ -83,7 +83,7 @@
         "title": "Четыре модуля для QGIS",
         "title_en": "Four plugins for QGIS",
         "youtube": "PKHiGnEpI14",
-        "duration": 2021
+        "v_duration": 2021
       },
       {
         "speakers": [
@@ -93,7 +93,7 @@
         "title": "Редизайн картостиля и сервиса «Спутник/Карты»",
         "title_en": "Redesign of the mapping style and UI of Sputnik/Maps",
         "youtube": "_i3hxZrJFYI",
-        "duration": 683
+        "v_duration": 683
       },
       {
         "speakers": [
@@ -102,7 +102,7 @@
         "title": "бенфорд-последовательность в данных OpenStreetMap",
         "title_en": "Benford's law in OpenStreetMap data",
         "youtube": "o7wiNs9h1iM",
-        "duration": 711
+        "v_duration": 711
       },
       {
         "speakers": [
@@ -112,7 +112,7 @@
         "title": "Про лазерное сканирование и трёхмерную визуализацию",
         "title_en": "On laser scanning and 3D visualization",
         "youtube": "MIxoOL9kmUo",
-        "duration": 1949
+        "v_duration": 1949
       },
       {
         "speakers": [
@@ -122,7 +122,7 @@
         "title": "Панорамная камера Ricoh Theta S и её использование для Mapillary",
         "title_en": "Panoramic camera Ricoh Theta S and its usage for Mapillary",
         "youtube": "0ltqi9krgcw",
-        "duration": 1260
+        "v_duration": 1260
       }
     ]
   },
@@ -162,7 +162,7 @@
         "title": "Схема тегирования помещений и проходов внутри зданий",
         "title_en": "Tagging rooms and passages inside buildings",
         "youtube": "FAuaa7Dc1SQ",
-        "duration": 1725
+        "v_duration": 1725
       },
       {
         "speakers": [
@@ -172,7 +172,7 @@
         "title": "Правки без пакета",
         "title_en": "Changes not in a set",
         "youtube": "MKLwLI8fyn0",
-        "duration": 2199
+        "v_duration": 2199
       },
       {
         "speakers": [
@@ -182,7 +182,7 @@
         "title": "Базовая картография с QMS",
         "title_en": "Base layers with QMS",
         "youtube": "S6pXhc8m5eI",
-        "duration": 1368
+        "v_duration": 1368
       },
       {
         "speakers": [
@@ -192,7 +192,7 @@
         "title": "Схема троллейбусов из OSM",
         "title_en": "Trolleybus map in OSM",
         "youtube": "0MhcP9iYf_Q",
-        "duration": 710
+        "v_duration": 710
       },
       {
         "speakers": [
@@ -202,7 +202,7 @@
         "title": "Векторные тайлы в NextGIS Web",
         "title_en": "Vector tiles in NextGIS Web",
         "youtube": "EFRSI-TMllk",
-        "duration": 443
+        "v_duration": 443
       }
     ]
   },
@@ -228,7 +228,7 @@
         "title": "Рендеринг зданий в MAPS.ME",
         "title_en": "Rendering buildings in MAPS.ME",
         "youtube": "TGwi2deVEbY",
-        "duration": 1610
+        "v_duration": 1610
       },
       {
         "speakers": [
@@ -237,7 +237,7 @@
         "title": "Велокарта Москвы",
         "title_en": "Moscow Cycling Map",
         "youtube": "nC7T0yHHmzM",
-        "duration": 1469
+        "v_duration": 1469
       },
       {
         "speakers": [
@@ -247,7 +247,7 @@
         "title": "UTFGrid и MVT в GeoServer",
         "title_en": "UTFGrid and MVT with GeoServer",
         "youtube": "9RrvuLmHLMg",
-        "duration": 466
+        "v_duration": 466
       },
       {
         "speakers": [
@@ -257,7 +257,7 @@
         "title": "Награды в OpenStreetMap",
         "title_en": "Awards in OpenStreetMap",
         "youtube": "rMfW-Kskl-4",
-        "duration": 1684
+        "v_duration": 1684
       },
       {
         "speakers": [
@@ -267,7 +267,7 @@
         "title": "Загрузка слоёв из QGIS в NextGIS Web",
         "title_en": "Uploading QGIS layers to NextGIS Web",
         "youtube": "nWw6uqJ3Me8",
-        "duration": 738
+        "v_duration": 738
       }
     ]
   },
@@ -293,7 +293,7 @@
         "title": "Интерактивные изохроны с «Гальтоном»",
         "title_en": "Interactive isochrones with Galton",
         "youtube": "K99ftJvP15g",
-        "duration": 698
+        "v_duration": 698
       },
       {
         "speakers": [
@@ -303,7 +303,7 @@
         "title": "Генерация контуров кварталов в QGIS",
         "title_en": "Generating quarter contours in QGIS",
         "youtube": "7rJOmmro7QI",
-        "duration": 737
+        "v_duration": 737
       },
       {
         "speakers": [
@@ -313,7 +313,7 @@
         "title": "Аналитическая система GeoMatrix",
         "title_en": "GeoMatrix analyzing system",
         "youtube": "MtcsUNTq_us",
-        "duration": 1618
+        "v_duration": 1618
       },
       {
         "speakers": [
@@ -323,7 +323,7 @@
         "title": "Новое в GeoServer",
         "title_en": "GeoServer news",
         "youtube": "CKDRoOuzMbQ",
-        "duration": 874
+        "v_duration": 874
       },
       {
         "speakers": [
@@ -333,7 +333,7 @@
         "title": "История редактора в приложении MAPS.ME",
         "title_en": "Editor development in MAPS.ME app",
         "youtube": "Jn4sxHQZ1yA",
-        "duration": 865
+        "v_duration": 865
       }
     ]
   },
@@ -359,7 +359,7 @@
         "title": "Проблемы геокодирования",
         "title_en": "Issues with geocoding",
         "youtube": "E0YKV3ERk7E",
-        "duration": 1201
+        "v_duration": 1201
       },
       {
         "speakers": [
@@ -369,7 +369,7 @@
         "title": "QuickMapServices",
         "title_en": "QuickMapServices",
         "youtube": "1D2TabmmKyE",
-        "duration": 1180
+        "v_duration": 1180
       },
       {
         "speakers": [
@@ -378,7 +378,7 @@
         "title": "Итоги 2016 года",
         "title_en": "Summary of 2016",
         "youtube": "BDj6gxHxGOw",
-        "duration": 1835
+        "v_duration": 1835
       },
       {
         "speakers": [
@@ -386,7 +386,7 @@
         ],
         "title": "Образовательные проекты в ГИС",
         "title_en": "Learning projects with GIS",
-        "duration": 1519
+        "v_duration": 1519
       }
     ]
   },
@@ -404,6 +404,77 @@
       "lonlat": [37.53773, 55.79682]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Андрей Жуков", "name_en": "Andrey Zhukov" }
+        ],
+        "company": "Техносерв",
+        "title": "ГИС и распределённые вычисления",
+        "title_en": "GIS and distributed computing",
+        "youtube": "EbcFBf62yyU",
+        "v_duration": 1214,
+        "duration": 1040
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Тут вам не жёлтые страницы",
+        "title_en": "Not a Yellow Pages here",
+        "keywords": ["openstreetmap", "osm", "импорты", "imports", "conflator", "пятёрочка"],
+        "tags": ["osm"],
+        "youtube": "https://www.youtube.com/watch?v=EFeY4q84Hko&index=3&list=PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ&t=1177s",
+        "v_duration": 1779,
+        "duration": 1635
+      },
+      {
+        "speakers": [
+          { "name": "Андрей Чернов", "name_en": "Andrey Chernov" }
+        ],
+        "company": "Самарский университет",
+        "title": "Лучше считать, чем говорить",
+        "title_en": "Better count that talk",
+        "keywords": ["самара", "од", "открытые", "данные"],
+        "youtube": "GwOS1dDOnqI",
+        "v_duration": 1569,
+        "duration": 1365
+      },
+      {
+        "speakers": [
+          { "name": "Лев Драгунов", "name_en": "Lev Dragunov" }
+        ],
+        "company": "Juno",
+        "title": "Unix way в работе с геоданными",
+        "title_en": "Unix-way in geodata processing",
+        "keywords": ["bash", "console", "geojson", "psql", "postgresql", "makefile"],
+        "youtube": "https://www.youtube.com/watch?v=YMCRQXKZtwI&index=5&list=PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ&t=0s",
+        "v_duration": 1717,
+        "duration": 1624
+      },
+      {
+        "speakers": [
+          { "name": "Павел Златовратский", "name_en": "Pavel Zlatovratsky", "nickname": "Scondo" }
+        ],
+        "title": "GeoPNG - геопривязка PNG. Можно ли быть лучше GeoTIFF?",
+        "title_en": "GeoPNG, a georeferenced PNG. Can it be better than GeoTIFF?",
+        "keywords": ["wld", "standards"],
+        "youtube": "https://www.youtube.com/watch?v=UwdHaq7ncXo&index=6&list=PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ&t=2s",
+        "v_duration": 1418,
+        "duration": 1280
+      },
+      {
+        "speakers": [
+          { "name": "Дорофей Пролесковский", "name_en": "Darafei Praliaskouski", "nickname": "Котяра", "website": "http://komzpa.net/" }
+        ],
+        "company": "Juno",
+        "title": "Про пространства и времена",
+        "title_en": "On spaces and times",
+        "keywords": ["размерность", "dimensions", "погрешность"],
+        "youtube": "PUBbCCt0Dec",
+        "v_duration": 1394,
+        "duration": 1367
+      }
     ]
   },
 
@@ -420,6 +491,52 @@
       "lonlat": [37.62620, 55.73024]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Иван Буслик", "name_en": "Ivan Buslik" }
+        ],
+        "company": "Here Technologies",
+        "title": "Here Map Creator и открытые инициативы Here",
+        "title_en": "Here Map Creator and Here's open initiatives",
+        "youtube": "RWPWDnN34QQ",
+        "v_duration": 2964,
+        "duration": 2715
+      },
+      {
+        "speakers": [
+          { "name": "Владимир Быко-Янко", "name_en": "Vladimir Byko-Yanko" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Прокладка маршрутов в MAPS.ME",
+        "title_en": "Calculating routes in MAPS.ME",
+        "keywords": ["навигация", "OSRM", "osm", "openstreetmap", "теги", "tags"],
+        "youtube": "h0JNOSSXLHU",
+        "v_duration": 1297,
+        "duration": 1004
+      },
+      {
+        "speakers": [
+          { "name": "Дмитрий Лебедев", "name_en": "Dmitry Lebedev", "nickname": "Culebron" }
+        ],
+        "company": "Best Place",
+        "title": "Красивые картинки",
+        "title_en": "Pretty pictures",
+        "keywords": ["визуализация", "qgis", "osm", "openstreetmap", "дороги", "roads", "население", "плотность", "population", "фасады", "facades", "пивные", "beer"],
+        "youtube": "https://www.youtube.com/watch?v=LSZhCiPuI5Q&t=236s&list=PLkvzAel8ISD02-QNoScUEC-PtVRLjTdNx&index=4",
+        "v_duration": 2465,
+        "duration": 2465
+      },
+      {
+        "speakers": [
+          { "name": "Роман Кучуков", "name_en": "Roman Kuchukov", "website": "http://aitecture.com" }
+        ],
+        "title": "Анализ типов городской застройки при помощи нейросетей",
+        "title_en": "Analyzing city landuses using neural networks",
+        "keywords": ["cityclass", "машинное", "обучение", "machine", "learning", "иркутск", "irkutsk", "классификация", "промзоны", "москва", "moscow"],
+        "youtube": "qA4v5620KnI",
+        "v_duration": 1471,
+        "duration": 1212
+      }
     ]
   },
 
@@ -435,6 +552,50 @@
       "lonlat": [37.53756, 55.79709]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Екатеринa Белорусцевa", "name_en": "Ekaterina Belorustseva" },
+          { "name": "Максим Виноградов", "name_en": "Maksim Vinogradov" }
+        ],
+        "company": "OpenTripMap",
+        "title": "OpenTripMap",
+        "title_en": "OpenTripMap",
+        "keywords": ["tourism", "trips", "туризм", "poi", "osm", "openstreetmap", "достопримечательности", "wikipedia", "википедия"]
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Нарисуй их все",
+        "title_en": "Map them all",
+        "keywords": ["osm", "openstreetmap", "mapping", "rivers", "underground", "реки", "ручьи", "подземные", "справочник"]
+      },
+      {
+        "speakers": [
+          { "name": "Михаил Гусев", "name_en": "Mikhail Gusev" }
+        ],
+        "company": "NextGIS",
+        "title": "Новые функции «NextGIS Formbuilder»",
+        "title_en": "What's new in NextGIS FormBuilder"
+      },
+      {
+        "speakers": [
+          { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
+        ],
+        "title": "Горы, реки и леса в Блендере увижу я",
+        "title_en": "Mountains, rivers and forests I will see in Blender"
+      },
+      {
+        "speakers": [
+          { "name": "Игорь Лебедь", "name_en": "Igor Lebed" }
+        ],
+        "title": "Проект создания открытого слоя границ ООПТ",
+        "title_en": "Project for creating an open layer for protected areas",
+        "links": {
+          "Project": "http://gis-lab.info/qa/oopt-reg.html"
+        }
+      }
     ]
   },
 
@@ -547,14 +708,8 @@
       },
       {
         "speakers": [
-          {
-            "name": "Екатеринa Белорусцевa",
-            "name_en": "Ekaterina Belorustseva"
-          },
-          {
-            "name": "Максим Виноградов",
-            "name_en": "Maksim Vinogradov"
-          }
+          { "name": "Екатеринa Белорусцевa", "name_en": "Ekaterina Belorustseva" },
+          { "name": "Максим Виноградов", "name_en": "Maksim Vinogradov" }
         ],
         "company": "OpenTripMap",
         "title": "API сайта OpenTripMap",
