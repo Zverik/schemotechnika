@@ -424,7 +424,7 @@
         "title_en": "Not a Yellow Pages here",
         "keywords": ["openstreetmap", "osm", "импорты", "imports", "conflator", "пятёрочка"],
         "tags": ["osm"],
-        "youtube": "https://www.youtube.com/watch?v=EFeY4q84Hko&index=3&list=PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ&t=1177s",
+        "youtube": "EFeY4q84Hko",
         "v_duration": 1779,
         "duration": 1635
       },
@@ -448,7 +448,7 @@
         "title": "Unix way в работе с геоданными",
         "title_en": "Unix-way in geodata processing",
         "keywords": ["bash", "console", "geojson", "psql", "postgresql", "makefile"],
-        "youtube": "https://www.youtube.com/watch?v=YMCRQXKZtwI&index=5&list=PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ&t=0s",
+        "youtube": "YMCRQXKZtwI",
         "v_duration": 1717,
         "duration": 1624
       },
@@ -459,7 +459,7 @@
         "title": "GeoPNG - геопривязка PNG. Можно ли быть лучше GeoTIFF?",
         "title_en": "GeoPNG, a georeferenced PNG. Can it be better than GeoTIFF?",
         "keywords": ["wld", "standards"],
-        "youtube": "https://www.youtube.com/watch?v=UwdHaq7ncXo&index=6&list=PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ&t=2s",
+        "youtube": "UwdHaq7ncXo",
         "v_duration": 1418,
         "duration": 1280
       },
@@ -522,7 +522,7 @@
         "title": "Красивые картинки",
         "title_en": "Pretty pictures",
         "keywords": ["визуализация", "qgis", "osm", "openstreetmap", "дороги", "roads", "население", "плотность", "population", "фасады", "facades", "пивные", "beer"],
-        "youtube": "https://www.youtube.com/watch?v=LSZhCiPuI5Q&t=236s&list=PLkvzAel8ISD02-QNoScUEC-PtVRLjTdNx&index=4",
+        "youtube": "LSZhCiPuI5Q",
         "v_duration": 2465,
         "duration": 2465
       },
@@ -726,7 +726,7 @@
         "company": "MAPS.ME",
         "title": "Открытый общественный транспорт",
         "tags": ["транспорт", "openstreetmap", "opentripplanner", "gtfs"],
-        "youtube": "https://www.youtube.com/watch?v=_2Atg67DbuM&index=4&list=PLkvzAel8ISD0DBMVymJlr3laOG46IOpjW&t=0s",
+        "youtube": "_2Atg67DbuM",
         "v_duration": 2062
       },
       {
