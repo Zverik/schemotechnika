@@ -45,6 +45,12 @@
           </tr>
         </template>
       </table>
+      <p v-if="!results.length">В базу загружены
+      {{ formatNumberAdj(totalTalks(), 'доклад', 'доклада', 'докладов', '') }}
+      из {{ formatNumberAdj(cx.length, '«схемотехники»', '«схемотехник»', '«схемотехник»', '') }},
+      в том числе {{ formatNumberAdj(totalDurationHours(), 'час', 'часа', 'часов', '') }}
+      видеозаписей. Введите слово для поиска или нажмите на тег, чтобы получить список докладов.</p>
+      <p><a href="/">← вернуться на главную страницу</a></p>
     </div>
     <script src="talks.js" type="application/javascript"></script>
   </body>

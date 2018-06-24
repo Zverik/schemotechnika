@@ -81,6 +81,36 @@ var app = new Vue({
       this.filter();
     },
 
+    formatNumberAdj: function(n, a1, a2, a5, e1) {
+      if (this.rus) {
+        if (n % 10 == 1 && n % 100 != 11)
+          return n + ' ' + a1;
+        else if (n % 10 >= 2 && n % 10 <=4 && (n % 100 < 10 || n % 100 > 20))
+          return n + ' ' + a2;
+        else
+          return n + ' ' + a5;
+      } else {
+        if (n == 1)
+          return n + ' ' + e1;
+        else
+          return n + ' ' + e1 + 's';
+      }
+    },
+
+    totalTalks: function() {
+      var count = 0;
+      for (var i in this.talks)
+        count++;
+      return count;
+    },
+
+    totalDurationHours: function() {
+      var total = 0;
+      for (talk in this.talks)
+        total += this.talks[talk].v_duration || 0;
+      return Math.round(total / 3600);
+    },
+
     http: function(url, callback) {
       if (window.XMLHttpRequest === undefined)
         return;
