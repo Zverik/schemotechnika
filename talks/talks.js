@@ -15,7 +15,7 @@ var app = new Vue({
   methods: {
     filter: function() {
       var result = this.filterTalks(this.search);
-      if (result.length <= this.cx.length * 1.2)
+      if (result.length <= this.cx.length * 1.2 || this.search.indexOf(':') > 0)
         this.results = result;
       else
         this.results = [];

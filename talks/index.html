@@ -15,9 +15,7 @@
         <input @input="filter" v-model="search" placeholder="Поиск" ref="search"> <span class="clearsearch" @click="search = ''; filter()">╳</span>
       </div>
       <div class="tags">
-        <span v-for="tag in cx" :class="'tag tag-cx'+tag" @click="clickTag">cx{{ tag }}</span>
-      </div>
-      <div class="tags">
+        <span v-for="tag in cx" :class="'tag tag-cx'+tag" @click="clickTag">cx{{ tag }}</span><br>
         <span v-for="tag in allTags" class="tag" @click="clickTag">{{ tag }}</span>
       </div>
       <div v-if="results.length" id="search-results">
