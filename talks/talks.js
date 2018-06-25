@@ -8,7 +8,8 @@ var app = new Vue({
     cx: [],
     allTags: [],
     talks: {},
-    words: {}
+    words: {},
+    updatingHash: false
   },
 
   methods: {
@@ -18,6 +19,11 @@ var app = new Vue({
         this.results = result;
       else
         this.results = [];
+      
+      // Update the location hash with the search string.
+      this.updatingHash = true;
+      window.location.hash = '#' + this.search;
+      this.updatingHash = false;
 
       // Close the current talk if it is not in results.
       var foundOpenTalk = false;
@@ -33,6 +39,18 @@ var app = new Vue({
         this.opentalk = null;
       else
         this.opentalk = talk;
+    },
+
+    updateFromHash: function() {
+      if (this.updatingHash)
+        return;
+      var hash = decodeURI(window.location.hash);
+      if (!hash || hash.length < 1)
+        return;
+      if (this.search != hash.substr(1)) {
+        this.search = hash.substr(1);
+        this.filter();
+      }
     },
 
     speakers: function(talk) {
@@ -251,11 +269,19 @@ var app = new Vue({
     this.http('talks.json', function(data) {
       this.talks = this.processTalks(data);
       this.extractKeywords();
+      if (this.search.length > 1)
+        this.filter();
     });
+
+    // And use the location hash for the search string.
+    this.updateFromHash();
   },
 
   mounted: function() {
     // When the page is rendered, focus the textfield.
     this.$refs.search.focus();
+
+    // Listen to location hash changes.
+    window.addEventListener('hashchange', this.updateFromHash);
   }
 });
