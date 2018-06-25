@@ -80,6 +80,7 @@
           { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis"],
         "title": "Четыре модуля для QGIS",
         "title_en": "Four plugins for QGIS",
         "youtube": "PKHiGnEpI14",
@@ -119,6 +120,7 @@
           { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
+        "tags": ["collection"],
         "title": "Панорамная камера Ricoh Theta S и её использование для Mapillary",
         "title_en": "Panoramic camera Ricoh Theta S and its usage for Mapillary",
         "youtube": "0ltqi9krgcw",
@@ -179,6 +181,7 @@
           { "name": "Евгений Никулин", "name_en": "Eugene Nikulin" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis"],
         "title": "Базовая картография с QMS",
         "title_en": "Base layers with QMS",
         "youtube": "S6pXhc8m5eI",
@@ -189,6 +192,7 @@
           { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
+        "tags": ["openstreetmap"],
         "title": "Схема троллейбусов из OSM",
         "title_en": "Trolleybus map in OSM",
         "youtube": "0MhcP9iYf_Q",
@@ -199,6 +203,7 @@
           { "name": "Денис Рыков", "name_en": "Denis Rykov" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis"],
         "title": "Векторные тайлы в NextGIS Web",
         "title_en": "Vector tiles in NextGIS Web",
         "youtube": "EFRSI-TMllk",
@@ -264,6 +269,7 @@
           { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis"],
         "title": "Загрузка слоёв из QGIS в NextGIS Web",
         "title_en": "Uploading QGIS layers to NextGIS Web",
         "youtube": "nWw6uqJ3Me8",
@@ -289,7 +295,7 @@
         "speakers": [
           { "name": "Степан Кузьмин", "name_en": "Stepan Kuzmin" }
         ],
-        "company": "Urbica Design",
+        "company": "Urbica",
         "title": "Интерактивные изохроны с «Гальтоном»",
         "title_en": "Interactive isochrones with Galton",
         "youtube": "K99ftJvP15g",
@@ -366,6 +372,7 @@
           { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis"],
         "title": "QuickMapServices",
         "title_en": "QuickMapServices",
         "youtube": "1D2TabmmKyE",
@@ -423,7 +430,7 @@
         "title": "Тут вам не жёлтые страницы",
         "title_en": "Not a Yellow Pages here",
         "keywords": ["openstreetmap", "osm", "импорты", "imports", "conflator", "пятёрочка"],
-        "tags": ["osm"],
+        "tags": ["openstreetmap"],
         "youtube": "EFeY4q84Hko",
         "v_duration": 1779,
         "duration": 1635
@@ -509,6 +516,7 @@
         "company": "MAPS.ME",
         "title": "Прокладка маршрутов в MAPS.ME",
         "title_en": "Calculating routes in MAPS.ME",
+        "tags": ["openstreetmap"],
         "keywords": ["навигация", "OSRM", "osm", "openstreetmap", "теги", "tags"],
         "youtube": "h0JNOSSXLHU",
         "v_duration": 1297,
@@ -569,6 +577,7 @@
         "company": "MAPS.ME",
         "title": "Нарисуй их все",
         "title_en": "Map them all",
+        "tags": ["openstreetmap"],
         "keywords": ["osm", "openstreetmap", "mapping", "rivers", "underground", "реки", "ручьи", "подземные", "справочник"]
       },
       {
@@ -576,6 +585,7 @@
           { "name": "Михаил Гусев", "name_en": "Mikhail Gusev" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis"],
         "title": "Новые функции «NextGIS Formbuilder»",
         "title_en": "What's new in NextGIS FormBuilder"
       },
@@ -612,6 +622,149 @@
       "lonlat": [37.53756, 55.79709]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Максим Осовский", "name_en": "Maksim Osovsky" }
+        ],
+        "company": "РАНХиГС",
+        "title": "Карта России как метрокарта",
+        "title_en": "Map of Russia as a subway map",
+        "keywords": ["схема", "визуализация", "visualization", "scheme", "дороги", "трассы", "highways", "сеть", "network"],
+        "slides": "http://schemo.ru/slides/schemo11-osovskij.pdf",
+        "youtube": "T6RMvbnMdVo",
+        "v_duration": 1592,
+        "duration": 1592
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Удивительная картография",
+        "title_en": "Peculiar carthography",
+        "tags": ["openstreetmap"],
+        "keywords": ["подъезды", "osm", "фонари", "лампы", "деревья", "люки", "освещение", "maxspeed", "trees", "entrance", "lamp", "lit"],
+        "slides": "http://textual.ru/wonderhren.html",
+        "youtube": "MCr8gCNkMF4",
+        "v_duration": 1555,
+        "duration": 1555
+      },
+      {
+        "speakers": [
+          { "name": "Александр Петров", "name_en": "Alexander Petrov", "nickname": "Felis Pimeja" }
+        ],
+        "title": "Данные OpenStreetMap в приложениях и сервисах архитектурной визуализации",
+        "title_en": "Using OpenStreetMap data in apps for architectural visualization",
+        "tags": ["openstreetmap", "3d"],
+        "keywords": ["esri", "cadmapper", "3ds", "autodesk", "infraworks", "twinmotion", "планирование", "моделирование", "modeling", "lumion", "cityengine", "ghost", "osm"],
+        "slides": "http://schemo.ru/slides/schemo11-felis-3d.pdf",
+        "youtube": "lniGNSTkU3g",
+        "v_duration": 1043,
+        "duration": 1043
+      },
+      {
+        "speakers": [
+          { "name": "Сергей Горбатюк", "name_en": "Sergey Gorbatyuk" }
+        ],
+        "company": "Urbica",
+        "title": "WalkStreets: пешеходные маршруты",
+        "title_en": "WalkStreets: pedestrian routing",
+        "keywords": ["mobile", "application", "приложение", "android", "прогулок", "улицы", "доступность", "кольцевой",
+          "stuurman", "штурман", "парк", "воздух", "шум", "raspberry", "park", "air", "noise"],
+        "slides": "http://schemo.ru/slides/schemo11-walkstreets.pdf",
+        "links": {
+          "WalkStreets": "http://walkstreets.org/",
+          "Stuurman": "http://stuurman.urbica.co/",
+          "Noise Map": "https://urbica.github.io/noisemap/"
+        },
+        "youtube": "1zqEbBydbvA",
+        "v_duration": 1676,
+        "duration": 1676
+      },
+      {
+        "speakers": [
+          { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
+        ],
+        "title": "Текстурированный OSM в Blender",
+        "title_en": "Textured OSM in Blender",
+        "tags": ["openstreetmap", "3d"],
+        "keywords": ["плагин", "plugin", "osm", "здания", "кремль"],
+        "links": { "blender-osm": "https://github.com/vvoovv/blender-osm" },
+        "youtube": "uJu20Wc98DY",
+        "v_duration": 999,
+        "duration": 999
+      },
+      {
+        "speakers": [
+          { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
+        ],
+        "company": "NextGIS",
+        "title": "Ортофото с дрона для OpenStreetMap",
+        "title_en": "Orthophoto with a drone for OpenStreetMap",
+        "tags": ["collection"],
+        "keywords": ["dji", "phantom", "openaerialmap", "коптер", "квадрокоптер", "батарея", "agisoft", "photoscan"],
+        "links": { "OpenAerialMap": "https://openaerialmap.org/" },
+        "youtube": "fr5c-Xg5FqI",
+        "v_duration": 2370,
+        "duration": 2231
+      },
+      {
+        "speakers": [
+          { "name": "Степан Кузьмин", "name_en": "Stepan Kuzmin" }
+        ],
+        "company": "Urbica",
+        "title": "Компонент react-map-gl для встраивания карт",
+        "title_en": "Component react-map-gl for embedding maps",
+        "tags": ["programming"],
+        "keywords": ["mapbox", "webgl", "реакт"],
+        "slides": "http://schemo.ru/slides/schemo11-react-map-gl.pdf",
+        "links": { "React Map GL": "https://urbica.github.io/react-map-gl/" },
+        "youtube": "XCc66_VmZmY",
+        "v_duration": 420,
+        "duration": 250
+      },
+      {
+        "speakers": [
+          { "name": "Дмитрий Барышников", "name_en": "Dmitry Baryshnikov" }
+        ],
+        "company": "NextGIS",
+        "title": "Третья версия NextGIS Mobile SDK",
+        "title_en": "NextGIS Mobile SDK v3",
+        "tags": ["nextgis", "programming"],
+        "keywords": ["mobile", "maplib", "gisapp", "android", "ios", "opengl", "векторные", "vector", "мобильные"],
+        "slides": "http://schemo.ru/slides/schemo11-baryshnikov.pdf",
+        "youtube": "-9MQ_r8i06o",
+        "v_duration": 1526,
+        "duration": 1526
+      },
+      {
+        "speakers": [
+          { "name": "Надежда Владимирова", "name_en": "Nadezhda Vladimirova" }
+        ],
+        "title": "Использование NextGIS Web для флешмоба ООПТ «Дневник удачи»",
+        "title_en": "Using NextGIS Web for facilitating a flashmob \"Diary of luck\"",
+        "tags": ["qgis"],
+        "keywords": ["почта", "маршрут", "tracking", "post", "qgis", "путь", "флэшмоб"],
+        "slides": "http://schemo.ru/slides/schemo11-oopt.pptx",
+        "youtube": "gVBuTn45Y_c",
+        "v_duration": 822,
+        "duration": 597
+      },
+      {
+        "speakers": [
+          { "name": "Никита Платонов", "name_en": "Nikita Platonov" }
+        ],
+        "company": "ИПЭЭ РАН",
+        "title": "R-пакет ursa",
+        "title_en": "R package \"ursa\"",
+        "tags": ["programming"],
+        "keywords": ["визуализация", "статистика", "visualization", "statistics", "raster", "растр", "калужско"],
+        "slides": "https://sevin.000webhostapp.com/ursaPrelim.html",
+        "links": { "R-Forge": "https://r-forge.r-project.org/R/?group_id=2263" },
+        "youtube": "FfXNFlJgN8M",
+        "v_duration": 1535,
+        "duration": 1535
+      }
     ]
   },
 
@@ -696,6 +849,7 @@
           { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me/" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis", "collection"],
         "title": "Feedbacker и «Простые учёты», два новых инструмента для сбора геоданных в веб и на мобильных", 
         "title_en": "\"Feedbacker\" and \"Simple accounting\", two simple tools for collecting geodata on web and mobile phones",
         "links": {
@@ -739,6 +893,7 @@
           { "name": "Дмитрий Барышников", "name_en": "Dmitry Baryshnikov" }
         ],
         "company": "NextGIS",
+        "tags": ["nextgis", "programming"],
         "title": "Новая система сборки инсталлятора и геоинструментов в NextGIS",
         "title_en": "New deployment system for installers and geotools by NextGIS",
         "keywords": ["qgis", "borscht", "борщ", "ppa", "buildbot", "jenkins", "cmake"],
@@ -757,6 +912,7 @@
           { "name": "Артём Светлов", "name_en": "Artyom Svetlov", "nickname": "Trolleway" }
         ],
         "company": "NextGIS",
+        "tags": ["collection"],
         "title": "Панорамная камера Xiaomi и загрузка фотографий в Mapillary",
         "title_en": "Xiaomi panoramic camera and uploading photos to Mapillary",
         "keywords": ["квадрокоптер", "аэрофотосъёмка", "дрон", "drone", "dji", "phantom", "mijia", "indoor", "интерьер"],
