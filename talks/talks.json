@@ -716,7 +716,7 @@
         "title_en": "API for OpenTripMap website",
         "keywords": ["туризм", "api", "tourism", "map", "карта"],
         "slides": "http://schemo.ru/slides/schemo16-opentripmap.pptx",
-        "links" { "OpenTripMap": "https://opentripmap.com/" },
+        "links": { "OpenTripMap": "https://opentripmap.com/" },
         "youtube": "3m8qDdOda0Q",
         "v_duration": 1280,
         "duration": 763
