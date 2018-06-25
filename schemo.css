@@ -80,7 +80,33 @@ li p {
   color: inherit;
 }
 
-tr.result:hover {
+.result {
+  display: table-row;
+  height: 2.2em;
+  width: 100%;
+  clear: both;
+}
+
+.result:hover {
   cursor: pointer;
   background: #333;
+}
+
+.result-cx {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 2px 10px 2px 0;
+  line-height: 0;
+}
+
+.cximg {
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+
+.result-title {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
 }
