@@ -698,15 +698,13 @@
         "company": "NextGIS",
         "title": "Feedbacker и «Простые учёты», два новых инструмента для сбора геоданных в веб и на мобильных", 
         "title_en": "\"Feedbacker\" and \"Simple accounting\", two simple tools for collecting geodata on web and mobile phones",
-        "tags": ["nextgis"],
-        "keywords": null,
         "links": {
           "Feedbacker / HistGeo": "http://feedbacker.histgeo.ru/",
           "Feedbacker": "http://nextgis.ru/feedbacker"
         },
         "youtube": "5iYWYkuVlV0",
         "v_duration": 1577,
-        "slides": null
+        "duration": 1178
       },
       {
         "speakers": [
@@ -716,8 +714,12 @@
         "company": "OpenTripMap",
         "title": "API сайта OpenTripMap",
         "title_en": "API for OpenTripMap website",
+        "keywords": ["туризм", "api", "tourism", "map", "карта"],
+        "slides": "http://schemo.ru/slides/schemo16-opentripmap.pptx",
+        "links" { "OpenTripMap": "https://opentripmap.com/" },
         "youtube": "3m8qDdOda0Q",
-        "v_duration": 1280
+        "v_duration": 1280,
+        "duration": 763
       },
       {
         "speakers": [
@@ -725,9 +727,12 @@
         ],
         "company": "MAPS.ME",
         "title": "Открытый общественный транспорт",
-        "tags": ["транспорт", "openstreetmap", "opentripplanner", "gtfs"],
+        "title_en": "Open public transport",
+        "keywords": ["openstreetmap", "osm", "opentripplanner", "gtfs", "schedule", "расписания", "автобусы", "трамваи", "bus", "tram"],
+        "tags": ["openstreetmap"],
         "youtube": "_2Atg67DbuM",
-        "v_duration": 2062
+        "v_duration": 2062,
+        "duration": 1592
       },
       {
         "speakers": [
@@ -735,10 +740,17 @@
         ],
         "company": "NextGIS",
         "title": "Новая система сборки инсталлятора и геоинструментов в NextGIS",
-        "title_en": "New deployment system for installers and geotools",
+        "title_en": "New deployment system for installers and geotools by NextGIS",
+        "keywords": ["qgis", "borscht", "борщ", "ppa", "buildbot", "jenkins", "cmake"],
+        "slides": "http://schemo.ru/slides/schemo16-baryshnikov.pdf",
         "links": {
-          "Borsch": "https://github.com/nextgis-borsch"
-        }
+          "Borsch": "https://github.com/nextgis-borsch",
+          "BuildBot": "https://github.com/nextgis/buildbot",
+          "NextGIS Installer": "https://github.com/nextgis/nextgis_installer"
+        },
+        "youtube": "sOZ0YL-zkCc",
+        "v_duration": 1238,
+        "duration": 1067
       },
       {
         "speakers": [
@@ -746,7 +758,15 @@
         ],
         "company": "NextGIS",
         "title": "Панорамная камера Xiaomi и загрузка фотографий в Mapillary",
-        "title_en": "Xiaomi panoramic camera and uploading photos to Mapillary"
+        "title_en": "Xiaomi panoramic camera and uploading photos to Mapillary",
+        "keywords": ["квадрокоптер", "аэрофотосъёмка", "дрон", "drone", "dji", "phantom", "mijia", "indoor", "интерьер"],
+        "links": {
+          "Xiaomi MiJia 306°": "https://xiaomi-mi.com/action-cameras/xiaomi-mijia-360-panoramic-camera-kit-black/",
+          "Mapillary": "https://www.mapillary.com/"
+        },
+        "youtube": "nb8jTQudjLM",
+        "v_duration": 1830,
+        "duration": 1638
       },
       {
         "speakers": [
@@ -754,10 +774,14 @@
         ],
         "title": "Телеграм-бот для поиска ближайшей розетки",
         "title_en": "Telegram bot for finding the closest power socket",
+        "keywords": ["электросамокат", "моноколесо", "electric"],
         "links": {
           "Telegram Bot": "https://t.me/SocketSearchBot",
           "Socket Map": "https://www.google.com/maps/d/u/0/edit?mid=1z_3GfyNZp09HhOFbB5U6YSDr4PY&ll=55.651707149537586%2C37.672319576490736&z=10"
-        }
+        },
+        "youtube": "https://www.youtube.com/watch?v=H0bO6ma_Qzo&t=0s&index=7&list=PLkvzAel8ISD0DBMVymJlr3laOG46IOpjW",
+        "v_duration": 349,
+        "duration": 304
       }
     ]
   }
