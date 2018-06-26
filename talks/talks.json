@@ -526,7 +526,7 @@
         "speakers": [
           { "name": "Дмитрий Лебедев", "name_en": "Dmitry Lebedev", "nickname": "Culebron" }
         ],
-        "company": "Best Place",
+        "company": "BestPlace",
         "title": "Красивые картинки",
         "title_en": "Pretty pictures",
         "keywords": ["визуализация", "qgis", "osm", "openstreetmap", "дороги", "roads", "население", "плотность", "population", "фасады", "facades", "пивные", "beer"],
@@ -781,6 +781,75 @@
       "lonlat": [37.63438, 55.75876]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Дмитрий Лебедев", "name_en": "Dmitry Lebedev", "nickname": "Culebron" }
+        ],
+        "company": "BestPlace",
+        "title": "Как пройти в библиотеку",
+        "title_en": "How to reach a library",
+        "tags": ["routing", "урбанизм"],
+        "keywords": ["маршрутизаторы", "общественный", "транспорт", "доступность", "osrm", "opentripplanner",
+          "remix", "matsim", "public", "transport", "расстояния", "distance", "пробки", "traffic", "vissim"],
+        "youtube": "UaoAfeWdfpI",
+        "v_duration": 1508,
+        "duration": 1508
+      },
+      {
+        "speakers": [
+          { "name": "Андрей Кармацкий", "name_en": "Andrey Karmatsky" }
+        ],
+        "company": "Urbica",
+        "title": "Data-driven визуализация в Mapbox GL-JS",
+        "title_en": "Data-driven visualization with Mapbox GL-JS",
+        "tags": ["programming"],
+        "keywords": ["galton", "гальтон", "qgis", "geojson", "vector", "векторные", "тайлы", "tiles", "интерактивная",
+          "interactive", "map", "карта", "webgl", "гибдд", "дтп", "accidents"],
+        "youtube": "https://www.youtube.com/watch?v=PDCCCdUuauk&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=3",
+        "v_duration": 1394,
+        "duration": 1255
+      },
+      {
+        "speakers": [
+          { "name": "Алексей Мельников", "name_en": "Aleksey Melnikov" }
+        ],
+        "title": "Как создать модель города",
+        "title_en": "How to make a model of a city",
+        "tags": ["урбанизм"],
+        "keywords": ["уфа", "районирование", "территории", "каркас", "гутнова", "ufa", "territory", "gutnov", "carcas"],
+        "links": { "Gutnov Model": "http://gutnov.hiteca.ru/" },
+        "youtube": "https://www.youtube.com/watch?v=2AinRrI6bWc&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=4",
+        "v_duration": 1162,
+        "duration": 927
+      },
+      {
+        "speakers": [
+          { "name": "Кристофер Беддоу", "name_en": "Christopher Beddow" }
+        ],
+        "company": "Mapillary",
+        "title": "Усовершенствование карт с Mapillary",
+        "title_en": "Enhancing Maps with Mapillary",
+        "tags": ["collection"],
+        "keywords": ["фотографии", "панорамы", "streetview", "camera", "видеорегистратор", "point", "mounts", "держатели"],
+        "links": { "Mapillary Mount Request": "https://tiny.cc/mountsmapillary/" },
+        "youtube": "https://www.youtube.com/watch?v=O9pCxsgfKr8&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=5",
+        "v_duration": 1149,
+        "duration": 900
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Качество данных о метро в OpenStreetMap",
+        "title_en": "Subway mapping quality in OpenStreetMap",
+        "tags": ["openstreetmap"],
+        "keywords": ["общественный", "транспорт", "тегирование", "отношения", "валидатор", "public", "transport", "tagging", "relations", "osm"],
+        "links": { "Subway Mapping": "http://pt.osmz.ru/" },
+        "youtube": "https://www.youtube.com/watch?v=iBsLl1_Qjdw&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=6",
+        "v_duration": 1301,
+        "duration": 1301
+      }
     ]
   },
 
