@@ -19,6 +19,7 @@
         "company": "MAPS.ME",
         "title": "Все дороги ведут в Третий Рим",
         "title_en": "All roads lead to The Third Rome",
+        "tags": ["openstreetmap", "routing"],
         "youtube": "SCf8phbxFAE",
         "v_duration": 985
       },
@@ -91,6 +92,7 @@
           { "name": "Максим Дементьев", "name_en": "Maksim Dementyev" }
         ],
         "company": "Спутник",
+        "tags": ["openstreetmap"],
         "title": "Редизайн картостиля и сервиса «Спутник/Карты»",
         "title_en": "Redesign of the mapping style and UI of Sputnik/Maps",
         "youtube": "_i3hxZrJFYI",
@@ -100,6 +102,7 @@
         "speakers": [
           { "name": "Сергей Голубев", "name_en": "Sergey Golubev", "nickname": "Geokefir" }
         ],
+        "tags": ["openstreetmap"],
         "title": "бенфорд-последовательность в данных OpenStreetMap",
         "title_en": "Benford's law in OpenStreetMap data",
         "youtube": "o7wiNs9h1iM",
@@ -110,6 +113,7 @@
           { "name": "Олег Ильичев", "name_en": "Oleg Ilyichev" }
         ],
         "company": "HelgiLab",
+        "tags": ["collection", "3d"],
         "title": "Про лазерное сканирование и трёхмерную визуализацию",
         "title_en": "On laser scanning and 3D visualization",
         "youtube": "MIxoOL9kmUo",
@@ -163,6 +167,7 @@
         ],
         "title": "Схема тегирования помещений и проходов внутри зданий",
         "title_en": "Tagging rooms and passages inside buildings",
+        "tags": ["openstreetmap", "3d"],
         "youtube": "FAuaa7Dc1SQ",
         "v_duration": 1725
       },
@@ -173,6 +178,7 @@
         "company": "MAPS.ME",
         "title": "Правки без пакета",
         "title_en": "Changes not in a set",
+        "tags": ["openstreetmap"],
         "youtube": "MKLwLI8fyn0",
         "v_duration": 2199
       },
@@ -184,6 +190,7 @@
         "tags": ["nextgis"],
         "title": "Базовая картография с QMS",
         "title_en": "Base layers with QMS",
+        "keywords": ["quickmapservices", "qgis"],
         "youtube": "S6pXhc8m5eI",
         "v_duration": 1368
       },
@@ -195,6 +202,7 @@
         "tags": ["openstreetmap"],
         "title": "Схема троллейбусов из OSM",
         "title_en": "Trolleybus map in OSM",
+        "keywords": ["qgis"],
         "youtube": "0MhcP9iYf_Q",
         "v_duration": 710
       },
@@ -203,7 +211,7 @@
           { "name": "Денис Рыков", "name_en": "Denis Rykov" }
         ],
         "company": "NextGIS",
-        "tags": ["nextgis"],
+        "tags": ["nextgis", "vector"],
         "title": "Векторные тайлы в NextGIS Web",
         "title_en": "Vector tiles in NextGIS Web",
         "youtube": "EFRSI-TMllk",
@@ -232,6 +240,7 @@
         "company": "MAPS.ME",
         "title": "Рендеринг зданий в MAPS.ME",
         "title_en": "Rendering buildings in MAPS.ME",
+        "tags": ["3d"],
         "youtube": "TGwi2deVEbY",
         "v_duration": 1610
       },
@@ -251,6 +260,7 @@
         "company": "Техносерв",
         "title": "UTFGrid и MVT в GeoServer",
         "title_en": "UTFGrid and MVT with GeoServer",
+        "tags": ["vector"],
         "youtube": "9RrvuLmHLMg",
         "v_duration": 466
       },
@@ -261,6 +271,7 @@
         "company": "MAPS.ME",
         "title": "Награды в OpenStreetMap",
         "title_en": "Awards in OpenStreetMap",
+        "tags": ["openstreetmap"],
         "youtube": "rMfW-Kskl-4",
         "v_duration": 1684
       },
@@ -298,6 +309,7 @@
         "company": "Urbica",
         "title": "Интерактивные изохроны с «Гальтоном»",
         "title_en": "Interactive isochrones with Galton",
+        "tags": ["routing"],
         "youtube": "K99ftJvP15g",
         "v_duration": 698
       },
@@ -308,6 +320,7 @@
         "company": "NextGIS",
         "title": "Генерация контуров кварталов в QGIS",
         "title_en": "Generating quarter contours in QGIS",
+        "tags": ["openstreetmap"],
         "youtube": "7rJOmmro7QI",
         "v_duration": 737
       },
@@ -364,6 +377,7 @@
         "company": "MAPS.ME",
         "title": "Проблемы геокодирования",
         "title_en": "Issues with geocoding",
+        "tags": ["openstreetmap"],
         "youtube": "E0YKV3ERk7E",
         "v_duration": 1201
       },
@@ -375,6 +389,7 @@
         "tags": ["nextgis"],
         "title": "QuickMapServices",
         "title_en": "QuickMapServices",
+        "keywords": ["qms", "qgis"],
         "youtube": "1D2TabmmKyE",
         "v_duration": 1180
       },
@@ -393,6 +408,7 @@
         ],
         "title": "Образовательные проекты в ГИС",
         "title_en": "Learning projects with GIS",
+        "tags": ["teaching"],
         "v_duration": 1519
       }
     ]
@@ -457,6 +473,7 @@
         "company": "Juno",
         "title": "Unix way в работе с геоданными",
         "title_en": "Unix-way in geodata processing",
+        "tags": ["programming"],
         "keywords": ["bash", "console", "geojson", "psql", "postgresql", "makefile"],
         "youtube": "YMCRQXKZtwI",
         "v_duration": 1717,
@@ -519,7 +536,7 @@
         "company": "MAPS.ME",
         "title": "Прокладка маршрутов в MAPS.ME",
         "title_en": "Calculating routes in MAPS.ME",
-        "tags": ["openstreetmap"],
+        "tags": ["openstreetmap", "routing"],
         "keywords": ["навигация", "OSRM", "osm", "openstreetmap", "теги", "tags"],
         "youtube": "h0JNOSSXLHU",
         "v_duration": 1297,
@@ -597,7 +614,8 @@
           { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
         ],
         "title": "Горы, реки и леса в Блендере увижу я",
-        "title_en": "Mountains, rivers and forests I will see in Blender"
+        "title_en": "Mountains, rivers and forests I will see in Blender",
+        "tags": ["3d"]
       },
       {
         "speakers": [
@@ -658,7 +676,7 @@
         ],
         "title": "Данные OpenStreetMap в приложениях и сервисах архитектурной визуализации",
         "title_en": "Using OpenStreetMap data in apps for architectural visualization",
-        "tags": ["openstreetmap", "3d"],
+        "tags": ["3d"],
         "keywords": ["esri", "cadmapper", "3ds", "autodesk", "infraworks", "twinmotion", "планирование", "моделирование", "modeling", "lumion", "cityengine", "ghost", "osm"],
         "slides": "http://schemo.ru/slides/schemo11-felis-3d.pdf",
         "youtube": "lniGNSTkU3g",
@@ -672,6 +690,7 @@
         "company": "Urbica",
         "title": "WalkStreets: пешеходные маршруты",
         "title_en": "WalkStreets: pedestrian routing",
+        "tags": ["routing"],
         "keywords": ["mobile", "application", "приложение", "android", "прогулок", "улицы", "доступность", "кольцевой",
           "stuurman", "штурман", "парк", "воздух", "шум", "raspberry", "park", "air", "noise"],
         "slides": "http://schemo.ru/slides/schemo11-walkstreets.pdf",
@@ -718,7 +737,7 @@
         "company": "Urbica",
         "title": "Компонент react-map-gl для встраивания карт",
         "title_en": "Component react-map-gl for embedding maps",
-        "tags": ["programming"],
+        "tags": ["programming", "vector"],
         "keywords": ["mapbox", "webgl", "реакт"],
         "slides": "http://schemo.ru/slides/schemo11-react-map-gl.pdf",
         "links": { "React Map GL": "https://urbica.github.io/react-map-gl/" },
@@ -746,7 +765,7 @@
         ],
         "title": "Использование NextGIS Web для флешмоба ООПТ «Дневник удачи»",
         "title_en": "Using NextGIS Web for facilitating a flashmob \"Diary of luck\"",
-        "tags": ["qgis"],
+        "tags": ["nextgis"],
         "keywords": ["почта", "маршрут", "tracking", "post", "qgis", "путь", "флэшмоб"],
         "slides": "http://schemo.ru/slides/schemo11-oopt.pptx",
         "youtube": "gVBuTn45Y_c",
@@ -805,7 +824,7 @@
         "company": "Urbica",
         "title": "Data-driven визуализация в Mapbox GL-JS",
         "title_en": "Data-driven visualization with Mapbox GL-JS",
-        "tags": ["programming"],
+        "tags": ["programming", "vector"],
         "keywords": ["galton", "гальтон", "qgis", "geojson", "vector", "векторные", "тайлы", "tiles", "интерактивная",
           "interactive", "map", "карта", "webgl", "гибдд", "дтп", "accidents"],
         "youtube": "PDCCCdUuauk",
@@ -889,7 +908,7 @@
         ],
         "title": "Пешеходы, скорости и открытые данные",
         "title_en": "Pedestrians, speed and open data",
-        "tags": ["урбанизм"],
+        "tags": ["урбанизм", "routing"],
         "keywords": ["antroadplanner", "road", "planner", "планирование", "дорожек", "footways", "газон", "grass", "тропы",
           "срезка", "поведение", "симуляция", "cut", "simulation"],
         "links": { "Ant Road Planner": "https://antroadplanner.ru/" },
@@ -972,6 +991,7 @@
         "company": "НИУ ВШЭ",
         "title": "lingtypology — пакет на R для визуализации лингвистических карт",
         "title_en": "lingtypology, an R package for visualizing linguistic maps",
+        "tags": ["programming"],
         "slides": "https://agricolamz.github.io/2018_Skhematekhnika_presentation/",
         "youtube": "5mbUa6GZ6lM",
         "v_duration": 2341
@@ -991,6 +1011,7 @@
         ],
         "title": "Трёхмерное моделирование зданий в Blender",
         "title_en": "Three-dimensional buildings modelling with Blender",
+        "tags": ["3d"],
         "youtube": "w3_A6mqyjPY",
         "v_duration": 1024
       }
@@ -1036,6 +1057,8 @@
         "company": "NextGIS",
         "title": "Новое в модуле QuickMapServices для QGIS",
         "title_en": "What's new in QuickMapServices module for QGIS",
+        "tags": ["nextgis"],
+        "keywords": ["qms"],
         "youtube": "SN0yFXG2Mao",
         "v_duration": 1431
       },
@@ -1046,6 +1069,7 @@
         "company": "Datamap",
         "title": "Картографичейские хакатоны",
         "title_en": "Mapping hackathons",
+        "tags": ["teaching"],
         "youtube": "l_JE3L2l2fs",
         "v_duration": 1145
       },
@@ -1054,7 +1078,7 @@
           { "name": "Ольга Гершензон", "name_en": "Olga Gershenzon" }
         ],
         "title": "Школьный конкурс на основе открытых ДЗЗ",
-        "title_en": "School comtest based on open ERS",
+        "title_en": "School contest based on open ERS",
         "tags": ["teaching"],
         "youtube": "Vt94DjWaSpo",
         "v_duration": 801
