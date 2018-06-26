@@ -42,6 +42,10 @@ li p {
 
 /* For /talks */
 
+[v-cloak] {
+  display: none;
+}
+
 #search {
   margin: 1em 0;
   font-size: 130%;
@@ -109,4 +113,8 @@ li p {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+
+.search-hint {
+  margin: 1em 0 !important;
 }

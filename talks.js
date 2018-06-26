@@ -263,7 +263,7 @@ var app = new Vue({
 
   created: function() {
     // After the component has been loaded, request the talks list.
-    this.http('talks.json', function(data) {
+    this.http('/talks.json', function(data) {
       this.talks = this.processTalks(data);
       this.extractKeywords();
       if (this.search.length > 1)

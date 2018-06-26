@@ -1,52 +1,7 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Доклады Схемотехники</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="../schemo.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
-  </head>
-  <body>
-    <h1>Доклады Схемотехники</h1>
-    <div id="app">
-      <div id="search">
-        <input @input="filter" v-model="search" placeholder="Поиск" ref="search"> <span class="clearsearch" @click="search = ''; filter()">╳</span>
-      </div>
-      <div class="tags">
-        <span v-for="tag in cx" :class="'tag tag-cx'+tag" @click="clickTag">cx{{ tag }}</span><br>
-        <span v-for="tag in allTags" class="tag" @click="clickTag">{{ tag }}</span>
-      </div>
-      <div v-if="results.length" id="search-results">
-        <div v-for="talk in results">
-          <div @click="toggleOpen(talk.key)" class="result">
-            <div class="result-cx"><img :src="'../icons/cx' + talk.cx.cx + '.png'" class="cximg" :alt="'Cx' + talk.cx.cx" :title="talk.cx.title"></div>
-            <div class="result-title">{{ speakers(talk) }}, «{{ rus ? talk.title : talk.title_en }}»</div>
-          </div>
-          <div v-if="opentalk == talk.key">
-            <div>
-              <span v-for="tag in talk.tags" class="tag" @click="clickTag">{{ tag }}</span>
-            </div>
-            <ul>
-              <li>Конференция: <a :href="talk.cx.url">{{ rus ? talk.cx.title : talk.cx.title_en }}</a>, {{ formatDate(talk.cx.date) }}</li>
-              <li>Автор: <a href="#" @click.prevent="clickPrefix('a', $event)" class="taglink">{{ speakers(talk) }}</a></li>
-              <li v-if="talk.company">Компания: <a href="#" @click.prevent="clickPrefix('c', $event)" class="taglink">{{ talk.company }}</a></li>
-              <li v-if="talk.slides"><a :href="talk.slides">Посмотреть слайды</a></li>
-              <li v-if="talk.links">Ссылки: <span v-for="(url, name, index) in talk.links"><span v-if="index > 0">, </span><a :href="url">{{ name }}</a></span></li>
-              <li>Продолжительность доклада: {{ duration(talk) }}</li>
-            </ul>
-            <iframe v-if="talk.youtube" style="width: 100%; height: 394px;" :src="'https://www.youtube.com/embed/' + talk.youtube + '?rel=0'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-      <p v-if="!results.length">В базу загружены
-      {{ formatNumberAdj(totalTalks(), 'доклад', 'доклада', 'докладов', '') }}
-      из {{ formatNumberAdj(cx.length, '«схемотехники»', '«схемотехник»', '«схемотехник»', '') }},
-      в том числе {{ formatNumberAdj(totalDurationHours(), 'час', 'часа', 'часов', '') }}
-      видеозаписей. Введите слова для поиска или нажмите на тег, чтобы получить список докладов.</p>
-      <p><a href="/">← вернуться на главную страницу</a></p>
-    </div>
-    <script src="talks.js" type="application/javascript"></script>
-  </body>
-</html>
+---
+layout: home
+title: Доклады Схемотехники
+---
+<h1>Доклады Схемотехники</h1>
+{% include talks.html %}
+<p><a href="/">← вернуться на главную страницу</a></p>
