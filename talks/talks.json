@@ -418,6 +418,9 @@
         "company": "Техносерв",
         "title": "ГИС и распределённые вычисления",
         "title_en": "GIS and distributed computing",
+        "tags": ["programming"],
+        "keywords": ["hadoop", "spark", "apache", "accumulo", "пространственное", "партиционирование",
+          "sfcurve", "locationtech", "spatial", "geomesa", "geotrellis"],
         "youtube": "EbcFBf62yyU",
         "v_duration": 1214,
         "duration": 1040
@@ -805,7 +808,7 @@
         "tags": ["programming"],
         "keywords": ["galton", "гальтон", "qgis", "geojson", "vector", "векторные", "тайлы", "tiles", "интерактивная",
           "interactive", "map", "карта", "webgl", "гибдд", "дтп", "accidents"],
-        "youtube": "https://www.youtube.com/watch?v=PDCCCdUuauk&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=3",
+        "youtube": "PDCCCdUuauk",
         "v_duration": 1394,
         "duration": 1255
       },
@@ -818,7 +821,7 @@
         "tags": ["урбанизм"],
         "keywords": ["уфа", "районирование", "территории", "каркас", "гутнова", "ufa", "territory", "gutnov", "carcas"],
         "links": { "Gutnov Model": "http://gutnov.hiteca.ru/" },
-        "youtube": "https://www.youtube.com/watch?v=2AinRrI6bWc&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=4",
+        "youtube": "2AinRrI6bWc",
         "v_duration": 1162,
         "duration": 927
       },
@@ -832,7 +835,7 @@
         "tags": ["collection"],
         "keywords": ["фотографии", "панорамы", "streetview", "camera", "видеорегистратор", "point", "mounts", "держатели"],
         "links": { "Mapillary Mount Request": "https://tiny.cc/mountsmapillary/" },
-        "youtube": "https://www.youtube.com/watch?v=O9pCxsgfKr8&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=5",
+        "youtube": "O9pCxsgfKr8",
         "v_duration": 1149,
         "duration": 900
       },
@@ -846,7 +849,7 @@
         "tags": ["openstreetmap"],
         "keywords": ["общественный", "транспорт", "тегирование", "отношения", "валидатор", "public", "transport", "tagging", "relations", "osm"],
         "links": { "Subway Mapping": "http://pt.osmz.ru/" },
-        "youtube": "https://www.youtube.com/watch?v=iBsLl1_Qjdw&t=0s&list=PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv&index=6",
+        "youtube": "iBsLl1_Qjdw",
         "v_duration": 1301,
         "duration": 1301
       }
@@ -866,6 +869,76 @@
       "lonlat": [37.59034, 55.75936]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Екатеринa Белорусцевa", "name_en": "Ekaterina Belorustseva" },
+          { "name": "Максим Виноградов", "name_en": "Maksim Vinogradov" }
+        ],
+        "company": "OpenTripMap",
+        "title": "Горнолыжные курорты в OpenTripMap",
+        "title_en": "Ski resorts in OpenTripMap",
+        "keywords": ["туризм", "tourism", "атлас", "открытые", "данные", "минкульт", "wikidata", "open", "data", "роснедра",
+          "музеи", "зимний", "спорт", "wikivoyage", "викиданные", "osm", "openstreetmap"],
+        "youtube": "w2bzRXdMkvM",
+        "v_duration": 1398,
+        "duration": 1398
+      },
+      {
+        "speakers": [
+          { "name": "Михаил Гуревич", "name_en": "Mikhail Gurevich" }
+        ],
+        "title": "Пешеходы, скорости и открытые данные",
+        "title_en": "Pedestrians, speed and open data",
+        "tags": ["урбанизм"],
+        "keywords": ["antroadplanner", "road", "planner", "планирование", "дорожек", "footways", "газон", "grass", "тропы",
+          "срезка", "поведение", "симуляция", "cut", "simulation"],
+        "links": { "Ant Road Planner": "https://antroadplanner.ru/" },
+        "slides": "http://schemo.ru/slides/schemo13-antroadplanner.pdf",
+        "youtube": "e4YEvj_ZIPs",
+        "v_duration": 1683,
+        "duration": 1683
+      },
+      {
+        "speakers": [
+          { "name": "Александр Петров", "name_en": "Alexander Petrov", "nickname": "Felis Pimeja" }
+        ],
+        "title": "Чем OpenStreetMap отличается от классических ГИС?",
+        "title_en": "How OpenStreetMap is different from classic GIS?",
+        "tags": ["openstreetmap"],
+        "keywords": ["autocad"],
+        "youtube": "fua6vRGEGSw",
+        "v_duration": 1009,
+        "duration": 814
+      },
+      {
+        "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Дом в доме",
+        "title_en": "Building in a building",
+        "tags": ["openstreetmap", "3d"],
+        "keywords": ["osm", "форма", "крыша", "цвет", "фасад", "part", "roof", "facade", "этажность", "level", "indoor",
+          "планировка", "стены", "окна", "kendzi3d", "walls", "f4map", "модели", "model"],
+        "slides": "https://www.slideshare.net/iljazverev/13-3d-osm",
+        "youtube": "Pk83sAooMKI",
+        "v_duration": 1404,
+        "duration": 1330
+      },
+      {
+        "speakers": [
+          { "name": "Евгений Ширинян", "name_en": "Eugene Shirinyan" }
+        ],
+        "company": "МАрхИ",
+        "title": "Пригодится ли ГИС в магистратуре МАрхИ?",
+        "title_en": "Would GIS be useful in the MARKHI masters course?",
+        "tags": ["teaching"],
+        "keywords": ["студенты", "students", "university", "университет", "институт"],
+        "slides": "http://prosapr.blogspot.ru/2016/12/blog-post.html",
+        "youtube": "0jFPYPdUxa4",
+        "v_duration": 653,
+        "duration": 653
+      }
     ]
   },
 

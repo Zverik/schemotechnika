@@ -89,14 +89,13 @@ var app = new Vue({
       return tags.concat(talk.tags || []);
     },
 
-    clickTag: function(e) {
-      this.search = 't:' + e.target.innerHTML;
-      this.filter();
-    },
-
     clickPrefix: function(prefix, e) {
       this.search = prefix + ':' + e.target.innerHTML;
       this.filter();
+    },
+
+    clickTag: function(e) {
+      this.clickPrefix('t', e);
     },
 
     formatNumberAdj: function(n, a1, a2, a5, e1) {
@@ -244,17 +243,15 @@ var app = new Vue({
           parts[p] = parts[p].substr(pref+1);
         }
         var found = this.words[prefix] ? this.words[prefix][parts[p]] : {};
-        if (p == 0) {
-          if (found)
+        if (found && Object.keys(found).length > 0) {
+          if (p == 0 || Object.keys(keys).length == 0) {
             for (var k in found)
               keys[k] = true;
-        } else {
-          if (!found)
-            keys = {};
-          else
+          } else {
             for (var k in keys)
               if (!found[k])
                 delete keys[k];
+          }
         }
       }
       var res = [];
