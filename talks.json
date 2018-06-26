@@ -98,7 +98,7 @@
       },
       {
         "speakers": [
-          { "name": "Сергей Голубев", "name_en": "Sergey Golubev" }
+          { "name": "Сергей Голубев", "name_en": "Sergey Golubev", "nickname": "Geokefir" }
         ],
         "title": "бенфорд-последовательность в данных OpenStreetMap",
         "title_en": "Benford's law in OpenStreetMap data",
@@ -369,7 +369,7 @@
       },
       {
         "speakers": [
-          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
+          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "nickname": "sim", "website": "http://m-d.me" }
         ],
         "company": "NextGIS",
         "tags": ["nextgis"],
@@ -955,6 +955,45 @@
       "lonlat": [37.53756, 55.79709]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Ксения Орлова", "name_en": "Kseniya Orlova" }
+        ],
+        "company": "Информационная культура",
+        "title": "Огонь, вода и медные трубы Инфокультуры",
+        "title_en": "Fire, water and iron of Infoculture",
+        "youtube": "a7Optl_Xqp8",
+        "v_duration": 1271
+      },
+      {
+        "speakers": [
+          { "name": "Георгий Мороз", "name_en": "Georgy Moroz" }
+        ],
+        "company": "НИУ ВШЭ",
+        "title": "lingtypology — пакет на R для визуализации лингвистических карт",
+        "title_en": "lingtypology, an R package for visualizing linguistic maps",
+        "slides": "https://agricolamz.github.io/2018_Skhematekhnika_presentation/",
+        "youtube": "5mbUa6GZ6lM",
+        "v_duration": 2341
+      },
+      {
+        "speakers": [
+          { "name": "Сергей Голубев", "name_en": "Sergey Golubev", "nickname": "Geokefir" }
+        ],
+        "title": "Про разное",
+        "title_en": "Various",
+        "youtube": "7J_JSmWQIS8",
+        "v_duration": 2586
+      },
+      {
+        "speakers": [
+          { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
+        ],
+        "title": "Трёхмерное моделирование зданий в Blender",
+        "title_en": "Three-dimensional buildings modelling with Blender",
+        "youtube": "w3_A6mqyjPY",
+        "v_duration": 1024
+      }
     ]
   },
 
@@ -970,6 +1009,65 @@
       "lonlat": [37.53773, 55.79682]
     },
     "talks": [
+      {
+        "speakers": [
+          { "name": "Надежда Клевакина", "name_en": "Nadezhda Klevakina" }
+        ],
+        "company": "Habidatum",
+        "title": "Опыт визуализации пространственно-временных данных",
+        "title_en": "Visualization of spatial-temporal data",
+        "youtube": "6kCvnAxK-4M",
+        "v_duration": 1140
+      },
+      {
+        "speakers": [
+          { "name": "Георгий Потапов", "name_en": "Georgy Potapov" }
+        ],
+        "company": "Skoltech",
+        "title": "Кризисное картирование и машин лёрнинг",
+        "title_en": "Crisis mapping and machine learning",
+        "youtube": "v2GB61amTrA",
+        "v_duration": 1849
+      },
+      {
+        "speakers": [
+          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "nickname": "sim", "website": "http://m-d.me" }
+        ],
+        "company": "NextGIS",
+        "title": "Новое в модуле QuickMapServices для QGIS",
+        "title_en": "What's new in QuickMapServices module for QGIS",
+        "youtube": "SN0yFXG2Mao",
+        "v_duration": 1431
+      },
+      {
+        "speakers": [
+          { "name": "Слава Андреев", "name_en": "Slava Andreev" }
+        ],
+        "company": "Datamap",
+        "title": "Картографичейские хакатоны",
+        "title_en": "Mapping hackathons",
+        "youtube": "l_JE3L2l2fs",
+        "v_duration": 1145
+      },
+      {
+        "speakers": [
+          { "name": "Ольга Гершензон", "name_en": "Olga Gershenzon" }
+        ],
+        "title": "Школьный конкурс на основе открытых ДЗЗ",
+        "title_en": "School comtest based on open ERS",
+        "tags": ["teaching"],
+        "youtube": "Vt94DjWaSpo",
+        "v_duration": 801
+      },
+      {
+        "speakers": [
+          { "name": "Андрей Пирогов", "name_en": "Andrey Pirogov" }
+        ],
+        "company": "ВШБ МГУ",
+        "title": "Как эволюция открытых данных и открытых ГИС изменила подход к ГИС-образованию для непрофильных специальностей",
+        "youtube": "95O3al5erUw",
+        "v_duration": 1566
+      }
     ]
   },
 
