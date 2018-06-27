@@ -375,8 +375,12 @@
         "title": "Интерактивные изохроны с «Гальтоном»",
         "title_en": "Interactive isochrones with Galton",
         "tags": ["routing", "project", "visualization"],
+        "keywords": ["availability", "zones", "london", "лондон", "osrm", "distance", "роутинг",
+          "пешеходный", "расстояние"],
+        "links": { "Galton": "https://galton.urbica.co/" },
         "youtube": "K99ftJvP15g",
-        "v_duration": 698
+        "v_duration": 698,
+        "duration": 348
       },
       {
         "speakers": [
@@ -386,8 +390,10 @@
         "title": "Генерация контуров кварталов в QGIS",
         "title_en": "Generating quarter contours in QGIS",
         "tags": ["openstreetmap"],
+        "keywords": ["landuse", "residential", "roads", "дороги", "buffer", "буфер", "josm"],
         "youtube": "7rJOmmro7QI",
-        "v_duration": 737
+        "v_duration": 737,
+        "duration": 459
       },
       {
         "speakers": [
@@ -397,8 +403,12 @@
         "title": "Аналитическая система GeoMatrix",
         "title_en": "GeoMatrix analyzing system",
         "tags": ["proprietary", "visualization"],
+        "keywords": ["predictive", "analytics", "магазины", "shops", "идинайди", "данях", "данные",
+          "точки", "data"],
+        "links": { "GeoMatrix": "https://geomatrix-retail.com/" },
         "youtube": "MtcsUNTq_us",
-        "v_duration": 1618
+        "v_duration": 1618,
+        "duration": 1060
       },
       {
         "speakers": [
@@ -407,18 +417,22 @@
         "company": "Техносерв",
         "title": "Новое в GeoServer",
         "title_en": "GeoServer news",
+        "keywords": ["foss4g", "конференция", "java", "мозаики", "geogig"],
         "youtube": "CKDRoOuzMbQ",
-        "v_duration": 874
+        "v_duration": 874,
+        "duration": 793
       },
       {
         "speakers": [
           { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
         ],
         "company": "MAPS.ME",
-        "title": "История редактора в приложении MAPS.ME",
-        "title_en": "Editor development in MAPS.ME app",
+        "title": "Мир больше не увидит ваши имена",
+        "title_en": "World won't see your names anymore",
+        "keywords": ["editor", "редактор", "osm", "openstreetmap", "теги", "tags", "китайцы", "chinese", "native"],
         "youtube": "Jn4sxHQZ1yA",
-        "v_duration": 865
+        "v_duration": 865,
+        "duration": 865
       }
     ]
   },
@@ -444,8 +458,11 @@
         "title": "Проблемы геокодирования",
         "title_en": "Issues with geocoding",
         "tags": ["openstreetmap"],
+        "keywords": ["osm", "что", "где", "адрес", "координата", "address", "coordinate", "nominatim",
+          "ограничения", "opencage", "photon", "pelias", "gazetteer", "elasticsearch", "geonames"],
         "youtube": "E0YKV3ERk7E",
-        "v_duration": 1201
+        "v_duration": 1201,
+        "duration": 1201
       },
       {
         "speakers": [
@@ -455,9 +472,10 @@
         "tags": ["nextgis"],
         "title": "QuickMapServices",
         "title_en": "QuickMapServices",
-        "keywords": ["qms", "qgis"],
+        "keywords": ["qms", "qgis", "слои", "layers", "остановки", "arcgis", "web"],
         "youtube": "1D2TabmmKyE",
-        "v_duration": 1180
+        "v_duration": 1180,
+        "duration": 1066
       },
       {
         "speakers": [
@@ -466,8 +484,11 @@
         "title": "Итоги 2016 года",
         "title_en": "Summary of 2016",
         "tags": ["various"],
+        "keywords": ["тренды", "главное", "роскосмос", "открытые", "данные", "импортозамещение", "беспилотные",
+          "автомобили", "гис", "мысли", "trends", "roskosmos", "open", "data", "self", "driving", "cars"],
         "youtube": "BDj6gxHxGOw",
-        "v_duration": 1835
+        "v_duration": 1835,
+        "duration": 1835
       },
       {
         "speakers": [
@@ -476,6 +497,8 @@
         "title": "Образовательные проекты в ГИС",
         "title_en": "Learning projects with GIS",
         "tags": ["teaching"],
+        "keywords": ["геоквантум", "geoquantum", "иннополис", "аси", "кванториум", "технопарк", "геоинформатика",
+          "innopolis", "geoinformatics", "quantorium"],
         "v_duration": 1519
       }
     ]
@@ -1129,7 +1152,8 @@
         "title": "Опыт визуализации пространственно-временных данных",
         "title_en": "Visualization of spatial-temporal data",
         "tags": ["proprietary", "visualization"],
-        "keywords": ["хабидатум", "город", "анализ", "ряды", "томография", "слои", "хронотоп", "urban", "analysis", "layers"],
+        "keywords": ["хабидатум", "город", "анализ", "ряды", "томография", "слои",
+          "хронотоп", "urban", "analysis", "layers", "кебаб", "kebab"],
         "links": {
           "Habidatum": "https://habidatum.com/",
           "Chronotope": "https://app.chronotope.io/"
