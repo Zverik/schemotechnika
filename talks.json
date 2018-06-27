@@ -5,7 +5,7 @@
     "title_en": "Schemotechnika 01",
     "date": "2016-02-06",
     "url": "http://schemo.ru/2016/03/06/schemo01.html",
-    "youtube": "PLLoBnMxFe0m5PBnA3nhVU-lPKSJOC7dgL",
+    "youtube": "PLkvzAel8ISD18avBOlBo6wvK9cY7NWhS4",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -14,14 +14,29 @@
     "talks": [
       {
         "speakers": [
+          { "name": "Илья Зверев", "name_en": "Ilya Zverev", "nickname": "Zverik", "website": "http://ilya.zverev.info" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Схемотехника",
+        "title_en": "Schemotechnika",
+        "keywords": ["конференция", "что", "правила", "conference", "rules", "order"],
+        "youtube": "eX2Xi2pRAFk",
+        "v_duration": 354,
+        "duration": 354
+      },
+      {
+        "speakers": [
           { "name": "Лев Драгунов", "name_en": "Lev Dragunov" }
         ],
         "company": "MAPS.ME",
         "title": "Все дороги ведут в Третий Рим",
         "title_en": "All roads lead to The Third Rome",
         "tags": ["openstreetmap", "routing"],
-        "youtube": "SCf8phbxFAE",
-        "v_duration": 985
+        "keywords": ["osrm", "граф", "москва", "moscow", "калининград", "kaliningrad"],
+        "links": { "Third Rome": "http://dragunov.pro/third-rome/" },
+        "youtube": "UhrAdyFEBvg",
+        "v_duration": 985,
+        "duration": 545
       },
       {
         "speakers": [
@@ -29,8 +44,11 @@
         ],
         "company": "MAPS.ME",
         "title": "FOSDEM 2016",
-        "youtube": "xXdl8__SyJY",
-        "v_duration": 1796
+        "title_en": "FOSDEM 2016",
+        "keywords": ["конференция", "conference", "brussels", "брюссель", "открытые", "open"],
+        "youtube": "QUQFqVRRLQA",
+        "v_duration": 1796,
+        "duration": 1470
       },
       {
         "speakers": [
@@ -38,17 +56,23 @@
         ],
         "title": "Strava Heatmap как источник данных для редактирования OpenStreetMap",
         "title_en": "Strava Heatmap as a data source for editing OpenStreetMap",
-        "youtube": "MkN2rqcLFxE",
-        "v_duration": 636
+        "tags": ["collection"],
+        "keywords": ["gps", "треки", "traces", "sport", "спорт", "бегуны", "вело", "runner", "cycling"],
+        "youtube": "hhxO3-e6-cY",
+        "v_duration": 636,
+        "duration": 511
       },
       {
         "speakers": [
           { "name": "Максим Дементьев", "name_en": "Maksim Dementyev" }
         ],
+        "company": "Sputnik",
         "title": "Три вопроса",
         "title_en": "Three questions",
-        "youtube": "MOM_xrScejQ",
-        "v_duration": 735
+        "keywords": ["наброс", "imposm", "postgresql", "osm2pgsql", "openstreetmap", "дит", "лицензия", "открытые", "данные"],
+        "youtube": "tVDDnb7BvGg",
+        "v_duration": 735,
+        "duration": 735
       },
       {
         "speakers": [
@@ -57,8 +81,10 @@
         "company": "Juno",
         "title": "Новое в PostgreSQL 9.5",
         "title_en": "What's new in PostgreSQL 9.5",
-        "youtube": "NC3wGONO4Uo",
-        "v_duration": 2066
+        "keywords": ["database", "база", "pgconf"],
+        "youtube": "11ilj5Un7tE",
+        "v_duration": 2066,
+        "duration": 1700
       }
     ]
   },
@@ -78,25 +104,15 @@
     "talks": [
       {
         "speakers": [
-          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
-        ],
-        "company": "NextGIS",
-        "tags": ["nextgis"],
-        "title": "Четыре модуля для QGIS",
-        "title_en": "Four plugins for QGIS",
-        "youtube": "PKHiGnEpI14",
-        "v_duration": 2021
-      },
-      {
-        "speakers": [
           { "name": "Максим Дементьев", "name_en": "Maksim Dementyev" }
         ],
-        "company": "Спутник",
-        "tags": ["openstreetmap"],
+        "company": "Sputnik",
         "title": "Редизайн картостиля и сервиса «Спутник/Карты»",
         "title_en": "Redesign of the mapping style and UI of Sputnik/Maps",
+        "keywords": ["design", "дизайн", "стиль", "osm", "openstreetmap", "service"],
         "youtube": "_i3hxZrJFYI",
-        "v_duration": 683
+        "v_duration": 682,
+        "duration": 400
       },
       {
         "speakers": [
@@ -105,8 +121,22 @@
         "tags": ["openstreetmap"],
         "title": "бенфорд-последовательность в данных OpenStreetMap",
         "title_en": "Benford's law in OpenStreetMap data",
+        "keywords": ["osm", "skype", "number", "номер", "число"],
         "youtube": "o7wiNs9h1iM",
         "v_duration": 711
+      },
+      {
+        "speakers": [
+          { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me" }
+        ],
+        "company": "NextGIS",
+        "tags": ["nextgis", "openstreetmap"],
+        "title": "Четыре модуля для QGIS",
+        "title_en": "Four plugins for QGIS",
+        "keywords": ["osmpoly", "qgis", "qtiles", "osminfo", "qms", "quickmapservices", "poly", "export", "экспорт"],
+        "youtube": "PKHiGnEpI14",
+        "v_duration": 2021,
+        "duration": 1615
       },
       {
         "speakers": [
@@ -116,8 +146,11 @@
         "tags": ["collection", "3d"],
         "title": "Про лазерное сканирование и трёхмерную визуализацию",
         "title_en": "On laser scanning and 3D visualization",
+        "keywords": ["lidar", "лидар", "панорамы", "panoramas", "moscow", "москва", "облако", "cloud", "point", "точек"],
+        "links": { "HelgiLab": "http://helgilab.ru/" },
         "youtube": "MIxoOL9kmUo",
-        "v_duration": 1949
+        "v_duration": 1949,
+        "duration": 1248
       },
       {
         "speakers": [
@@ -127,8 +160,10 @@
         "tags": ["collection"],
         "title": "Панорамная камера Ricoh Theta S и её использование для Mapillary",
         "title_en": "Panoramic camera Ricoh Theta S and its usage for Mapillary",
+        "keywords": ["фото", "photo", "изолента", "демонстрация", "flickr", "360"],
         "youtube": "0ltqi9krgcw",
-        "v_duration": 1260
+        "v_duration": 1260,
+        "duration": 1003
       }
     ]
   },
