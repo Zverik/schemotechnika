@@ -206,8 +206,12 @@
         "title": "Схема тегирования помещений и проходов внутри зданий",
         "title_en": "Tagging rooms and passages inside buildings",
         "tags": ["openstreetmap", "3d"],
+        "keywords": ["indoor", "индор", "интерьер", "josm", "вокзал", "манежная", "simple", "tagging", "этаж",
+          "помещение", "стены", "комнаты", "level", "room", "wall"],
+        "links": { "OpenLevelUp": "https://openlevelup.net/" },
         "youtube": "FAuaa7Dc1SQ",
-        "v_duration": 1725
+        "v_duration": 1725,
+        "duration": 1725
       },
       {
         "speakers": [
@@ -217,8 +221,10 @@
         "title": "Правки без пакета",
         "title_en": "Changes not in a set",
         "tags": ["openstreetmap"],
+        "keywords": ["changeset", "api", "транзакции", "откат", "revert", "whodidit", "achavi", "owl", "диффы", "augmented", "diffs"],
         "youtube": "MKLwLI8fyn0",
-        "v_duration": 2199
+        "v_duration": 2199,
+        "duration": 2199
       },
       {
         "speakers": [
@@ -228,9 +234,10 @@
         "tags": ["nextgis"],
         "title": "Базовая картография с QMS",
         "title_en": "Base layers with QMS",
-        "keywords": ["quickmapservices", "qgis"],
+        "keywords": ["quickmapservices", "qgis", "openlayers", "каталог", "catalogue", "ckan"],
         "youtube": "S6pXhc8m5eI",
-        "v_duration": 1368
+        "v_duration": 1368,
+        "duration": 1368
       },
       {
         "speakers": [
@@ -240,9 +247,11 @@
         "tags": ["openstreetmap"],
         "title": "Схема троллейбусов из OSM",
         "title_en": "Trolleybus map in OSM",
-        "keywords": ["qgis"],
+        "keywords": ["qgis", "osm", "рендеринг", "nextgis"],
+        "links": { "Preprocessor": "https://github.com/trolleway/osmot" },
         "youtube": "0MhcP9iYf_Q",
-        "v_duration": 710
+        "v_duration": 710,
+        "duration": 346
       },
       {
         "speakers": [
@@ -252,8 +261,10 @@
         "tags": ["nextgis", "vector"],
         "title": "Векторные тайлы в NextGIS Web",
         "title_en": "Vector tiles in NextGIS Web",
+        "keywords": ["приморский", "geojson", "leaflet", "openlayers", "mvt"],
         "youtube": "EFRSI-TMllk",
-        "v_duration": 443
+        "v_duration": 443,
+        "duration": 443
       }
     ]
   },
@@ -279,8 +290,10 @@
         "title": "Рендеринг зданий в MAPS.ME",
         "title_en": "Rendering buildings in MAPS.ME",
         "tags": ["3d"],
+        "keywords": ["домики", "этажность", "даша", "перспектива", "рендеринг", "level", "perspective"],
         "youtube": "TGwi2deVEbY",
-        "v_duration": 1610
+        "v_duration": 1610,
+        "duration": 1447
       },
       {
         "speakers": [
@@ -289,8 +302,12 @@
         "title": "Велокарта Москвы",
         "title_en": "Moscow Cycling Map",
         "tags": ["project"],
+        "keywords": ["архитектор", "велосипед", "байк", "маршрут", "треки", "парки", "veloradar", "mapbox",
+          "мосты", "пересечения", "crossing", "park", "bridges"],
+        "links": { "Cycle Space Msk": "http://cyclespacemsk.ru/" },
         "youtube": "nC7T0yHHmzM",
-        "v_duration": 1469
+        "v_duration": 1469,
+        "duration": 1322
       },
       {
         "speakers": [
@@ -300,8 +317,11 @@
         "title": "UTFGrid и MVT в GeoServer",
         "title_en": "UTFGrid and MVT with GeoServer",
         "tags": ["vector"],
+        "keywords": ["skype", "mapbox", "tiles", "тайлы", "подсказки", "popup", "wfs", "boundless", "openlayers"],
+        "links": { "Geoserver MVT Extension": "https://github.com/emplexed/gs-mvt" },
         "youtube": "9RrvuLmHLMg",
-        "v_duration": 466
+        "v_duration": 466,
+        "duration": 322
       },
       {
         "speakers": [
@@ -311,8 +331,11 @@
         "title": "Награды в OpenStreetMap",
         "title_en": "Awards in OpenStreetMap",
         "tags": ["openstreetmap"],
+        "keywords": ["lolcat", "лолкот", "премия", "osm", "кубок", "ачивки", "achievements", "фонд", "ульф", "ulf", "жорж"],
+        "links": { "OSM Awards Wiki": "https://wiki.openstreetmap.org/wiki/OpenStreetMap_Awards" },
         "youtube": "rMfW-Kskl-4",
-        "v_duration": 1684
+        "v_duration": 1684,
+        "duration": 1389
       },
       {
         "speakers": [
@@ -322,8 +345,11 @@
         "tags": ["nextgis"],
         "title": "Загрузка слоёв из QGIS в NextGIS Web",
         "title_en": "Uploading QGIS layers to NextGIS Web",
+        "keywords": ["web", "gis", "memory", "layers", "слои", "connect", "qgis"],
+        "links": { "Moscow Addresses": "https://trolleway.wordpress.com/2015/12/21/moscow-city-addresses-geodata/" },
         "youtube": "nWw6uqJ3Me8",
-        "v_duration": 738
+        "v_duration": 738,
+        "duration": 592
       }
     ]
   },
