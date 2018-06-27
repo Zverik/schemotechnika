@@ -202,6 +202,7 @@ var app = new Vue({
           for (var t = 0; t < talk.tags.length; t++) {
             tags[talk.tags[t]] = (tags[talk.tags[t]] || 0) + 1;
             this.addKeyword('t', talk.tags[t], key);
+            this.addKeywords(null, talk.tags[t], key);
           }
         }
         this.addKeywords(null, talk.title, key);
