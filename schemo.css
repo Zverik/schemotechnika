@@ -16,7 +16,7 @@ body {
   }
 }
 
-p, h1, h2 {
+p, h1, h2, #app {
   margin: 1em 0.5em 0;
 }
 
@@ -73,11 +73,11 @@ li p {
 .tag {
   display: inline-block;
   padding: 2px 4px;
-  margin-right: 6px;
-  background: #E0DDAE;
+  margin: 3px 6px 3px 0;
+  background: #424134;
   cursor: pointer;
-  font-size: 10px;
-  color: black;
+  font-size: 70%;
+  color: #B8B58F;
 }
 
 .taglink {

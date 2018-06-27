@@ -12,18 +12,30 @@ var app = new Vue({
     updatingHash: false
   },
 
+  computed: {
+    dedicatedPage: function() {
+      return this.$el.getAttribute('pagetitle') != 'Схемотехника';
+    },
+
+    outerCx: function() {
+      var cxtitle = this.$el.getAttribute('cxtitle');
+      return cxtitle ? cxtitle.match(/\d\d/)[0] : null;
+    }
+  },
+
   methods: {
     filter: function() {
       var result = this.filterTalks(this.search);
-      if (result.length <= this.cx.length * 1.2 || this.search.indexOf(':') > 0)
-        this.results = result;
-      else
-        this.results = [];
+      if (result.length > this.cx.length * 1.2 && this.search.indexOf(':') <= 0)
+        result = [];
+      this.results = result;
       
-      // Update the location hash with the search string.
-      this.updatingHash = true;
-      window.location.hash = '#' + this.search;
-      this.updatingHash = false;
+      if (this.dedicatedPage) {
+        // Update the location hash with the search string.
+        this.updatingHash = true;
+        window.location.hash = '#' + this.search;
+        this.updatingHash = false;
+      }
 
       // Close the current talk if it is not in results.
       var foundOpenTalk = false;
@@ -273,12 +285,16 @@ var app = new Vue({
       if (this.search.length > 1)
         this.filter();
     });
-
-    // And use the location hash for the search string.
-    this.updateFromHash();
   },
 
   mounted: function() {
+    // Use the location hash for the search string.
+    if (this.outerCx) {
+      this.search = 't:cx' + this.outerCx;
+      this.filter();
+    } else
+      this.updateFromHash();
+
     // When the page is rendered, focus the textfield.
     this.$refs.search.focus();
 

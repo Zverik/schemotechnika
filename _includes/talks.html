@@ -1,5 +1,5 @@
+<div id="app" v-cloak cxtitle="{{ cx }}" pagetitle="{{ page.title }}">
 {% raw %}
-<div id="app" v-cloak>
   <div id="search">
     <input @input="filter" v-model="search" placeholder="Поиск" ref="search"> <span class="clearsearch" @click="search = ''; filter()">╳</span>
   </div>
@@ -29,13 +29,14 @@
       </div>
     </div>
   </div>
+  <p v-if="!dedicatedPage &amp;&amp; results.length"><a :href="'/talks/#' + search">Ссылка на результат поиска →</a></p>
   <p v-if="!results.length" class="search-hint">В базу загружены
   {{ formatNumberAdj(totalTalks(), 'доклад', 'доклада', 'докладов', '') }}
   из {{ formatNumberAdj(cx.length, '«схемотехники»', '«схемотехник»', '«схемотехник»', '') }},
   в том числе {{ formatNumberAdj(totalDurationHours(), 'час', 'часа', 'часов', '') }}
   видеозаписей. Введите слова для поиска или нажмите на тег, чтобы получить список докладов.</p>
+{% endraw %}
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
 <script src="/talks.js" type="application/javascript"></script>
-{% endraw %}
