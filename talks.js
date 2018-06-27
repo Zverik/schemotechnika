@@ -234,7 +234,7 @@ var app = new Vue({
     },
 
     filterTalks: function(str) {
-      var parts = str.toLowerCase().replace('ё', 'е').split(/[ ,.«»"':;?!-]+/),
+      var parts = str.toLowerCase().replace('ё', 'е').split(/[ ,.«»"';?!-]+/),
           prefix = 'all',
           keys = {};
       for (var p = 0; p < parts.length; p++) {
