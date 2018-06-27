@@ -62,10 +62,10 @@ var app = new Vue({
     duration: function(talk) {
       var d = talk.duration || talk.v_duration;
       if (!d)
-        return this.rus ? 'Неизвестно' : 'Unknown';
-      var hours = (d < 600 ? '0' : '') + Math.trunc(d/60),
-          minutes = ((d%60) < 10 ? '0' : '') + (d%60);
-      return hours + ':' + minutes;
+        return this.rus ? 'неизвестно' : 'unknown';
+      var minutes = Math.trunc(d/60),
+          seconds = ((d%60) < 10 ? '0' : '') + (d%60);
+      return minutes + ':' + seconds;
     },
 
     formatDate: function(s) {
