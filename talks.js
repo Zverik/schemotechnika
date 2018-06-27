@@ -181,7 +181,7 @@ var app = new Vue({
     addKeywords: function(prefix, kwstr, tkey) {
       if (!kwstr || kwstr.length <= 1)
         return;
-      var parts = kwstr.toLowerCase().split(/[ ,.«»"':;]+/);
+      var parts = kwstr.toLowerCase().replace('ё', 'е').split(/[ ,.«»"':;?!-]+/);
       for (var i = 0; i < parts.length; i++) {
         if (parts[i].length == 0)
           continue;
@@ -219,6 +219,9 @@ var app = new Vue({
         }
         if (talk.company)
           this.addKeywords('c', talk.company, key);
+        if (talk.links)
+          for (link in talk.links)
+            this.addKeywords(null, link, key);
         this.addKeyword('t', 'cx'+talk.cx.cx, key);
         this.addKeyword('t', 'сх'+talk.cx.cx, key);
       }
@@ -231,7 +234,7 @@ var app = new Vue({
     },
 
     filterTalks: function(str) {
-      var parts = str.toLowerCase().split(/[ ,.«»"';]+/),
+      var parts = str.toLowerCase().replace('ё', 'е').split(/[ ,.«»"':;?!-]+/),
           prefix = 'all',
           keys = {};
       for (var p = 0; p < parts.length; p++) {

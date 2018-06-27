@@ -31,7 +31,7 @@
         "company": "MAPS.ME",
         "title": "Все дороги ведут в Третий Рим",
         "title_en": "All roads lead to The Third Rome",
-        "tags": ["openstreetmap", "routing"],
+        "tags": ["openstreetmap", "routing", "project"],
         "keywords": ["osrm", "граф", "москва", "moscow", "калининград", "kaliningrad"],
         "links": { "Third Rome": "http://dragunov.pro/third-rome/" },
         "youtube": "UhrAdyFEBvg",
@@ -143,7 +143,7 @@
           { "name": "Олег Ильичев", "name_en": "Oleg Ilyichev" }
         ],
         "company": "HelgiLab",
-        "tags": ["collection", "3d"],
+        "tags": ["collection", "3d", "proprietary"],
         "title": "Про лазерное сканирование и трёхмерную визуализацию",
         "title_en": "On laser scanning and 3D visualization",
         "keywords": ["lidar", "лидар", "панорамы", "panoramas", "moscow", "москва", "облако", "cloud", "point", "точек"],
@@ -285,6 +285,7 @@
         ],
         "title": "Велокарта Москвы",
         "title_en": "Moscow Cycling Map",
+        "tags": ["project"],
         "youtube": "nC7T0yHHmzM",
         "v_duration": 1469
       },
@@ -344,7 +345,7 @@
         "company": "Urbica",
         "title": "Интерактивные изохроны с «Гальтоном»",
         "title_en": "Interactive isochrones with Galton",
-        "tags": ["routing"],
+        "tags": ["routing", "project"],
         "youtube": "K99ftJvP15g",
         "v_duration": 698
       },
@@ -366,6 +367,7 @@
         "company": "Rilos",
         "title": "Аналитическая система GeoMatrix",
         "title_en": "GeoMatrix analyzing system",
+        "tags": ["proprietary"],
         "youtube": "MtcsUNTq_us",
         "v_duration": 1618
       },
@@ -560,6 +562,7 @@
         "company": "Here Technologies",
         "title": "Here Map Creator и открытые инициативы Here",
         "title_en": "Here Map Creator and Here's open initiatives",
+        "tags": ["proprietary"],
         "youtube": "RWPWDnN34QQ",
         "v_duration": 2964,
         "duration": 2715
@@ -595,6 +598,7 @@
         ],
         "title": "Анализ типов городской застройки при помощи нейросетей",
         "title_en": "Analyzing city landuses using neural networks",
+        "tags": ["project"],
         "keywords": ["cityclass", "машинное", "обучение", "machine", "learning", "иркутск", "irkutsk", "классификация", "промзоны", "москва", "moscow"],
         "youtube": "qA4v5620KnI",
         "v_duration": 1471,
@@ -623,6 +627,7 @@
         "company": "OpenTripMap",
         "title": "OpenTripMap",
         "title_en": "OpenTripMap",
+        "tags": ["project"],
         "keywords": ["tourism", "trips", "туризм", "poi", "osm", "openstreetmap", "достопримечательности", "wikipedia", "википедия"]
       },
       {
@@ -658,6 +663,7 @@
         ],
         "title": "Проект создания открытого слоя границ ООПТ",
         "title_en": "Project for creating an open layer for protected areas",
+        "tags": ["project"],
         "links": {
           "Project": "http://gis-lab.info/qa/oopt-reg.html"
         }
@@ -685,6 +691,7 @@
         "company": "РАНХиГС",
         "title": "Карта России как метрокарта",
         "title_en": "Map of Russia as a subway map",
+        "tags": ["project"],
         "keywords": ["схема", "визуализация", "visualization", "scheme", "дороги", "трассы", "highways", "сеть", "network"],
         "slides": "http://schemo.ru/slides/schemo11-osovskij.pdf",
         "youtube": "T6RMvbnMdVo",
@@ -725,7 +732,7 @@
         "company": "Urbica",
         "title": "WalkStreets: пешеходные маршруты",
         "title_en": "WalkStreets: pedestrian routing",
-        "tags": ["routing"],
+        "tags": ["routing", "project"],
         "keywords": ["mobile", "application", "приложение", "android", "прогулок", "улицы", "доступность", "кольцевой",
           "stuurman", "штурман", "парк", "воздух", "шум", "raspberry", "park", "air", "noise"],
         "slides": "http://schemo.ru/slides/schemo11-walkstreets.pdf",
@@ -814,7 +821,7 @@
         "company": "ИПЭЭ РАН",
         "title": "R-пакет ursa",
         "title_en": "R package \"ursa\"",
-        "tags": ["programming"],
+        "tags": ["programming", "project"],
         "keywords": ["визуализация", "статистика", "visualization", "statistics", "raster", "растр", "калужско"],
         "slides": "https://sevin.000webhostapp.com/ursaPrelim.html",
         "links": { "R-Forge": "https://r-forge.r-project.org/R/?group_id=2263" },
@@ -886,7 +893,7 @@
         "company": "Mapillary",
         "title": "Усовершенствование карт с Mapillary",
         "title_en": "Enhancing Maps with Mapillary",
-        "tags": ["collection"],
+        "tags": ["collection", "proprietary"],
         "keywords": ["фотографии", "панорамы", "streetview", "camera", "видеорегистратор", "point", "mounts", "держатели"],
         "links": { "Mapillary Mount Request": "https://tiny.cc/mountsmapillary/" },
         "youtube": "O9pCxsgfKr8",
@@ -943,7 +950,7 @@
         ],
         "title": "Пешеходы, скорости и открытые данные",
         "title_en": "Pedestrians, speed and open data",
-        "tags": ["урбанизм", "routing"],
+        "tags": ["урбанизм", "routing", "project"],
         "keywords": ["antroadplanner", "road", "planner", "планирование", "дорожек", "footways", "газон", "grass", "тропы",
           "срезка", "поведение", "симуляция", "cut", "simulation"],
         "links": { "Ant Road Planner": "https://antroadplanner.ru/" },
@@ -1016,8 +1023,13 @@
         "company": "Информационная культура",
         "title": "Огонь, вода и медные трубы Инфокультуры",
         "title_en": "Fire, water and iron of Infoculture",
+        "tags": ["proprietary"],
+        "keywords": ["госзатраты", "clearspending", "полиция", "открытая", "ано", "культура",
+          "culture", "open", "data", "графы", "политика", "госорганы", "качество", "politics"],
+        "links": { "InfoCulture": "https://www.infoculture.ru/" },
         "youtube": "a7Optl_Xqp8",
-        "v_duration": 1271
+        "v_duration": 1271,
+        "duration": 861
       },
       {
         "speakers": [
@@ -1026,29 +1038,39 @@
         "company": "НИУ ВШЭ",
         "title": "lingtypology — пакет на R для визуализации лингвистических карт",
         "title_en": "lingtypology, an R package for visualizing linguistic maps",
-        "tags": ["programming"],
+        "tags": ["programming", "project"],
+        "keywords": ["языковая", "конвергенция", "language", "кавказские", "фонетика", "статистика", "тыжлингвист",
+          "диалект", "стереотипы", "жестовые", "русский", "регрессия", "phonetic", "statistics", "russian", "dialect"],
         "slides": "https://agricolamz.github.io/2018_Skhematekhnika_presentation/",
         "youtube": "5mbUa6GZ6lM",
-        "v_duration": 2341
+        "v_duration": 2341,
+        "duration": 2341
       },
       {
         "speakers": [
           { "name": "Сергей Голубев", "name_en": "Sergey Golubev", "nickname": "Geokefir" }
         ],
-        "title": "Про разное",
-        "title_en": "Various",
+        "title": "Как нам исправить OpenStreetMap",
+        "title_en": "How to fix OpenStreetMap",
+        "tags": ["openstreetmap"],
+        "keywords": ["косильщик", "ночной", "osm", "шахты", "экспедиция", "нечёткое", "тегирование", "гештальт",
+          "картография", "стиль", "аксай", "mapping", "style", "expedition", "tagging"],
         "youtube": "7J_JSmWQIS8",
-        "v_duration": 2586
+        "v_duration": 2586,
+        "duration": 2540
       },
       {
         "speakers": [
           { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
         ],
         "title": "Трёхмерное моделирование зданий в Blender",
-        "title_en": "Three-dimensional buildings modelling with Blender",
+        "title_en": "Three-dimensional buildings modeling with Blender",
         "tags": ["3d"],
+        "keywords": ["radio", "osm", "openstreetmap", "радио", "texture", "текстуры", "relations", "отношения", "simple"],
+        "links": { "Radio": "https://forum.openstreetmap.org/viewtopic.php?id=61336" },
         "youtube": "w3_A6mqyjPY",
-        "v_duration": 1024
+        "v_duration": 1024,
+        "duration": 1024
       }
     ]
   },
@@ -1072,8 +1094,15 @@
         "company": "Habidatum",
         "title": "Опыт визуализации пространственно-временных данных",
         "title_en": "Visualization of spatial-temporal data",
+        "tags": ["proprietary"],
+        "keywords": ["хабидатум", "город", "анализ", "ряды", "томография", "слои", "хронотоп", "urban", "analysis", "layers"],
+        "links": {
+          "Habidatum": "https://habidatum.com/",
+          "Chronotope": "https://app.chronotope.io/"
+        },
         "youtube": "6kCvnAxK-4M",
-        "v_duration": 1140
+        "v_duration": 1440,
+        "duration": 1161
       },
       {
         "speakers": [
@@ -1082,8 +1111,14 @@
         "company": "Skoltech",
         "title": "Кризисное картирование и машин лёрнинг",
         "title_en": "Crisis mapping and machine learning",
+        "keywords": ["сколтех", "emergency", "мониторинг", "оперативная", "аналитика", "пожары", "космосъёмка", "hot",
+          "remote", "monitoring", "fires", "kosmosnimki", "нейросеть", "neural", "предобучение"],
+        "links": {
+          "AeroNet Emergency Mapping": "https://github.com/aeronetlab/emergency-mapping"
+        },
         "youtube": "v2GB61amTrA",
-        "v_duration": 1849
+        "v_duration": 1849,
+        "duration": 1535
       },
       {
         "speakers": [
@@ -1093,9 +1128,11 @@
         "title": "Новое в модуле QuickMapServices для QGIS",
         "title_en": "What's new in QuickMapServices module for QGIS",
         "tags": ["nextgis"],
-        "keywords": ["qms"],
+        "keywords": ["qms", "imagery", "подложки", "arcgis"],
+        "links": { "QuickMapServices": "https://qms.nextgis.com/" },
         "youtube": "SN0yFXG2Mao",
-        "v_duration": 1431
+        "v_duration": 1431,
+        "duration": 1105
       },
       {
         "speakers": [
@@ -1105,18 +1142,26 @@
         "title": "Картографические хакатоны",
         "title_en": "Mapping hackathons",
         "tags": ["teaching"],
+        "keywords": ["программирование", "ночь", "презентации", "lovelygis", "иннополис", "гадание", "картах",
+          "mendeleev", "менделеев", "innopolis", "лесозаготовители", "forestry"],
         "youtube": "l_JE3L2l2fs",
-        "v_duration": 1145
+        "v_duration": 1145,
+        "duration": 677
       },
       {
         "speakers": [
           { "name": "Ольга Гершензон", "name_en": "Olga Gershenzon" }
         ],
+        "company": "LoReTT",
         "title": "Школьный конкурс на основе открытых ДЗЗ",
         "title_en": "School contest based on open ERS",
         "tags": ["teaching"],
+        "keywords": ["станции", "дистанционное", "зондирование", "земля", "образование", "география", "экология",
+          "спутники", "remote", "sensing", "earth", "geography", "ecology", "satellite"],
+        "slides": "http://schemo.ru/slides/schemo15-lorett.pdf",
         "youtube": "Vt94DjWaSpo",
-        "v_duration": 801
+        "v_duration": 801,
+        "duration": 705
       },
       {
         "speakers": [
@@ -1126,8 +1171,11 @@
         "title": "Как эволюция открытых данных и открытых ГИС изменила подход к ГИС-образованию для непрофильных специальностей",
         "title_en": "How the adoption of open data and open GIS changed GIS education for non-technical courses",
         "tags": ["teaching"],
+        "keywords": ["география", "geomixer", "gisgeo", "геомаркетинг", "бизнес", "геоинформационный", "университет",
+          "институт", "обучение", "ракурс", "geomarketing", "business", "university", "institute"],
         "youtube": "95O3al5erUw",
-        "v_duration": 1566
+        "v_duration": 1566,
+        "duration": 730
       }
     ]
   },
@@ -1150,7 +1198,7 @@
           { "name": "Максим Дубинин", "name_en": "Maksim Dubinin", "website": "http://m-d.me/" }
         ],
         "company": "NextGIS",
-        "tags": ["nextgis", "collection"],
+        "tags": ["nextgis", "collection", "project"],
         "title": "Feedbacker и «Простые учёты», два новых инструмента для сбора геоданных в веб и на мобильных", 
         "title_en": "\"Feedbacker\" and \"Simple accounting\", two simple tools for collecting geodata on web and mobile phones",
         "links": {
@@ -1231,6 +1279,7 @@
         ],
         "title": "Телеграм-бот для поиска ближайшей розетки",
         "title_en": "Telegram bot for finding the closest power socket",
+        "tags": ["project"],
         "keywords": ["электросамокат", "моноколесо", "electric"],
         "links": {
           "Telegram Bot": "https://t.me/SocketSearchBot",
