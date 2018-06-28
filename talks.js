@@ -296,7 +296,8 @@ var app = new Vue({
       this.updateFromHash();
 
     // When the page is rendered, focus the textfield.
-    this.$refs.search.focus();
+    if (this.dedicatedPage)
+      this.$refs.search.focus();
 
     // Listen to location hash changes.
     window.addEventListener('hashchange', this.updateFromHash);

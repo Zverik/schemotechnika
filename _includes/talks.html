@@ -1,4 +1,4 @@
-<div id="app" v-cloak cxtitle="{{ cx }}" pagetitle="{{ page.title }}">
+<div id="app" v-cloak cxtitle="{{ cxtitle }}" pagetitle="{{ page.title }}">
 {% raw %}
   <div id="search">
     <input @input="filter" v-model="search" placeholder="Поиск" ref="search"> <span class="clearsearch" @click="search = ''; filter()">╳</span>
