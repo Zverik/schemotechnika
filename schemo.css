@@ -62,6 +62,10 @@ li p {
   cursor: pointer;
 }
 
+.clearsearch.csnotactive {
+  color: #777;
+}
+
 #search-results {
   margin: 1em 0;
 }
