@@ -1348,5 +1348,58 @@
         "duration": 304
       }
     ]
+  },
+  {
+    "cx": "17",
+    "title": "Схемотехника 17",
+    "title_en": "Schemotechnika 17",
+    "date": "2018-07-17",
+    "url": "http://schemo.ru/17.html",
+    "venue": {
+      "name": "Офис компании «Озон», 30 этаж",
+      "name_en": "Ozon company office, floor 30",
+      "lonlat": [37.53672, 55.74712]
+    },
+    "talks": [
+      {
+        "speakers": [
+          { "name": "Дарья Волвенкова", "name_en": "Darya Volvenkova" }
+        ],
+        "company": "MAPS.ME",
+        "title": "Схема метро в MAPS.ME",
+        "title_en": "Subway map in MAPS.ME"
+      },
+      {
+        "speakers": [
+          { "name": "Степан Кузьмин", "name_en": "Stepan Kuzmin" }
+        ],
+        "company": "Urbica",
+        "title": "Конференция Locate",
+        "title_en": "Locate conference"
+      },
+      {
+        "speakers": [
+          { "name": "Екатеринa Белорусцевa", "name_en": "Ekaterina Belorustseva" }
+        ],
+        "company": "OpenTripMap",
+        "title": "Телеграм-бот OpenTripMap",
+        "title_en": "OpenTripMap Telegram Bot"
+      },
+      {
+        "speakers": [
+          { "name": "Дарья Маркова", "name_en": "Daria Markova" }
+        ],
+        "company": "UrbanLab",
+        "title": "Проекты лаборатории урбанистики Иннополиса",
+        "title_en": "Urban Laboratory projects in Innopolis"
+      },
+      {
+        "speakers": [
+          { "name": "Дорофей Пролесковский", "name_en": "Darafei Praliaskouski", "nickname": "Котяра", "website": "http://komzpa.net/" }
+        ],
+        "title": "MapCSS",
+        "title_en": "MapCSS"
+      }
+    ]
   }
 ]
