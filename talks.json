@@ -1367,7 +1367,10 @@
         ],
         "company": "MAPS.ME",
         "title": "Схема метро в MAPS.ME",
-        "title_en": "Subway map in MAPS.ME"
+        "title_en": "Subway map in MAPS.ME",
+        "tags": ["visualization"],
+        "keywords": ["mapsme", "линии", "станции", "карта", "map", "station"],
+        "slides": "http://schemo.ru/slides/schemo17-metro.pdf"
       },
       {
         "speakers": [
@@ -1375,7 +1378,9 @@
         ],
         "company": "Urbica",
         "title": "Конференция Locate",
-        "title_en": "Locate conference"
+        "title_en": "Locate conference",
+        "tags": ["various"],
+        "keywords": ["mapbox", "foursquare", "mobileye", "apple", "scene", "ar", "unity", "kepler", "vector"]
       },
       {
         "speakers": [
@@ -1383,7 +1388,9 @@
         ],
         "company": "OpenTripMap",
         "title": "Телеграм-бот OpenTripMap",
-        "title_en": "OpenTripMap Telegram Bot"
+        "title_en": "OpenTripMap Telegram Bot",
+        "tags": ["project"],
+        "keywords": ["туризм", "робот", "достопримечательность", "tourism", "attractions"]
       },
       {
         "speakers": [
@@ -1391,14 +1398,18 @@
         ],
         "company": "UrbanLab",
         "title": "Проекты лаборатории урбанистики Иннополиса",
-        "title_en": "Urban Laboratory projects in Innopolis"
+        "title_en": "Urban Laboratory projects in Innopolis",
+        "tags": ["3d", "proprietary"],
+        "keywords": ["4d", "шиповник", "деревья", "здания", "студенты", "trees", "buildings", "students"]
       },
       {
         "speakers": [
           { "name": "Дорофей Пролесковский", "name_en": "Darafei Praliaskouski", "nickname": "Котяра", "website": "http://komzpa.net/" }
         ],
         "title": "MapCSS",
-        "title_en": "MapCSS"
+        "title_en": "MapCSS",
+        "tags": ["openstreetmap", "vector"],
+        "keywords": ["картостиль", "стиль", "язык", "css", "map", "style", "carto", "космоснимки", "осмоснимки", "kosmosnimki", "osmosnimki"]
       }
     ]
   }
