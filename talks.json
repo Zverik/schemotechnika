@@ -1355,6 +1355,7 @@
     "title_en": "Schemotechnika 17",
     "date": "2018-07-17",
     "url": "http://schemo.ru/17.html",
+    "youtube": "PLkvzAel8ISD1D1bst-jr7eqM92xUj05UY",
     "venue": {
       "name": "Офис компании «Озон», 30 этаж",
       "name_en": "Ozon company office, floor 30",
@@ -1370,7 +1371,10 @@
         "title_en": "Subway map in MAPS.ME",
         "tags": ["visualization"],
         "keywords": ["mapsme", "линии", "станции", "карта", "map", "station"],
-        "slides": "http://schemo.ru/slides/schemo17-metro.pdf"
+        "slides": "http://schemo.ru/slides/schemo17-metro.pdf",
+        "youtube": "oODvvV0_7rk",
+        "v_duration": 1650,
+        "duration": 1075
       },
       {
         "speakers": [
@@ -1380,7 +1384,10 @@
         "title": "Конференция Locate",
         "title_en": "Locate conference",
         "tags": ["various"],
-        "keywords": ["mapbox", "foursquare", "mobileye", "apple", "scene", "ar", "unity", "kepler", "vector"]
+        "keywords": ["mapbox", "foursquare", "mobileye", "apple", "scene", "ar", "unity", "kepler", "vector"],
+        "youtube": "anMU7qg9XJU",
+        "v_duration": 1518,
+        "duration": 863
       },
       {
         "speakers": [
@@ -1390,7 +1397,10 @@
         "title": "Телеграм-бот OpenTripMap",
         "title_en": "OpenTripMap Telegram Bot",
         "tags": ["project"],
-        "keywords": ["туризм", "робот", "достопримечательность", "tourism", "attractions"]
+        "keywords": ["туризм", "робот", "достопримечательность", "tourism", "attractions"],
+        "youtube": "eXOzB0p66R8",
+        "v_duration": 189,
+        "duration": 147
       },
       {
         "speakers": [
@@ -1400,7 +1410,10 @@
         "title": "Проекты лаборатории урбанистики Иннополиса",
         "title_en": "Urban Laboratory projects in Innopolis",
         "tags": ["3d", "proprietary"],
-        "keywords": ["4d", "шиповник", "деревья", "здания", "студенты", "trees", "buildings", "students"]
+        "keywords": ["4d", "шиповник", "деревья", "здания", "студенты", "trees", "buildings", "students"],
+        "youtube": "-IhibGQnIGA",
+        "v_duration": 2232,
+        "duration": 1150
       },
       {
         "speakers": [
@@ -1409,7 +1422,10 @@
         "title": "MapCSS",
         "title_en": "MapCSS",
         "tags": ["openstreetmap", "vector"],
-        "keywords": ["картостиль", "стиль", "язык", "css", "map", "style", "carto", "космоснимки", "осмоснимки", "kosmosnimki", "osmosnimki"]
+        "keywords": ["картостиль", "стиль", "язык", "css", "map", "style", "carto", "космоснимки", "осмоснимки", "kosmosnimki", "osmosnimki"],
+        "youtube": "Flpm0y3i7i4",
+        "v_duration": 2442,
+        "duration": 1920
       }
     ]
   }
