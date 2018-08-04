@@ -1385,6 +1385,7 @@
         "title_en": "Locate conference",
         "tags": ["various"],
         "keywords": ["mapbox", "foursquare", "mobileye", "apple", "scene", "ar", "unity", "kepler", "vector"],
+        "links": { "Mapbox Locate": "https://locate.mapbox.com/" },
         "youtube": "anMU7qg9XJU",
         "v_duration": 1518,
         "duration": 863
@@ -1398,6 +1399,7 @@
         "title_en": "OpenTripMap Telegram Bot",
         "tags": ["project"],
         "keywords": ["туризм", "робот", "достопримечательность", "tourism", "attractions"],
+        "links": { "OpenTripBot": "https://t.me/OpenTripBot" },
         "youtube": "eXOzB0p66R8",
         "v_duration": 189,
         "duration": 147
@@ -1411,6 +1413,7 @@
         "title_en": "Urban Laboratory projects in Innopolis",
         "tags": ["3d", "proprietary"],
         "keywords": ["4d", "шиповник", "деревья", "здания", "студенты", "trees", "buildings", "students"],
+        "links": { "Map": "https://4d.university.innopolis.ru/" },
         "youtube": "-IhibGQnIGA",
         "v_duration": 2232,
         "duration": 1150
@@ -1423,6 +1426,7 @@
         "title_en": "MapCSS",
         "tags": ["openstreetmap", "vector"],
         "keywords": ["картостиль", "стиль", "язык", "css", "map", "style", "carto", "космоснимки", "осмоснимки", "kosmosnimki", "osmosnimki"],
+        "links": { "Wiki": "https://wiki.openstreetmap.org/wiki/MapCSS" },
         "youtube": "Flpm0y3i7i4",
         "v_duration": 2442,
         "duration": 1920

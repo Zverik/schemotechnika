@@ -227,7 +227,7 @@ var app = new Vue({
         for (var sp = 0; sp < talk.speakers.length; sp++) {
           this.addKeywords('a', talk.speakers[sp].name, key);
           this.addKeywords('a', talk.speakers[sp].name_en, key);
-          if (sp.nickname)
+          if (talk.speakers[sp]..nickname)
             this.addKeywords('a', talk.speakers[sp].nickname, key);
         }
         if (talk.company)
