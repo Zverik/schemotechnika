@@ -669,6 +669,7 @@
     "title_en": "Schemotechnika 10",
     "date": "2017-05-18",
     "url": "http://schemo.ru/2017/04/17/schemo10.html",
+    "youtube": "PLkvzAel8ISD3v5Y7bfr78iWfN99bD5cJd",
     "venue": {
       "name": "Mail.Ru Group, первая переговорка",
       "name_en": "Mail.Ru Group, conference room one",
@@ -684,7 +685,11 @@
         "title": "OpenTripMap",
         "title_en": "OpenTripMap",
         "tags": ["project"],
-        "keywords": ["tourism", "trips", "туризм", "poi", "osm", "openstreetmap", "достопримечательности", "wikipedia", "википедия"]
+        "keywords": ["tourism", "trips", "туризм", "poi", "osm", "openstreetmap", "достопримечательности", "wikipedia", "википедия"],
+        "links": { "OpenTripMap": "https://opentripmap.com/" },
+        "youtube": "AeMWNKEVlWA",
+        "v_duration": 1709,
+        "duration": 1083
       },
       {
         "speakers": [
@@ -694,7 +699,10 @@
         "title": "Нарисуй их все",
         "title_en": "Map them all",
         "tags": ["openstreetmap"],
-        "keywords": ["osm", "openstreetmap", "mapping", "rivers", "underground", "реки", "ручьи", "подземные", "справочник"]
+        "keywords": ["osm", "openstreetmap", "mapping", "rivers", "underground", "реки", "ручьи", "подземные", "справочник"],
+        "youtube": "jMOYHnjgXWw",
+        "v_duration": 2137,
+        "duration": 1540
       },
       {
         "speakers": [
@@ -707,14 +715,6 @@
       },
       {
         "speakers": [
-          { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
-        ],
-        "title": "Горы, реки и леса в Блендере увижу я",
-        "title_en": "Mountains, rivers and forests I will see in Blender",
-        "tags": ["3d"]
-      },
-      {
-        "speakers": [
           { "name": "Игорь Лебедь", "name_en": "Igor Lebed" }
         ],
         "title": "Проект создания открытого слоя границ ООПТ",
@@ -722,7 +722,21 @@
         "tags": ["project"],
         "links": {
           "Project": "http://gis-lab.info/qa/oopt-reg.html"
-        }
+        },
+        "youtube": "PWngb7Vp9Vg",
+        "v_duration": 772,
+        "duration": 695
+      },
+      {
+        "speakers": [
+          { "name": "Владимир Елистратов", "name_en": "Vladimir Elistratov", "nickname": "vvoovv" }
+        ],
+        "title": "Горы, реки и леса в Блендере увижу я",
+        "title_en": "Mountains, rivers and forests I will see in Blender",
+        "tags": ["3d"],
+        "youtube": "6G0I-0k4ekw",
+        "v_duration": 1138,
+        "duration": 783
       }
     ]
   },
