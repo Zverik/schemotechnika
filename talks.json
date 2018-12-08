@@ -1449,5 +1449,20 @@
         "duration": 1920
       }
     ]
+  },
+  {
+    "cx": "18",
+    "title": "Схемотехника 18",
+    "title_en": "Schemotechnika 18",
+    "date": "2018-10-19",
+    "url": "http://schemo.ru/18.html",
+    "youtube": "PL-W4AXAmv9iVBL_-P_wSpck_fwznfhh6v",
+    "venue": {
+      "name": "Офис компании «Urbica»",
+      "name_en": "Urbica company office",
+      "lonlat": [37.65296, 55.76436]
+    },
+    "talks": [
+    ]
   }
 ]
