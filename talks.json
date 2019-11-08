@@ -1464,5 +1464,33 @@
     },
     "talks": [
     ]
+  },
+  {
+    "cx": "19",
+    "title": "Схемотехника 19",
+    "title_en": "Schemotechnika 19",
+    "date": "2019-10-10",
+    "url": "http://schemo.ru/19.html",
+    "venue": {
+      "name": "Psycho Place",
+      "name_en": "Psycho Place",
+      "lonlat": [37.63427, 55.75821]
+    },
+    "talks": [
+    ]
+  },
+  {
+    "cx": "19.5",
+    "title": "Схемотехника 19.5",
+    "title_en": "Schemotechnika 19.5",
+    "date": "2019-11-21",
+    "url": "http://schemo.ru/19_5.html",
+    "venue": {
+      "name": "Библиотека №166",
+      "name_en": "Library N 166",
+      "lonlat": [37.5876, 55.7095]
+    },
+    "talks": [
+    ]
   }
 ]
