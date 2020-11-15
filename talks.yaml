@@ -1410,32 +1410,24 @@
     lonlat: [37.5876, 55.7095]
   talks:
   - speakers:
-    - name: Кирилл Бондаренко
-      name_en: Kirill Bondarenko
-    title: 3D-моделирование в OpenStreetMap
-    title_en: 3D modelling in OpenStreetMap
-  - speakers:
     - name: Артём Светлов
       name_en: Artyom Svetlov
     company: NextGIS
     title: Секреты изготовления сферических панорам для Mapillary
     title_en: Secrets of making spherical street view imagery for Mapillary
+    slides: https://drive.google.com/open?id=1QLJ73f-366P-PbFvqv9hqco_-QXlz-8-66FU_eubJxw
+    links:
+      Scripts and Slides: https://trolleway.github.io/
+  - speakers:
+    - name: Кирилл Бондаренко
+      name_en: Kirill Bondarenko
+    title: 3D-моделирование в OpenStreetMap
+    title_en: 3D modelling in OpenStreetMap
   - speakers:
     - name: Евгений Усвицкий
       name_en: Eugene Usvitsky
     title: 'Гуманитарный OSM: опыт работы в HOT'
     title_en: 'Humanitarian OSM: my work experience in HOT'
-  - speakers:
-    - name: Сергей Мышляков
-      name_en: Sergey Myshlyakov
-    title: Опыт картографирования мест произрастания борщевика Сосновского по данным космической съёмки
-    title_en: Mapping Heracleum sosnowskyi growing area using satellite imagery
-    keywords: [sosnowsky, hogweed, дзз]
-  - speakers:
-    - name: Сергей Синицын
-      name_en: Sergey Sinitsyn
-    title: Как замапить всё вокруг, гуляя с ребёнком
-    title_en: How to map everything while walking a baby
 
 - cx: '20'
   title: Схемотехника 20
