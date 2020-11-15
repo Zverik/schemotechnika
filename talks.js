@@ -236,7 +236,6 @@ var app = new Vue({
           for (link in talk.links)
             this.addKeywords(null, link, key);
         this.addKeyword('t', 'cx'+talk.cx.cx, key);
-        this.addKeyword('t', 'сх'+talk.cx.cx, key);
       }
 
       var allTags = [];
@@ -247,7 +246,7 @@ var app = new Vue({
     },
 
     filterTalks: function(str) {
-      var parts = str.toLowerCase().replace('ё', 'е').split(/[ ,.«»"';?!-]+/),
+      var parts = str.toLowerCase().replace('ё', 'е').split(/[ ,«»"';?!-]+/),
           prefix = 'all',
           keys = {};
       for (var p = 0; p < parts.length; p++) {
