@@ -1397,7 +1397,26 @@
     name: Psycho Place
     name_en: Psycho Place
     lonlat: [37.63427, 55.75821]
-  talks: []
+  talks:
+  - speakers:
+    - name: Павел Гаврилов
+      name_en: Pavel Gavrilov
+    title: Использование OsmAnd
+    title_en: Using OsmAnd
+    slides: https://docs.google.com/presentation/d/1aQ4mMnohuD7FhU-wF_wlDNEsXTIN3hcGGBlkukJhJ18/edit
+    links:
+      OsmAnd: https://osmand.net/
+  - speakers:
+    - name: Валерий Трубин
+      name_en: Valera Trubin
+    title: Руководство по освобождению карт
+    title_en: A manual on liberating maps
+    slides: slides/schemo19-valera.pdf
+  - speakers:
+    - name: Сергей Голубев
+      name_en: Sergey Golubev
+    title: Тегирование леса в OpenStreetMap
+    title_en: Tagging trees in OpenStreetMap
 
 - cx: '19.5'
   title: Схемотехника 19.5
@@ -1437,4 +1456,54 @@
   venue:
     name: Greenpeace Zoom
     name_en: Greenpeace Zoom
-  talks: []
+  talks:
+  - speakers:
+    - name: Сергей Синицын
+      name_en: Sergey Sinitsyn
+    title: Америка, где из окошка видна Россия
+    title_en: America from where you can see Russia
+  - speakers:
+    - name: Максим Гуртовенко
+      name_en: Maksim Gurtovenko
+      nickname: Miroff
+    title: Картография белой воды или водный туризм в OpenStreetMap
+    title_en: Whitewater mapping, or water tourism in OpenStreetMap
+  - speakers:
+    - name: Сергей Голубев
+      name_en: Sergey Golubev
+    title: Коломбо и наземное дешифрирование
+    title_en: Colombo and ground-based identification
+  - speakers:
+    - name: Михаил Дычкин
+      name_en: Michael Dychkin
+    company: Единая Медиа Группа
+    title: Плиточная карта в телеэфире
+    title_en: Tiled map on air
+  - speakers:
+    - name: Татьяна Карват
+      name_en: Tatsiana Karvat
+    company: Kontur
+    title: Слой Kontur Population
+    title_en: Kontur Population layer
+  - speakers:
+    - name: Виктор Крысов
+      name_en: Victor Krysov
+    title: Методика образно-ассоциативного запоминания взаиморасположения объектов на картах
+    title_en: A method for learning relative positions of objects on a map
+  - speakers:
+    - name: Николай Петров
+      name_en: Nikolai Petrov
+    company: Антиборщевик
+    title: Распознавание борщевика по спутниковым снимкам Sentinel-2 с помощью Google Earth Engine и QGIS
+    title_en: Identifying cow parnsnip using Sentinel-2 imagery with Google Earth Engine and QGIS
+  - speakers:
+    - name: Александр Гончаренко
+      name_en: Aliaksandr Hancharenka
+    title: ML с бюджетным дроном на выходных
+    title_en: Doing ML with a cheap drone on a weekend
+  - speakers:
+    - name: Григорий Недаев
+      name_en: Grigory Nedaev
+    company: Geoalert
+    title: Путешествие Ждуна в мире Искусственного интеллекта
+    title_en: A Waiting Person's journey into the AI world

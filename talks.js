@@ -243,6 +243,7 @@ var app = new Vue({
         if (tags[tag] > 1)
           allTags.push(tag);
       this.allTags = allTags.sort();
+      console.log(this.allTags);
     },
 
     filterTalks: function(str) {
