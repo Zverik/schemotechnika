@@ -1492,6 +1492,8 @@
     tags: [openstreetmap]
     keywords: [waterway, реки, горы, mountain, рафт, катамаран, raft, egress, порог,
       rapid, опасность, hazard]
+    links:
+      WikiProject Witewater Maps: https://wiki.openstreetmap.org/wiki/WikiProject_Whitewater_Maps
     youtube: 8TzjmGdSxng
     v_duration: 629
     duration: 629
@@ -1511,6 +1513,8 @@
     company: Единая Медиа Группа
     title: Плиточная карта в телеэфире
     title_en: Tiled map on air
+    links:
+      MediaMaps: https://www.facebook.com/Mediamaps
     tags: [visualization]
     keywords: [tv, квадраты, squares, анаморфозы, cartogram, диаграмма, gridded,
       сетка, инфографика, выборы, elections]
@@ -1551,6 +1555,8 @@
     tags: [gis]
     keywords: [сосновского, экология, ecology, экосистема, ecosystem, канал, band, зеленый, green, ndvi, nir]
     slides: https://www.figma.com/proto/Y4clct030jjKr4BGZM3IYw/sentinel-2
+    links:
+      Антиборщевик: http://antiborschevik.info/
     youtube: L9FYkAKL8Ps
     v_duration: 778
     duration: 596
