@@ -1517,6 +1517,7 @@
     company: Антиборщевик
     title: Распознавание борщевика по спутниковым снимкам Sentinel-2 с помощью Google Earth Engine и QGIS
     title_en: Identifying cow parnsnip using Sentinel-2 imagery with Google Earth Engine and QGIS
+    slides: https://www.figma.com/proto/Y4clct030jjKr4BGZM3IYw/sentinel-2
     youtube: L9FYkAKL8Ps
     v_duration: 778
     duration: 596
