@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import yaml
+from collections import Counter
 
 
 def validate(schemo):
@@ -12,6 +13,7 @@ def validate(schemo):
         err_count += 1
 
     NAMES = {'name', 'name_en'}
+    tags = Counter()
     for cx in schemo:
         c = cx.get('cx', '?')
         for k in ('title', 'title_en', 'date', 'url', 'venue', 'talks'):
@@ -30,6 +32,13 @@ def validate(schemo):
                 err(f'Forgot to remove youtube URL for talk {i} in cx {c}')
             if 'youtube' in talk and 'v_duration' not in talk:
                 err(f'No v_duration for talk {i} in cx {c}')
+            for k in ('slide', 'tag', 'keyword', 'speaker'):
+                if k in talk:
+                    err(f'Key {k} in talk {i} for cx {c}')
+            tags.update(talk.get('tags', []))
+    tags1 = [k for k, cnt in tags.items() if cnt == 1]
+    if tags1:
+        err('Tags with one instance: {}'.format(', '.join(tags1)))
     return err_count
 
 

@@ -27,7 +27,7 @@
     company: MAPS.ME
     title: Все дороги ведут в Третий Рим
     title_en: All roads lead to The Third Rome
-    tags: [openstreetmap, routing, project]
+    tags: [routing, project]
     keywords: [osrm, граф, москва, moscow, калининград, kaliningrad]
     links:
       Third Rome: http://dragunov.pro/third-rome/
@@ -119,7 +119,7 @@
       name_en: Maksim Dubinin
       website: http://m-d.me
     company: NextGIS
-    tags: [nextgis, openstreetmap]
+    tags: [nextgis, gis]
     title: Четыре модуля для QGIS
     title_en: Four plugins for QGIS
     keywords: [osmpoly, qgis, qtiles, osminfo, qms, quickmapservices, poly, export,
@@ -131,7 +131,7 @@
     - name: Олег Ильичев
       name_en: Oleg Ilyichev
     company: HelgiLab
-    tags: [collection, 3d, proprietary]
+    tags: [collection, 360°, 3d, proprietary]
     title: Про лазерное сканирование и трёхмерную визуализацию
     title_en: On laser scanning and 3D visualization
     keywords: [lidar, лидар, панорамы, panoramas, moscow, москва, облако, cloud, point,
@@ -146,7 +146,7 @@
       name_en: Artyom Svetlov
       nickname: Trolleway
     company: NextGIS
-    tags: [collection]
+    tags: [collection, 360°]
     title: Панорамная камера Ricoh Theta S и её использование для Mapillary
     title_en: Panoramic camera Ricoh Theta S and its usage for Mapillary
     keywords: [фото, photo, изолента, демонстрация, flickr, '360']
@@ -258,7 +258,7 @@
     company: MAPS.ME
     title: Рендеринг зданий в MAPS.ME
     title_en: Rendering buildings in MAPS.ME
-    tags: [3d]
+    tags: [3d, mapsme]
     keywords: [домики, этажность, даша, перспектива, рендеринг, level, perspective]
     youtube: TGwi2deVEbY
     v_duration: 1610
@@ -310,7 +310,7 @@
       name_en: Artyom Svetlov
       nickname: Trolleway
     company: NextGIS
-    tags: [nextgis]
+    tags: [nextgis, gis]
     title: Загрузка слоёв из QGIS в NextGIS Web
     title_en: Uploading QGIS layers to NextGIS Web
     keywords: [web, gis, memory, layers, слои, connect, qgis]
@@ -352,7 +352,7 @@
     company: NextGIS
     title: Генерация контуров кварталов в QGIS
     title_en: Generating quarter contours in QGIS
-    tags: [openstreetmap]
+    tags: [openstreetmap, gis]
     keywords: [landuse, residential, roads, дороги, buffer, буфер, josm]
     youtube: 7rJOmmro7QI
     v_duration: 737
@@ -389,6 +389,7 @@
     company: MAPS.ME
     title: Мир больше не увидит ваши имена
     title_en: World won't see your names anymore
+    tags: [openstreetmap, mapsme]
     keywords: [editor, редактор, osm, openstreetmap, теги, tags, китайцы, chinese,
       native]
     youtube: Jn4sxHQZ1yA
@@ -426,7 +427,7 @@
       nickname: sim
       website: http://m-d.me
     company: NextGIS
-    tags: [nextgis]
+    tags: [nextgis, gis]
     title: QuickMapServices
     title_en: QuickMapServices
     keywords: [qms, qgis, слои, layers, остановки, arcgis, web]
@@ -486,7 +487,7 @@
     title: Тут вам не жёлтые страницы
     title_en: Not a Yellow Pages here
     keywords: [openstreetmap, osm, импорты, imports, conflator, пятёрочка]
-    tags: [openstreetmap]
+    tags: [openstreetmap, mapsme]
     youtube: EFeY4q84Hko
     v_duration: 1779
     duration: 1635
@@ -563,7 +564,7 @@
     company: MAPS.ME
     title: Прокладка маршрутов в MAPS.ME
     title_en: Calculating routes in MAPS.ME
-    tags: [openstreetmap, routing]
+    tags: [routing, mobile, mapsme]
     keywords: [навигация, OSRM, osm, openstreetmap, теги, tags]
     youtube: h0JNOSSXLHU
     v_duration: 1297
@@ -587,7 +588,7 @@
       website: http://aitecture.com
     title: Анализ типов городской застройки при помощи нейросетей
     title_en: Analyzing city landuses using neural networks
-    tags: [project, visualization, урбанизм]
+    tags: [project, visualization, урбанизм, ml]
     keywords: [cityclass, машинное, обучение, machine, learning, иркутск, irkutsk,
       классификация, промзоны, москва, moscow]
     youtube: qA4v5620KnI
@@ -613,7 +614,7 @@
     company: OpenTripMap
     title: OpenTripMap
     title_en: OpenTripMap
-    tags: [project]
+    tags: [project, opentripmap]
     keywords: [tourism, trips, туризм, poi, osm, openstreetmap, достопримечательности,
       wikipedia, википедия]
     links:
@@ -639,7 +640,7 @@
     - name: Михаил Гусев
       name_en: Mikhail Gusev
     company: NextGIS
-    tags: [nextgis]
+    tags: [nextgis, mobile]
     title: Новые функции «NextGIS Formbuilder»
     title_en: What's new in NextGIS FormBuilder
     youtube: E93PacyiWCE
@@ -725,7 +726,7 @@
     company: Urbica
     title: 'WalkStreets: пешеходные маршруты'
     title_en: 'WalkStreets: pedestrian routing'
-    tags: [routing, project]
+    tags: [routing, project, mobile]
     keywords: [mobile, application, приложение, android, прогулок, улицы, доступность,
       кольцевой, stuurman, штурман, парк, воздух, шум, raspberry, park, air, noise]
     slides: http://schemo.ru/slides/schemo11-walkstreets.pdf
@@ -784,7 +785,7 @@
     company: NextGIS
     title: Третья версия NextGIS Mobile SDK
     title_en: NextGIS Mobile SDK v3
-    tags: [nextgis, programming]
+    tags: [nextgis, programming, mobile]
     keywords: [mobile, maplib, gisapp, android, ios, opengl, векторные, vector, мобильные]
     slides: http://schemo.ru/slides/schemo11-baryshnikov.pdf
     youtube: -9MQ_r8i06o
@@ -795,7 +796,7 @@
       name_en: Nadezhda Vladimirova
     title: Использование NextGIS Web для флешмоба ООПТ «Дневник удачи»
     title_en: Using NextGIS Web for facilitating a flashmob "Diary of luck"
-    tags: [nextgis]
+    tags: [nextgis, project]
     keywords: [почта, маршрут, tracking, post, qgis, путь, флэшмоб]
     slides: http://schemo.ru/slides/schemo11-oopt.pptx
     youtube: gVBuTn45Y_c
@@ -872,7 +873,7 @@
     company: Mapillary
     title: Усовершенствование карт с Mapillary
     title_en: Enhancing Maps with Mapillary
-    tags: [collection, proprietary]
+    tags: [collection, proprietary, 360°]
     keywords: [фотографии, панорамы, streetview, camera, видеорегистратор, point,
       mounts, держатели]
     links:
@@ -888,7 +889,7 @@
     company: MAPS.ME
     title: Качество данных о метро в OpenStreetMap
     title_en: Subway mapping quality in OpenStreetMap
-    tags: [openstreetmap]
+    tags: [openstreetmap, mapsme]
     keywords: [общественный, транспорт, тегирование, отношения, валидатор, public,
       transport, tagging, relations, osm]
     links:
@@ -916,7 +917,7 @@
     company: OpenTripMap
     title: Горнолыжные курорты в OpenTripMap
     title_en: Ski resorts in OpenTripMap
-    tags: [openstreetmap]
+    tags: [opentripmap]
     keywords: [туризм, tourism, атлас, открытые, данные, минкульт, wikidata, open,
       data, роснедра, музеи, зимний, спорт, wikivoyage, викиданные, osm, openstreetmap]
     youtube: w2bzRXdMkvM
@@ -992,7 +993,7 @@
     company: Информационная культура
     title: Огонь, вода и медные трубы Инфокультуры
     title_en: Fire, water and iron of Infoculture
-    tags: [proprietary, various]
+    tags: [project, various]
     keywords: [госзатраты, clearspending, полиция, открытая, ано, культура, culture,
       open, data, графы, политика, госорганы, качество, politics]
     links:
@@ -1032,7 +1033,7 @@
       nickname: vvoovv
     title: Трёхмерное моделирование зданий в Blender
     title_en: Three-dimensional buildings modeling with Blender
-    tags: [3d, various]
+    tags: [3d]
     keywords: [radio, osm, openstreetmap, радио, texture, текстуры, relations, отношения,
       simple]
     links:
@@ -1072,6 +1073,7 @@
     company: Skoltech
     title: Кризисное картирование и машин лёрнинг
     title_en: Crisis mapping and machine learning
+    tags: [ml]
     keywords: [сколтех, emergency, мониторинг, оперативная, аналитика, пожары, космосъёмка,
       hot, remote, monitoring, fires, kosmosnimki, нейросеть, neural, предобучение]
     links:
@@ -1087,7 +1089,7 @@
     company: NextGIS
     title: Новое в модуле QuickMapServices для QGIS
     title_en: What's new in QuickMapServices module for QGIS
-    tags: [nextgis]
+    tags: [nextgis, gis]
     keywords: [qms, imagery, подложки, arcgis]
     links:
       QuickMapServices: https://qms.nextgis.com/
@@ -1151,7 +1153,7 @@
       name_en: Maksim Dubinin
       website: http://m-d.me/
     company: NextGIS
-    tags: [nextgis, collection, project]
+    tags: [nextgis, collection, mobile]
     title: Feedbacker и «Простые учёты», два новых инструмента для сбора геоданных
       в веб и на мобильных
     title_en: '"Feedbacker" and "Simple accounting", two simple tools for collecting
@@ -1170,6 +1172,7 @@
     company: OpenTripMap
     title: API сайта OpenTripMap
     title_en: API for OpenTripMap website
+    tags: [opentripmap]
     keywords: [туризм, api, tourism, map, карта]
     slides: http://schemo.ru/slides/schemo16-opentripmap.pptx
     links:
@@ -1211,7 +1214,7 @@
       name_en: Artyom Svetlov
       nickname: Trolleway
     company: NextGIS
-    tags: [collection]
+    tags: [collection, 360°]
     title: Панорамная камера Xiaomi и загрузка фотографий в Mapillary
     title_en: Xiaomi panoramic camera and uploading photos to Mapillary
     keywords: [квадрокоптер, аэрофотосъёмка, дрон, drone, dji, phantom, mijia, indoor,
@@ -1227,7 +1230,7 @@
       name_en: Alexander Pavlyuk
     title: Телеграм-бот для поиска ближайшей розетки
     title_en: Telegram bot for finding the closest power socket
-    tags: [project]
+    tags: [project, mobile]
     keywords: [электросамокат, моноколесо, electric]
     links:
       Telegram Bot: https://t.me/SocketSearchBot
@@ -1253,7 +1256,7 @@
     company: MAPS.ME
     title: Схема метро в MAPS.ME
     title_en: Subway map in MAPS.ME
-    tags: [visualization]
+    tags: [visualization, mobile, mapsme]
     keywords: [mapsme, линии, станции, карта, map, station]
     slides: http://schemo.ru/slides/schemo17-metro.pdf
     youtube: oODvvV0_7rk
@@ -1278,7 +1281,7 @@
     company: OpenTripMap
     title: Телеграм-бот OpenTripMap
     title_en: OpenTripMap Telegram Bot
-    tags: [project]
+    tags: [mobile, opentripmap]
     keywords: [туризм, робот, достопримечательность, tourism, attractions]
     links:
       OpenTripBot: https://t.me/OpenTripBot
@@ -1341,6 +1344,7 @@
     - name: Максим Виноградов
       name_en: Maksim Vinogradov
     company: OpenTripMap
+    tags: [opentripmap]
     title: 'OpenTripMap: о сервисе и какие данные можно скачать'
     title_en: 'About "OpenTripMap" and which data is available'
     links:
@@ -1353,6 +1357,7 @@
     - name: Анна Львова
       name_en: Anna Lvova
     company: Яндекс.Недвижимость
+    tags: [proprietary]
     title: Тепловые карты цен для «Яндекс.Недвижимости»
     title_en: 'Price heatmaps for "Yandex.Realty"'
     links:
@@ -1366,6 +1371,7 @@
       name_en: Alexander Kobyakov
     title: ГИС в лесном консалтинге и лесоустроительном проектировании
     title_en: GIS in forestry consulting and forestry planning
+    tags: [gis]
     company: Лесбюро
     youtube: xZyBClkV9vE
     v_duration: 2290
@@ -1373,6 +1379,7 @@
   - speakers:
     - name: Сергей Синицын
       name_en: Sergey Sinitsyn
+    tags: [various]
     title: Немного о новом ведущем «Схемотехники»
     title_en: A bit on the new host of Schemotechnika
     youtube: QaqbQ5jorFA
@@ -1382,6 +1389,7 @@
     - name: Андрей Кармацкий
       name_en: Andrey Karmatsky
     company: Urbica
+    tags: [visualization]
     title: Расширение сознания в Урбике-2018
     title_en: Mind expansion with Urbica 2018
     youtube: jN_Y2PXQ4D0
@@ -1403,6 +1411,7 @@
       name_en: Pavel Gavrilov
     title: Использование OsmAnd
     title_en: Using OsmAnd
+    tags: [mobile]
     slides: https://docs.google.com/presentation/d/1aQ4mMnohuD7FhU-wF_wlDNEsXTIN3hcGGBlkukJhJ18/edit
     links:
       OsmAnd: https://osmand.net/
@@ -1411,12 +1420,14 @@
       name_en: Valera Trubin
     title: Руководство по освобождению карт
     title_en: A manual on liberating maps
+    tags: [openstreetmap]
     slides: slides/schemo19-valera.pdf
   - speakers:
     - name: Сергей Голубев
       name_en: Sergey Golubev
     title: Тегирование леса в OpenStreetMap
     title_en: Tagging trees in OpenStreetMap
+    tags: [various]
 
 - cx: '19.5'
   title: Схемотехника 19.5
@@ -1434,6 +1445,7 @@
     company: NextGIS
     title: Секреты изготовления сферических панорам для Mapillary
     title_en: Secrets of making spherical street view imagery for Mapillary
+    tags: [360°, collection]
     slides: https://drive.google.com/open?id=1QLJ73f-366P-PbFvqv9hqco_-QXlz-8-66FU_eubJxw
     links:
       Scripts and Slides: https://trolleway.github.io/
@@ -1442,11 +1454,13 @@
       name_en: Kirill Bondarenko
     title: 3D-моделирование в OpenStreetMap
     title_en: 3D modelling in OpenStreetMap
+    tags: [3d]
   - speakers:
     - name: Евгений Усвицкий
       name_en: Eugene Usvitsky
     title: 'Гуманитарный OSM: опыт работы в HOT'
     title_en: 'Humanitarian OSM: my work experience in HOT'
+    tags: [openstreetmap]
 
 - cx: '20'
   title: Схемотехника 20
@@ -1463,6 +1477,9 @@
       name_en: Sergey Sinitsyn
     title: Америка, где из окошка видна Россия
     title_en: America from where you can see Russia
+    tags: [various]
+    keywords: [diomede, диомид, аляска, alaska, island, остров, inalik, ротманский,
+      берингов, bering, тропы, path, скалы, cliff]
     youtube: DJxIVCRcG2M
     v_duration: 871
     duration: 871
@@ -1472,6 +1489,9 @@
       nickname: Miroff
     title: Картография белой воды или водный туризм в OpenStreetMap
     title_en: Whitewater mapping, or water tourism in OpenStreetMap
+    tags: [openstreetmap]
+    keywords: [waterway, реки, горы, mountain, рафт, катамаран, raft, egress, порог,
+      rapid, опасность, hazard]
     youtube: 8TzjmGdSxng
     v_duration: 629
     duration: 629
@@ -1480,6 +1500,8 @@
       name_en: Sergey Golubev
     title: Коломбо и наземное дешифрирование
     title_en: Colombo and ground-based identification
+    tags: [360°, project]
+    keywords: [exif, синтез, synthesis, фотографии, mapillary, панорамы, photo, osm, openstreetmap]
     youtube: DUG-a6mQBtI
     v_duration: 404
     duration: 404
@@ -1489,6 +1511,9 @@
     company: Единая Медиа Группа
     title: Плиточная карта в телеэфире
     title_en: Tiled map on air
+    tags: [visualization]
+    keywords: [tv, квадраты, squares, анаморфозы, cartogram, диаграмма, gridded,
+      сетка, инфографика, выборы, elections]
     youtube: HAqtM5jZ4T8
     v_duration: 678
     duration: 678
@@ -1497,9 +1522,13 @@
       name_en: Tatsiana Karvat
     company: Kontur
     title: Слой Kontur Population
-    title_en: Kontur Population layer
+    title_en: Kontur Population dataset
+    tags: [project]
+    keywords: [layer, население, гуманитарное, humanitarian, disaster, гексагоны, hexagons,
+      facebook, bing, microsoft, settlement, поселения, h3, open, data, открытые, данные]
     links:
       Population Dataset: https://data.humdata.org/dataset/kontur-population-dataset
+      Disaster Ninja: https://disaster.ninja/
     youtube: yrrtqSrfKpw
     v_duration: 559
     duration: 465
@@ -1508,6 +1537,8 @@
       name_en: Victor Krysov
     title: Методика образно-ассоциативного запоминания взаиморасположения объектов на картах
     title_en: A method for learning relative positions of objects on a map
+    tags: [teaching]
+    keywords: [мышление, восприятие, perceiving, структура, structure, гагарин, gagarin, соседи, neighbours]
     youtube: cePZEkKeNSU
     v_duration: 999
     duration: 843
@@ -1517,6 +1548,8 @@
     company: Антиборщевик
     title: Распознавание борщевика по спутниковым снимкам Sentinel-2 с помощью Google Earth Engine и QGIS
     title_en: Identifying cow parnsnip using Sentinel-2 imagery with Google Earth Engine and QGIS
+    tags: [gis]
+    keywords: [сосновского, экология, ecology, экосистема, ecosystem, канал, band, зеленый, green, ndvi, nir]
     slides: https://www.figma.com/proto/Y4clct030jjKr4BGZM3IYw/sentinel-2
     youtube: L9FYkAKL8Ps
     v_duration: 778
@@ -1526,15 +1559,21 @@
       name_en: Aliaksandr Hancharenka
     title: ML с бюджетным дроном на выходных
     title_en: Doing ML with a cheap drone on a weekend
+    tags: [ml]
+    keywords: [mavic, квадрокоптер, quadrocopter, dji, субтитры, subtitles, fly, agisoft, face, лица,
+      detection, recognition, распознавание, подсчет, crowd, counting]
     youtube: 9dpT_Ba8h3s
     v_duration: 619
     duration: 619
   - speakers:
     - name: Григорий Недаев
       name_en: Grigory Nedaev
-    company: Geoalert
+    company: GeoAlert
     title: Путешествие Ждуна в мире Искусственного интеллекта
     title_en: A Waiting Person's journey into the AI world
+    tags: [ml]
+    keywords: [здания, building, openstreetmap, osm, microsoft, bing, rapid, сколково, skolkovo,
+      urban, mapping, домики, данные, mapbox, satellite, спутник, чечня, chechnya]
     youtube: _hTMvsOYWbI
     v_duration: 614
     duration: 434
