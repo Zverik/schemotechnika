@@ -1453,6 +1453,7 @@
   title_en: Schemotechnika 20
   date: '2020-11-28'
   url: http://schemo.ru/20.html
+  youtube: PL-W4AXAmv9iVGfJ-hJH1lnWbgcNK2TnUt
   venue:
     name: Greenpeace Zoom
     name_en: Greenpeace Zoom
@@ -1462,48 +1463,77 @@
       name_en: Sergey Sinitsyn
     title: Америка, где из окошка видна Россия
     title_en: America from where you can see Russia
+    youtube: DJxIVCRcG2M
+    v_duration: 871
+    duration: 871
   - speakers:
     - name: Максим Гуртовенко
       name_en: Maksim Gurtovenko
       nickname: Miroff
     title: Картография белой воды или водный туризм в OpenStreetMap
     title_en: Whitewater mapping, or water tourism in OpenStreetMap
+    youtube: 8TzjmGdSxng
+    v_duration: 629
+    duration: 629
   - speakers:
     - name: Сергей Голубев
       name_en: Sergey Golubev
     title: Коломбо и наземное дешифрирование
     title_en: Colombo and ground-based identification
+    youtube: DUG-a6mQBtI
+    v_duration: 404
+    duration: 404
   - speakers:
     - name: Михаил Дычкин
       name_en: Michael Dychkin
     company: Единая Медиа Группа
     title: Плиточная карта в телеэфире
     title_en: Tiled map on air
+    youtube: HAqtM5jZ4T8
+    v_duration: 678
+    duration: 678
   - speakers:
     - name: Татьяна Карват
       name_en: Tatsiana Karvat
     company: Kontur
     title: Слой Kontur Population
     title_en: Kontur Population layer
+    links:
+      Population Dataset: https://data.humdata.org/dataset/kontur-population-dataset
+    youtube: yrrtqSrfKpw
+    v_duration: 559
+    duration: 465
   - speakers:
     - name: Виктор Крысов
       name_en: Victor Krysov
     title: Методика образно-ассоциативного запоминания взаиморасположения объектов на картах
     title_en: A method for learning relative positions of objects on a map
+    youtube: cePZEkKeNSU
+    v_duration: 999
+    duration: 843
   - speakers:
     - name: Николай Петров
       name_en: Nikolai Petrov
     company: Антиборщевик
     title: Распознавание борщевика по спутниковым снимкам Sentinel-2 с помощью Google Earth Engine и QGIS
     title_en: Identifying cow parnsnip using Sentinel-2 imagery with Google Earth Engine and QGIS
+    youtube: L9FYkAKL8Ps
+    v_duration: 778
+    duration: 596
   - speakers:
     - name: Александр Гончаренко
       name_en: Aliaksandr Hancharenka
     title: ML с бюджетным дроном на выходных
     title_en: Doing ML with a cheap drone on a weekend
+    youtube: 9dpT_Ba8h3s
+    v_duration: 619
+    duration: 619
   - speakers:
     - name: Григорий Недаев
       name_en: Grigory Nedaev
     company: Geoalert
     title: Путешествие Ждуна в мире Искусственного интеллекта
     title_en: A Waiting Person's journey into the AI world
+    youtube: _hTMvsOYWbI
+    v_duration: 614
+    duration: 434
