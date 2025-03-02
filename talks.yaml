@@ -2,7 +2,7 @@
   title: Схемотехника 01
   title_en: Schemotechnika 01
   date: '2016-02-06'
-  url: http://schemo.ru/2016/03/06/schemo01.html
+  url: http://schemo.osmz.ru/2016/03/06/schemo01.html
   youtube: PLkvzAel8ISD18avBOlBo6wvK9cY7NWhS4
   venue:
     name: Mail.Ru Group, первая переговорка
@@ -86,7 +86,7 @@
   title: Схемотехника 02
   title_en: Schemotechnika 02
   date: '2016-03-15'
-  url: http://schemo.ru/2016/03/08/schemo02.html
+  url: http://schemo.osmz.ru/2016/03/08/schemo02.html
   youtube: PLkvzAel8ISD2krZVKc8McrUVVcRDeTLfi
   venue:
     name: Офис компании «Спутник»
@@ -158,7 +158,7 @@
   title: Схемо.hack 03
   title_en: Schemo.hack 03
   date: '2016-04-16'
-  url: http://schemo.ru/2016/03/18/schemo03.html
+  url: http://schemo.osmz.ru/2016/03/18/schemo03.html
   venue:
     name: Mail.Ru Group, 13 переговорка
     name_en: Mail.Ru Group, conference room 13
@@ -169,7 +169,7 @@
   title: Схемотехника 04
   title_en: Schemotechnika 04
   date: '2016-05-24'
-  url: http://schemo.ru/2016/05/12/schemo04.html
+  url: http://schemo.osmz.ru/2016/05/12/schemo04.html
   youtube: PLkvzAel8ISD39I0DhfbpPGdJXmHm9qiJq
   venue:
     name: Mail.Ru Group, кинозал
@@ -245,7 +245,7 @@
   title: Схемотехника 05
   title_en: Schemotechnika 05
   date: '2016-07-05'
-  url: http://schemo.ru/2016/06/23/schemo05.html
+  url: http://schemo.osmz.ru/2016/06/23/schemo05.html
   youtube: PLkvzAel8ISD3voBg5lZUHwjbILvsurT8X
   venue:
     name: Mail.Ru Group, 23 этаж
@@ -324,7 +324,7 @@
   title: Схемотехника 06
   title_en: Schemotechnika 06
   date: '2016-10-12'
-  url: http://schemo.ru/2016/09/30/schemo06-2.html
+  url: http://schemo.osmz.ru/2016/09/30/schemo06-2.html
   youtube: PLkvzAel8ISD14AWomLJF0qg7VUzsSP1BI
   venue:
     name: Mail.Ru Group, первая переговорка
@@ -400,7 +400,7 @@
   title: Схемотехника 07
   title_en: Schemotechnika 07
   date: '2016-12-21'
-  url: http://schemo.ru/2016/12/07/schemo07.html
+  url: http://schemo.osmz.ru/2016/12/07/schemo07.html
   youtube: PLkvzAel8ISD2KctD3qCx9WQhA8gzz2n8v
   venue:
     name: МИИГАиК, корпус 6
@@ -459,7 +459,7 @@
   title: Схемотехника 08
   title_en: Schemotechnika 08
   date: '2017-03-15'
-  url: http://schemo.ru/2017/03/10/schemo08.html
+  url: http://schemo.osmz.ru/2017/03/10/schemo08.html
   youtube: PLkvzAel8ISD39_e1_jIhhWnSltFNOdTwZ
   venue:
     name: Mail.Ru Group, кинозал
@@ -541,7 +541,7 @@
   title: Схемотехника 09
   title_en: Schemotechnika 09
   date: '2017-04-18'
-  url: http://schemo.ru/2017/03/23/schemo09.html
+  url: http://schemo.osmz.ru/2017/03/23/schemo09.html
   youtube: PLkvzAel8ISD02-QNoScUEC-PtVRLjTdNx
   venue:
     name: Антикафе «Белый лист»
@@ -599,7 +599,7 @@
   title: Схемотехника 10
   title_en: Schemotechnika 10
   date: '2017-05-18'
-  url: http://schemo.ru/2017/04/17/schemo10.html
+  url: http://schemo.osmz.ru/2017/04/17/schemo10.html
   youtube: PLkvzAel8ISD3v5Y7bfr78iWfN99bD5cJd
   venue:
     name: Mail.Ru Group, первая переговорка
@@ -672,7 +672,7 @@
   title: Большая Схемотехника 11
   title_en: Big Schemotechnika 11
   date: '2017-09-16'
-  url: http://schemo.ru/2017/07/23/schemo11.html
+  url: http://schemo.osmz.ru/2017/07/23/schemo11.html
   youtube: PLkvzAel8ISD1Vf0OU1l3t5S-9YTmeWopI
   venue:
     name: Mail.Ru Group, первая переговорка
@@ -688,7 +688,7 @@
     tags: [project, visualization]
     keywords: [схема, визуализация, visualization, scheme, дороги, трассы, highways,
       сеть, network]
-    slides: http://schemo.ru/slides/schemo11-osovskij.pdf
+    slides: http://schemo.osmz.ru/slides/schemo11-osovskij.pdf
     youtube: T6RMvbnMdVo
     v_duration: 1592
     duration: 1592
@@ -716,7 +716,7 @@
     tags: [3d, various]
     keywords: [esri, cadmapper, 3ds, autodesk, infraworks, twinmotion, планирование,
       моделирование, modeling, lumion, cityengine, ghost, osm]
-    slides: http://schemo.ru/slides/schemo11-felis-3d.pdf
+    slides: http://schemo.osmz.ru/slides/schemo11-felis-3d.pdf
     youtube: lniGNSTkU3g
     v_duration: 1043
     duration: 1043
@@ -729,7 +729,7 @@
     tags: [routing, project, mobile]
     keywords: [mobile, application, приложение, android, прогулок, улицы, доступность,
       кольцевой, stuurman, штурман, парк, воздух, шум, raspberry, park, air, noise]
-    slides: http://schemo.ru/slides/schemo11-walkstreets.pdf
+    slides: http://schemo.osmz.ru/slides/schemo11-walkstreets.pdf
     links:
       WalkStreets: http://walkstreets.org/
       Stuurman: http://stuurman.urbica.co/
@@ -773,7 +773,7 @@
     title_en: Component react-map-gl for embedding maps
     tags: [programming, vector]
     keywords: [mapbox, webgl, реакт]
-    slides: http://schemo.ru/slides/schemo11-react-map-gl.pdf
+    slides: http://schemo.osmz.ru/slides/schemo11-react-map-gl.pdf
     links:
       React Map GL: https://urbica.github.io/react-map-gl/
     youtube: XCc66_VmZmY
@@ -787,7 +787,7 @@
     title_en: NextGIS Mobile SDK v3
     tags: [nextgis, programming, mobile]
     keywords: [mobile, maplib, gisapp, android, ios, opengl, векторные, vector, мобильные]
-    slides: http://schemo.ru/slides/schemo11-baryshnikov.pdf
+    slides: http://schemo.osmz.ru/slides/schemo11-baryshnikov.pdf
     youtube: -9MQ_r8i06o
     v_duration: 1526
     duration: 1526
@@ -798,7 +798,7 @@
     title_en: Using NextGIS Web for facilitating a flashmob "Diary of luck"
     tags: [nextgis, project]
     keywords: [почта, маршрут, tracking, post, qgis, путь, флэшмоб]
-    slides: http://schemo.ru/slides/schemo11-oopt.pptx
+    slides: http://schemo.osmz.ru/slides/schemo11-oopt.pptx
     youtube: gVBuTn45Y_c
     v_duration: 822
     duration: 597
@@ -822,7 +822,7 @@
   title: Схемотехника 12
   title_en: Schemotechnika 12
   date: '2017-10-31'
-  url: http://schemo.ru/2017/10/14/schemo12.html
+  url: http://schemo.osmz.ru/2017/10/14/schemo12.html
   youtube: PLkvzAel8ISD33Jvw1PBWcCqJOtCVJMMHv
   venue:
     name: Офис компании «Урбика»
@@ -902,7 +902,7 @@
   title: Схемотехника 13
   title_en: Schemotechnika 13
   date: '2017-12-14'
-  url: http://schemo.ru/2017/11/27/schemo13.html
+  url: http://schemo.osmz.ru/2017/11/27/schemo13.html
   youtube: PLkvzAel8ISD0c_4ijnrBRccGe1JtiONlr
   venue:
     name: Архитектурный коворкинг
@@ -933,7 +933,7 @@
       grass, тропы, срезка, поведение, симуляция, cut, simulation]
     links:
       Ant Road Planner: https://antroadplanner.ru/
-    slides: http://schemo.ru/slides/schemo13-antroadplanner.pdf
+    slides: http://schemo.osmz.ru/slides/schemo13-antroadplanner.pdf
     youtube: e4YEvj_ZIPs
     v_duration: 1683
     duration: 1683
@@ -980,7 +980,7 @@
   title: Схемотехника 14
   title_en: Schemotechnika 14
   date: '2018-02-22'
-  url: http://schemo.ru/2018/02/02/schemo14.html
+  url: http://schemo.osmz.ru/2018/02/02/schemo14.html
   youtube: PLkvzAel8ISD1ewoB8kW9IQOQ74UUCxaZM
   venue:
     name: Mail.Ru Group, первая переговорка
@@ -1046,7 +1046,7 @@
   title: Схемотехника 15
   title_en: Schemotechnika 15
   date: '2018-04-04'
-  url: http://schemo.ru/2018/03/23/schemo15.html
+  url: http://schemo.osmz.ru/2018/03/23/schemo15.html
   venue:
     name: Mail.Ru Group, кинозал
     name_en: Mail.Ru Group, movie area
@@ -1117,7 +1117,7 @@
     tags: [teaching]
     keywords: [станции, дистанционное, зондирование, земля, образование, география,
       экология, спутники, remote, sensing, earth, geography, ecology, satellite]
-    slides: http://schemo.ru/slides/schemo15-lorett.pdf
+    slides: http://schemo.osmz.ru/slides/schemo15-lorett.pdf
     youtube: Vt94DjWaSpo
     v_duration: 801
     duration: 705
@@ -1141,7 +1141,7 @@
   title: Схемотехника 16
   title_en: Schemotechnika 16
   date: '2018-06-06'
-  url: http://schemo.ru/2018/05/22/schemo16.html
+  url: http://schemo.osmz.ru/2018/05/22/schemo16.html
   youtube: PLkvzAel8ISD0DBMVymJlr3laOG46IOpjW
   venue:
     name: Офис компании «КРОК»
@@ -1174,7 +1174,7 @@
     title_en: API for OpenTripMap website
     tags: [opentripmap]
     keywords: [туризм, api, tourism, map, карта]
-    slides: http://schemo.ru/slides/schemo16-opentripmap.pptx
+    slides: http://schemo.osmz.ru/slides/schemo16-opentripmap.pptx
     links:
       OpenTripMap: https://opentripmap.com/
     youtube: 3m8qDdOda0Q
@@ -1201,7 +1201,7 @@
     title: Новая система сборки инсталлятора и геоинструментов в NextGIS
     title_en: New deployment system for installers and geotools by NextGIS
     keywords: [qgis, borscht, борщ, ppa, buildbot, jenkins, cmake]
-    slides: http://schemo.ru/slides/schemo16-baryshnikov.pdf
+    slides: http://schemo.osmz.ru/slides/schemo16-baryshnikov.pdf
     links:
       Borsch: https://github.com/nextgis-borsch
       BuildBot: https://github.com/nextgis/buildbot
@@ -1243,7 +1243,7 @@
   title: Схемотехника 17
   title_en: Schemotechnika 17
   date: '2018-07-17'
-  url: http://schemo.ru/17.html
+  url: http://schemo.osmz.ru/17.html
   youtube: PLkvzAel8ISD1D1bst-jr7eqM92xUj05UY
   venue:
     name: Офис компании «Озон», 30 этаж
@@ -1258,7 +1258,7 @@
     title_en: Subway map in MAPS.ME
     tags: [visualization, mobile, mapsme]
     keywords: [mapsme, линии, станции, карта, map, station]
-    slides: http://schemo.ru/slides/schemo17-metro.pdf
+    slides: http://schemo.osmz.ru/slides/schemo17-metro.pdf
     youtube: oODvvV0_7rk
     v_duration: 1650
     duration: 1075
@@ -1321,7 +1321,7 @@
   title: Схемотехника 18
   title_en: Schemotechnika 18
   date: '2018-10-19'
-  url: http://schemo.ru/18.html
+  url: http://schemo.osmz.ru/18.html
   youtube: PL-W4AXAmv9iVBL_-P_wSpck_fwznfhh6v
   venue:
     name: Офис компании «Urbica»
@@ -1400,7 +1400,7 @@
   title: Схемотехника 19
   title_en: Schemotechnika 19
   date: '2019-10-10'
-  url: http://schemo.ru/19.html
+  url: http://schemo.osmz.ru/19.html
   venue:
     name: Psycho Place
     name_en: Psycho Place
@@ -1433,7 +1433,7 @@
   title: Схемотехника 19.5
   title_en: Schemotechnika 19.5
   date: '2019-11-21'
-  url: http://schemo.ru/19_5.html
+  url: http://schemo.osmz.ru/19_5.html
   venue:
     name: Библиотека №166
     name_en: Library N 166
@@ -1466,7 +1466,7 @@
   title: Схемотехника 20
   title_en: Schemotechnika 20
   date: '2020-11-28'
-  url: http://schemo.ru/20.html
+  url: http://schemo.osmz.ru/20.html
   youtube: PL-W4AXAmv9iVGfJ-hJH1lnWbgcNK2TnUt
   venue:
     name: Greenpeace Zoom
